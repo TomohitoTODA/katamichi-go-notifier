@@ -26,7 +26,7 @@ URL = "https://cp.toyota.jp/rentacar/"
 ROOT = Path(__file__).resolve().parent
 CONFIG_PATH = ROOT / "config.json"
 STATE_PATH = ROOT / "state" / "seen.json"
-USER_AGENT = "katamichi-go-notifier/1.0 (personal use; checks every 30 min)"
+USER_AGENT = "katamichi-go-notifier/1.0 (personal use; checks every 10 min)"
 
 # サイトの data-start-area / data-return-area の番号とエリア名の対応
 AREA_CODES = {
