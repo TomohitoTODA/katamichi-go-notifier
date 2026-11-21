@@ -18,6 +18,7 @@ import sys
 import time
 import urllib.request
 from dataclasses import asdict, dataclass
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from bs4 import BeautifulSoup
@@ -217,6 +218,107 @@ def car_message(c: Car) -> tuple[str, str]:
     return title, "\n".join(lines)
 
 
+# ---------------------------------------------------------------- 一覧
+
+JST = timezone(timedelta(hours=9))
+NEW_HOURS = 24          # この時間内に初めて見つかった車を「🆕」扱いにする
+MAX_BYTES = 3500        # ntfy の1通あたりの上限(4096バイト)より少し小さく
+
+
+def now_jst() -> datetime:
+    return datetime.now(JST)
+
+
+def _parse_seen_time(s: str) -> datetime | None:
+    try:
+        dt = datetime.fromisoformat(s)
+    except (TypeError, ValueError):
+        return None
+    return dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)  # 古い形式はUTC
+
+
+def is_new(c: Car, seen: dict, now: datetime) -> bool:
+    rec = seen.get(c.key)
+    if rec is None:
+        return True
+    t = _parse_seen_time(rec.get("first_seen", ""))
+    return t is not None and now - t <= timedelta(hours=NEW_HOURS)
+
+
+def short_period(p: str) -> str:
+    """'2026年11月21日 ～ 11月24日' → '11/21〜11/24'"""
+    md = re.findall(r"(\d{1,2})月(\d{1,2})日", p)
+    if len(md) >= 2:
+        return f"{int(md[0][0])}/{int(md[0][1])}〜{int(md[1][0])}/{int(md[1][1])}"
+    return p
+
+
+def _period_sort_key(c: Car):
+    md = re.findall(r"(\d{1,2})月(\d{1,2})日", c.period)
+    return (tuple(int(x) for x in md[0]) if md else (99, 99), c.start_shop)
+
+
+def listing_line(c: Car, new: bool) -> str:
+    shop = c.start_shop.split(" ", 1)[-1]          # 会社名を省いて店舗名だけ
+    pref = c.start_place.split(" ")[0] if c.start_place else ""
+    dest = re.sub(r"^トヨタレンタリース", "", c.return_shop)
+    mark = "🆕" if new else "・"
+    return (f"{mark}{short_period(c.period)} {shop}（{pref}）→ {dest}\n"
+            f"　{c.car}｜{c.condition}｜☎{c.tel}")
+
+
+def _chunks(lines: list[str]) -> list[str]:
+    out, cur = [], ""
+    for ln in lines:
+        add = ln if not cur else "\n" + ln
+        if cur and len((cur + add).encode("utf-8")) > MAX_BYTES:
+            out.append(cur)
+            cur = ln
+        else:
+            cur += add
+    if cur:
+        out.append(cur)
+    return out
+
+
+def send_listing(routes: list[tuple[str, str]], cars: list[Car], seen: dict,
+                 dry_run: bool = False) -> int:
+    """指定ルートの「今掲載中の車」を、🆕（24時間以内の新着）を先頭にして通知する。"""
+    now = now_jst()
+    if not routes:
+        send_ntfy("📋 一覧：ルートが登録されていません", "「ルート設定」で追加してください。", priority=2, dry_run=dry_run)
+        return 0
+    for a, b in routes:
+        label = f"{a}→{b}".replace("*", "どこでも")
+        hit = sorted((c for c in cars if matches(c, [(a, b)])), key=_period_sort_key)
+        new = [c for c in hit if is_new(c, seen, now)]
+        old = [c for c in hit if not is_new(c, seen, now)]
+        if not hit:
+            send_ntfy(f"📋 {label}：現在 0台", "このルートの掲載は今ありません。\n新しく出たら通知します。",
+                      priority=2, dry_run=dry_run)
+            continue
+        lines = []
+        if new:
+            lines.append(f"【🆕 新着 {len(new)}台（{NEW_HOURS}時間以内）】")
+            lines += [listing_line(c, True) for c in new]
+        if old:
+            if new:
+                lines.append("")
+            lines.append(f"【掲載中 {len(old)}台】")
+            lines += [listing_line(c, False) for c in old]
+        chunks = _chunks(lines)
+        for i, body in enumerate(chunks, 1):
+            page = f"（{i}/{len(chunks)}）" if len(chunks) > 1 else ""
+            send_ntfy(f"📋 {label}：{len(hit)}台（🆕{len(new)}）{page}", body, priority=3, dry_run=dry_run)
+        print(f"{label}: {len(hit)}台（新着 {len(new)}）を {len(chunks)} 通で送信")
+    return 0
+
+
+def _load_cars(html_path: str | None) -> list[Car]:
+    html = Path(html_path).read_text(encoding="utf-8") if html_path else fetch_html()
+    return parse_cars(html)
+
+
 # ---------------------------------------------------------------- メイン
 
 MAX_INDIVIDUAL = 8  # 1回の実行で個別通知する上限（多いときはまとめて1通に）
@@ -226,13 +328,12 @@ def run(args: argparse.Namespace) -> int:
     if args.test:
         send_ntfy("✅ 片道GO!通知のテスト",
                   "この通知が届けば設定は完了です。\n新しい車が出たらここに届きます。",
-                  tags=["white_check_mark"], priority=3, dry_run=args.dry_run)
+                  priority=3, dry_run=args.dry_run)
         print("テスト通知を送りました")
         return 0
 
     routes = load_routes()
-    html = Path(args.html).read_text(encoding="utf-8") if args.html else fetch_html()
-    cars = parse_cars(html)
+    cars = _load_cars(args.html)
     state = load_state()
     first_run = "seen" not in state
 
@@ -242,7 +343,7 @@ def run(args: argparse.Namespace) -> int:
         if not state.get("empty_alerted"):
             send_ntfy("⚠️ 片道GO!の一覧を読み取れません",
                       "掲載が0件か、ページの構造が変わった可能性があります。\n" + URL,
-                      tags=["warning"], priority=3, dry_run=args.dry_run)
+                      priority=3, dry_run=args.dry_run)
             state["empty_alerted"] = True
             if not args.dry_run:
                 save_state(state)
@@ -259,19 +360,20 @@ def run(args: argparse.Namespace) -> int:
     if first_run:
         hit = [c for c in cars if matches(c, routes)]
         body = f"監視ルート：{route_label}\n現在の掲載 {len(cars)} 台のうち、条件に合うのは {len(hit)} 台です。\n以後は新しく掲載された車だけを通知します。"
-        send_ntfy("✅ 片道GO!の監視を開始しました", body, tags=["white_check_mark"], priority=3, dry_run=args.dry_run)
+        send_ntfy("✅ 片道GO!の監視を開始しました", body, priority=3, dry_run=args.dry_run)
     elif targets:
         for c in targets[:MAX_INDIVIDUAL]:
             title, msg = car_message(c)
-            send_ntfy(title, msg, tel=c.tel, tags=["red_car"], dry_run=args.dry_run)
+            send_ntfy(title, msg, tel=c.tel, dry_run=args.dry_run)
         rest = targets[MAX_INDIVIDUAL:]
         if rest:
-            lines = [f"・{c.start_shop}→{c.return_shop}｜{c.car}｜{c.period}｜☎{c.tel}" for c in rest]
-            send_ntfy(f"🚗 ほかに {len(rest)} 台の新着", "\n".join(lines) + "\n\n" + URL,
-                      tags=["red_car"], dry_run=args.dry_run)
+            lines = [listing_line(c, True) for c in rest]
+            for body in _chunks(lines):
+                send_ntfy(f"🚗 ほかに {len(rest)} 台の新着", body, dry_run=args.dry_run)
 
     # 今掲載されている車だけを記録（消えた車は忘れる）
-    state["seen"] = {k: seen.get(k) or {"first_seen": time.strftime("%Y-%m-%d %H:%M"), **asdict(c)}
+    stamp = now_jst().isoformat(timespec="minutes")
+    state["seen"] = {k: seen.get(k) or {"first_seen": stamp, **asdict(c)}
                      for k, c in current.items()}
     if not args.dry_run:
         save_state(state)
@@ -291,17 +393,30 @@ def _route_label(routes: list[dict]) -> str:
     return "\n".join(f"・{r['from']} → {r['to']}".replace("*", "どこでも") for r in routes)
 
 
-def edit_routes(op: str, start: str, dest: str, dry_run: bool = False) -> int:
-    """「ルート設定」ボタンから呼ばれる。config.json のルートを追加・削除する。"""
+LIST_REGISTERED = "一覧を見る（登録中のルート）"
+LIST_SELECTED = "一覧を見る（選んだエリア）"
+
+
+def edit_routes(op: str, start: str, dest: str, dry_run: bool = False,
+                html_path: str | None = None) -> int:
+    """「ルート設定・一覧」ボタンから呼ばれる。ルートの追加・削除と、一覧の通知。"""
     cfg = json.loads(CONFIG_PATH.read_text(encoding="utf-8")) if CONFIG_PATH.exists() else {}
     routes: list[dict] = cfg.get("routes", [])
     r = {"from": _area(start), "to": _area(dest)}
+    seen = load_state().get("seen", {})
+
+    if op in (LIST_REGISTERED, LIST_SELECTED):
+        target = [(x["from"], x["to"]) for x in routes] if op == LIST_REGISTERED else [(r["from"], r["to"])]
+        return send_listing(target, _load_cars(html_path), seen, dry_run=dry_run)
+
+    show_list = False
     if op == "追加":
         if routes == [{"from": "*", "to": "*"}]:
             routes = []  # 初期設定（全ルート）は、最初の追加で置き換える
         if r not in routes:
             routes.append(r)
         head = f"ルートを追加しました：{r['from']} → {r['to']}"
+        show_list = True
     elif op == "削除":
         if r not in routes:
             head = f"そのルートは登録されていません：{r['from']} → {r['to']}"
@@ -311,6 +426,7 @@ def edit_routes(op: str, start: str, dest: str, dry_run: bool = False) -> int:
     elif op == "この1件だけにする":
         routes = [r]
         head = f"ルートを {r['from']} → {r['to']} の1件にしました"
+        show_list = True
     elif op == "確認だけ":
         head = "現在の監視ルート"
     else:
@@ -321,7 +437,10 @@ def edit_routes(op: str, start: str, dest: str, dry_run: bool = False) -> int:
         CONFIG_PATH.write_text(json.dumps(cfg, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     body = "監視中のルート：\n" + _route_label(routes)
     print(head + "\n" + body)
-    send_ntfy("⚙️ " + head, body, tags=["gear"], priority=2, dry_run=dry_run)
+    send_ntfy("⚙️ " + head, body, priority=2, dry_run=dry_run)
+    if show_list:
+        # 追加したルートで今掲載されている車も一緒に知らせる
+        send_listing([(r["from"], r["to"])], _load_cars(html_path), seen, dry_run=dry_run)
     return 0
 
 
@@ -331,10 +450,10 @@ def main() -> int:
     p.add_argument("--dry-run", action="store_true", help="通知も保存もせず、表示だけする")
     p.add_argument("--html", help="ネットから取らず、このHTMLファイルを使う")
     p.add_argument("--route", nargs=3, metavar=("操作", "出発", "返却"),
-                   help="ルートを編集（操作: 追加/削除/この1件だけにする/確認だけ）")
+                   help=f"ルート編集・一覧（操作: 追加/削除/この1件だけにする/確認だけ/{LIST_REGISTERED}/{LIST_SELECTED}）")
     a = p.parse_args()
     if a.route:
-        return edit_routes(*a.route, dry_run=a.dry_run)
+        return edit_routes(*a.route, dry_run=a.dry_run, html_path=a.html)
     return run(a)
 
 

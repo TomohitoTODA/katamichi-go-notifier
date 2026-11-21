@@ -1,14 +1,16 @@
-name: ルート設定
+name: ルート設定・一覧
 
-# Actions タブ →「ルート設定」→ Run workflow で、プルダウンから選んで実行します。
+# Actions タブ →「ルート設定・一覧」→ Run workflow で、プルダウンから選んで実行します。
 on:
   workflow_dispatch:
     inputs:
       operation:
         description: "操作"
         type: choice
-        default: 追加
+        default: 一覧を見る（登録中のルート）
         options:
+          - 一覧を見る（登録中のルート）
+          - 一覧を見る（選んだエリア）
           - 追加
           - 削除
           - この1件だけにする
@@ -45,13 +47,14 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: ルートを変更して通知
+      - name: ルート変更・一覧の通知
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
         run: python notifier.py --route "${{ inputs.operation }}" "${{ inputs.start }}" "${{ inputs.dest }}"
 
       - name: 保存
+        if: ${{ !startsWith(inputs.operation, '一覧') }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

@@ -64,22 +64,49 @@ def test_only_new_cars_notified(tmp_path, monkeypatch, capsys):
 
 
 def test_edit_routes(tmp_path, monkeypatch):
+    html = tmp_path / "page.html"
+    html.write_text(FIXTURE, encoding="utf-8")
+    monkeypatch.setattr(notifier, "STATE_PATH", tmp_path / "seen.json")
     cfg = tmp_path / "config.json"
     cfg.write_text(json.dumps({"routes": [{"from": "*", "to": "*"}]}), encoding="utf-8")
     monkeypatch.setattr(notifier, "CONFIG_PATH", cfg)
     monkeypatch.delenv("ROUTES", raising=False)
     sent = []
     monkeypatch.setattr(notifier, "send_ntfy", lambda title, msg, **kw: sent.append(title))
+    edit = lambda *a: notifier.edit_routes(*a, html_path=str(html))
     routes = lambda: json.loads(cfg.read_text(encoding="utf-8"))["routes"]
 
-    notifier.edit_routes("追加", "関東", "中部")          # 初期の全ルートは置き換わる
+    edit("追加", "関東", "中部")          # 初期の全ルートは置き換わる
     assert routes() == [{"from": "関東", "to": "中部"}]
-    notifier.edit_routes("追加", "近畿", "どこでも")
+    edit("追加", "近畿", "どこでも")
     assert routes()[1] == {"from": "近畿", "to": "*"}
-    notifier.edit_routes("削除", "関東", "中部")
+    edit("削除", "関東", "中部")
     assert routes() == [{"from": "近畿", "to": "*"}]
-    notifier.edit_routes("この1件だけにする", "どこでも", "九州")
+    edit("この1件だけにする", "どこでも", "九州")
     assert notifier.load_routes() == [("*", "九州")]
-    notifier.edit_routes("削除", "どこでも", "九州")
+    edit("削除", "どこでも", "九州")
     assert notifier.load_routes() == []                 # 空なら何も通知しない
-    assert len(sent) == 5
+    # 追加・この1件だけにする では、そのルートの今の一覧も届く（設定通知＋一覧で2通）
+    assert [t for t in sent if t.startswith("📋")] == ["📋 関東→中部：1台（🆕1）", "📋 近畿→どこでも：1台（🆕1）", "📋 どこでも→九州：現在 0台"]
+    assert len(sent) == 8
+
+
+def test_listing_marks_new(tmp_path, monkeypatch):
+    from datetime import timedelta
+    cars = notifier.parse_cars(FIXTURE)
+    now = notifier.now_jst()
+    seen = {
+        cars[0].key: {"first_seen": (now - timedelta(hours=48)).isoformat()},   # 古い
+        cars[1].key: {"first_seen": (now - timedelta(hours=2)).isoformat()},    # 新しい
+        # cars[2] は未登録 → 新しい
+    }
+    sent = []
+    monkeypatch.setattr(notifier, "send_ntfy", lambda title, msg, **kw: sent.append((title, msg)))
+    notifier.send_listing([("*", "*")], cars, seen)
+    title, body = sent[0]
+    assert title == "📋 どこでも→どこでも：3台（🆕2）"
+    assert body.index("【🆕 新着 2台") < body.index("【掲載中 1台】")
+    assert "🆕11/19〜11/21 羽田空港（国内線）店（東京都）→ 静岡" in body
+    assert "・11/18〜11/21 仙台空港店（宮城県）→ 福島" in body
+    # 古い形式（UTC・タイムゾーンなし）の記録も読める
+    assert notifier._parse_seen_time("2026-11-21 15:05").utcoffset().total_seconds() == 0
