@@ -61,3 +61,25 @@ def test_only_new_cars_notified(tmp_path, monkeypatch, capsys):
 
     state = json.loads((tmp_path / "seen.json").read_text(encoding="utf-8"))
     assert len(state["seen"]) == 4
+
+
+def test_edit_routes(tmp_path, monkeypatch):
+    cfg = tmp_path / "config.json"
+    cfg.write_text(json.dumps({"routes": [{"from": "*", "to": "*"}]}), encoding="utf-8")
+    monkeypatch.setattr(notifier, "CONFIG_PATH", cfg)
+    monkeypatch.delenv("ROUTES", raising=False)
+    sent = []
+    monkeypatch.setattr(notifier, "send_ntfy", lambda title, msg, **kw: sent.append(title))
+    routes = lambda: json.loads(cfg.read_text(encoding="utf-8"))["routes"]
+
+    notifier.edit_routes("追加", "関東", "中部")          # 初期の全ルートは置き換わる
+    assert routes() == [{"from": "関東", "to": "中部"}]
+    notifier.edit_routes("追加", "近畿", "どこでも")
+    assert routes()[1] == {"from": "近畿", "to": "*"}
+    notifier.edit_routes("削除", "関東", "中部")
+    assert routes() == [{"from": "近畿", "to": "*"}]
+    notifier.edit_routes("この1件だけにする", "どこでも", "九州")
+    assert notifier.load_routes() == [("*", "九州")]
+    notifier.edit_routes("削除", "どこでも", "九州")
+    assert notifier.load_routes() == []                 # 空なら何も通知しない
+    assert len(sent) == 5

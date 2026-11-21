@@ -150,7 +150,7 @@ def load_routes() -> list[tuple[str, str]]:
             if x != "*" and x not in AREA_CODES.values():
                 raise SystemExit(f"エリア名が正しくありません: {x}（使えるのは {', '.join(AREA_CODES.values())}, *）")
         norm.append((a, b))
-    return norm or [("*", "*")]
+    return norm
 
 
 def matches(car: Car, routes: list[tuple[str, str]]) -> bool:
@@ -253,7 +253,7 @@ def run(args: argparse.Namespace) -> int:
     current = {c.key: c for c in cars}
     new_cars = [c for k, c in current.items() if k not in seen]
     targets = [c for c in new_cars if matches(c, routes)]
-    route_label = "、".join(f"{a}→{b}".replace("*", "全国") for a, b in routes)
+    route_label = "、".join(f"{a}→{b}".replace("*", "どこでも") for a, b in routes) or "なし"
     print(f"掲載 {len(cars)} 件 / 新着 {len(new_cars)} 件 / 条件に合う新着 {len(targets)} 件（{route_label}）")
 
     if first_run:
@@ -278,12 +278,64 @@ def run(args: argparse.Namespace) -> int:
     return 0
 
 
+def _area(x: str) -> str:
+    x = AREA_ALIASES.get(x.strip(), x.strip())
+    if x != "*" and x not in AREA_CODES.values():
+        raise SystemExit(f"エリア名が正しくありません: {x}")
+    return x
+
+
+def _route_label(routes: list[dict]) -> str:
+    if not routes:
+        return "（なし：通知は届きません）"
+    return "\n".join(f"・{r['from']} → {r['to']}".replace("*", "どこでも") for r in routes)
+
+
+def edit_routes(op: str, start: str, dest: str, dry_run: bool = False) -> int:
+    """「ルート設定」ボタンから呼ばれる。config.json のルートを追加・削除する。"""
+    cfg = json.loads(CONFIG_PATH.read_text(encoding="utf-8")) if CONFIG_PATH.exists() else {}
+    routes: list[dict] = cfg.get("routes", [])
+    r = {"from": _area(start), "to": _area(dest)}
+    if op == "追加":
+        if routes == [{"from": "*", "to": "*"}]:
+            routes = []  # 初期設定（全ルート）は、最初の追加で置き換える
+        if r not in routes:
+            routes.append(r)
+        head = f"ルートを追加しました：{r['from']} → {r['to']}"
+    elif op == "削除":
+        if r not in routes:
+            head = f"そのルートは登録されていません：{r['from']} → {r['to']}"
+        else:
+            routes.remove(r)
+            head = f"ルートを削除しました：{r['from']} → {r['to']}"
+    elif op == "この1件だけにする":
+        routes = [r]
+        head = f"ルートを {r['from']} → {r['to']} の1件にしました"
+    elif op == "確認だけ":
+        head = "現在の監視ルート"
+    else:
+        raise SystemExit(f"不明な操作: {op}")
+    head = head.replace("*", "どこでも")
+    cfg["routes"] = routes
+    if not dry_run:
+        CONFIG_PATH.write_text(json.dumps(cfg, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    body = "監視中のルート：\n" + _route_label(routes)
+    print(head + "\n" + body)
+    send_ntfy("⚙️ " + head, body, tags=["gear"], priority=2, dry_run=dry_run)
+    return 0
+
+
 def main() -> int:
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--test", action="store_true", help="テスト通知を送る")
     p.add_argument("--dry-run", action="store_true", help="通知も保存もせず、表示だけする")
     p.add_argument("--html", help="ネットから取らず、このHTMLファイルを使う")
-    return run(p.parse_args())
+    p.add_argument("--route", nargs=3, metavar=("操作", "出発", "返却"),
+                   help="ルートを編集（操作: 追加/削除/この1件だけにする/確認だけ）")
+    a = p.parse_args()
+    if a.route:
+        return edit_routes(*a.route, dry_run=a.dry_run)
+    return run(a)
 
 
 if __name__ == "__main__":

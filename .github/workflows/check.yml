@@ -38,7 +38,6 @@ jobs:
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
-          ROUTES: ${{ vars.ROUTES }}
         run: |
           if [ "${{ inputs.test }}" = "true" ]; then
             python notifier.py --test
