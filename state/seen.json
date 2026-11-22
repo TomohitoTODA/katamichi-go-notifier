@@ -408,7 +408,7 @@
   "29efdf84996bf19c": {
    "car": "ノア 車両番号2591",
    "condition": "禁煙車 8人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-23T00:15+09:00",
    "notified": false,
    "period": "2026年11月23日 ～ 11月25日",
