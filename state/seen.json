@@ -1293,7 +1293,7 @@
   "8bfb1cf830afe992": {
    "car": "ノアHEV 登録番号5705",
    "condition": "禁煙車 8人乗",
-   "ended": true,
+   "ended": false,
    "first_seen": "2026-11-22 07:45",
    "notified": false,
    "period": "2026年11月22日 ～ 11月24日",
