@@ -2118,7 +2118,7 @@
   "ddb883b86d70fb6c": {
    "car": "シエンタHEV 車両番号5510",
    "condition": "禁煙車 7人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-23T00:15+09:00",
    "notified": false,
    "period": "2026年11月23日 ～ 11月25日",
