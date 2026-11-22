@@ -83,7 +83,7 @@ def test_edit_routes(tmp_path, monkeypatch):
     edit("削除", "関東", "中部")
     assert routes() == [{"from": "近畿", "to": "*"}]
     edit("この1件だけにする", "どこでも", "九州")
-    assert notifier.load_routes() == [("*", "九州")]
+    assert notifier.load_routes() == [notifier.Route("*", "九州")]
     edit("削除", "どこでも", "九州")
     assert notifier.load_routes() == []                 # 空なら何も通知しない
     # 追加・この1件だけにする では、そのルートの今の一覧も届く（設定通知＋一覧で2通）
@@ -103,7 +103,7 @@ def test_listing_marks_new(tmp_path, monkeypatch):
     }
     sent = []
     monkeypatch.setattr(notifier, "send_ntfy", lambda title, msg, **kw: sent.append((title, msg)))
-    notifier.send_listing([("*", "*")], cars, seen)
+    notifier.send_listing([notifier.Route()], cars, seen)
     title, body = sent[0]
     assert title == "📋 どこでも→どこでも：受付中 2台（🆕1）"
     assert body.index("【🆕 新着 1台") < body.index("【受付中 1台】")
@@ -112,3 +112,33 @@ def test_listing_marks_new(tmp_path, monkeypatch):
     assert "心斎橋" not in body and "受付終了の掲載 1台は除いています" in body
     # 古い形式（UTC・タイムゾーンなし）の記録も読める
     assert notifier._parse_seen_time("2026-11-21 15:05").utcoffset().total_seconds() == 0
+
+
+def test_pref_and_keyword_filter(tmp_path, monkeypatch):
+    cars = notifier.parse_cars(FIXTURE)
+    R = notifier.make_route
+    assert [c.start_shop for c in cars if R("関東", "*", "東京都").hit(c)] == ["トヨタモビリティサービス 羽田空港（国内線）店"]
+    assert [c for c in cars if R("関東", "*", "千葉県").hit(c)] == []
+    assert len([c for c in cars if R("*", "*", "", notifier.split_keywords("羽田、仙台空港")).hit(c)]) == 2
+    assert len([c for c in cars if R("*", "*", "", ("大田区",)).hit(c)]) == 1      # 市区町村でもOK
+    assert notifier.split_keywords(" 羽田, 品川　東京駅 ") == ("羽田", "品川", "東京駅")
+    assert R("関東", "近畿", "東京都", ("羽田", "品川")).label == "関東（東京都・羽田/品川）→近畿"
+    assert R("関東", "近畿", "指定なし").label == "関東→近畿"
+
+    # ボタン操作：追加 → config.json に保存され、読み戻せる
+    html = tmp_path / "page.html"
+    html.write_text(FIXTURE, encoding="utf-8")
+    cfg = tmp_path / "config.json"
+    cfg.write_text(json.dumps({"routes": [{"from": "関東", "to": "近畿"}]}), encoding="utf-8")
+    monkeypatch.setattr(notifier, "CONFIG_PATH", cfg)
+    monkeypatch.setattr(notifier, "STATE_PATH", tmp_path / "seen.json")
+    monkeypatch.delenv("ROUTES", raising=False)
+    sent = []
+    monkeypatch.setattr(notifier, "send_ntfy", lambda title, msg, **kw: sent.append(title))
+    notifier.edit_routes("追加", "関東", "中部", pref="東京都", keywords="羽田,品川", html_path=str(html))
+    saved = json.loads(cfg.read_text(encoding="utf-8"))["routes"]
+    assert saved[1] == {"from": "関東", "to": "中部", "pref": "東京都", "keywords": ["羽田", "品川"]}
+    assert notifier.load_routes()[1] == R("関東", "中部", "東京都", ("羽田", "品川"))
+    assert sent == ["⚙️ ルートを追加しました：関東（東京都・羽田/品川）→中部", "📋 関東（東京都・羽田/品川）→中部：受付中 1台（🆕1）"]
+    notifier.edit_routes("削除", "関東", "中部", pref="東京都", keywords="羽田, 品川", html_path=str(html))
+    assert len(json.loads(cfg.read_text(encoding="utf-8"))["routes"]) == 1

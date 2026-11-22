@@ -20,6 +20,15 @@ on:
         type: choice
         default: 関東
         options: [どこでも, 北海道, 東北, 関東, 中部, 近畿, 中国, 四国, 九州]
+      pref:
+        description: "出発の都道府県でしぼる（任意）"
+        type: choice
+        default: 指定なし
+        options: [指定なし, 北海道, 青森県, 岩手県, 宮城県, 秋田県, 山形県, 福島県, 茨城県, 栃木県, 群馬県, 埼玉県, 千葉県, 東京都, 神奈川県, 新潟県, 富山県, 石川県, 福井県, 山梨県, 長野県, 岐阜県, 静岡県, 愛知県, 三重県, 滋賀県, 京都府, 大阪府, 兵庫県, 奈良県, 和歌山県, 鳥取県, 島根県, 岡山県, 広島県, 山口県, 徳島県, 香川県, 愛媛県, 高知県, 福岡県, 佐賀県, 長崎県, 熊本県, 大分県, 宮崎県, 鹿児島県, 沖縄県]
+      keywords:
+        description: "出発の店舗名・市区町村でしぼる（任意。複数はカンマ区切り 例: 羽田,品川,大田区）"
+        type: string
+        default: ""
       dest:
         description: "返却エリア"
         type: choice
@@ -51,12 +60,21 @@ jobs:
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
-        run: python notifier.py --route "${{ inputs.operation }}" "${{ inputs.start }}" "${{ inputs.dest }}"
+          OP: ${{ inputs.operation }}
+          START: ${{ inputs.start }}
+          DEST: ${{ inputs.dest }}
+          PREF: ${{ inputs.pref }}
+          KEYWORDS: ${{ inputs.keywords }}
+        run: python notifier.py --route "$OP" "$START" "$DEST" --pref "$PREF" --keywords "$KEYWORDS"
 
       - name: 保存
         if: ${{ !startsWith(inputs.operation, '一覧') }}
+        env:
+          OP: ${{ inputs.operation }}
+          START: ${{ inputs.start }}
+          DEST: ${{ inputs.dest }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add config.json
-          git diff --cached --quiet || (git commit -m "ルート設定: ${{ inputs.operation }} ${{ inputs.start }}→${{ inputs.dest }}" && git push)
+          git diff --cached --quiet || (git commit -m "ルート設定: $OP $START→$DEST" && git push)

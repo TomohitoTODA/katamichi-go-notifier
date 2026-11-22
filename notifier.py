@@ -18,6 +18,7 @@ import sys
 import time
 import urllib.request
 from dataclasses import asdict, dataclass
+from typing import NamedTuple
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -134,36 +135,98 @@ def parse_cars(html: str) -> list[Car]:
 
 # ---------------------------------------------------------------- 条件の判定
 
-def load_routes() -> list[tuple[str, str]]:
-    """監視するルートを読み込む。環境変数 ROUTES があれば config.json より優先。
+PREFECTURES = [
+    "北海道", "青森県", "岩手県", "宮城県", "秋田県", "山形県", "福島県",
+    "茨城県", "栃木県", "群馬県", "埼玉県", "千葉県", "東京都", "神奈川県",
+    "新潟県", "富山県", "石川県", "福井県", "山梨県", "長野県", "岐阜県", "静岡県", "愛知県",
+    "三重県", "滋賀県", "京都府", "大阪府", "兵庫県", "奈良県", "和歌山県",
+    "鳥取県", "島根県", "岡山県", "広島県", "山口県", "徳島県", "香川県", "愛媛県", "高知県",
+    "福岡県", "佐賀県", "長崎県", "熊本県", "大分県", "宮崎県", "鹿児島県", "沖縄県",
+]
+NO_PREF = {"", "指定なし", "*", "どこでも"}
 
-    書き方: "関東>中部, 近畿>*, *>九州"
+
+def split_keywords(text: str) -> tuple[str, ...]:
+    """'羽田, 品川　東京駅' → ('羽田', '品川', '東京駅')"""
+    return tuple(k for k in re.split(r"[,、，\s/／]+", (text or "").strip()) if k)
+
+
+class Route(NamedTuple):
+    """監視ルート。出発エリア→返却エリア に、出発の都道府県・店舗/市区町村のキーワードで絞り込める。"""
+    frm: str = "*"
+    to: str = "*"
+    pref: str = ""                 # 例: 東京都（空なら絞り込まない）
+    kws: tuple[str, ...] = ()      # 例: ("羽田", "品川")：出発店舗名か市区町村にどれかを含む
+
+    @property
+    def label(self) -> str:
+        start = "どこでも" if self.frm == "*" else self.frm
+        detail = [x for x in [self.pref, "/".join(self.kws)] if x]
+        if detail:
+            start += "（" + "・".join(detail) + "）"
+        return f"{start}→{'どこでも' if self.to == '*' else self.to}"
+
+    def hit(self, car: "Car") -> bool:
+        if self.frm != "*" and self.frm != car.start_area:
+            return False
+        if self.to != "*" and self.to != car.return_area:
+            return False
+        if self.pref and not car.start_place.startswith(self.pref):
+            return False
+        if self.kws:
+            text = car.start_shop + " " + car.start_place
+            if not any(k in text for k in self.kws):
+                return False
+        return True
+
+    def to_dict(self) -> dict:
+        d = {"from": self.frm, "to": self.to}
+        if self.pref:
+            d["pref"] = self.pref
+        if self.kws:
+            d["keywords"] = list(self.kws)
+        return d
+
+    @classmethod
+    def from_dict(cls, d: dict) -> "Route":
+        kws = d.get("keywords") or ()
+        if isinstance(kws, str):
+            kws = split_keywords(kws)
+        return make_route(d.get("from", "*"), d.get("to", "*"), d.get("pref", ""), tuple(kws))
+
+
+def _area(x: str) -> str:
+    x = AREA_ALIASES.get(x.strip(), x.strip())
+    if x != "*" and x not in AREA_CODES.values():
+        raise SystemExit(f"エリア名が正しくありません: {x}（使えるのは {', '.join(AREA_CODES.values())}, *）")
+    return x
+
+
+def make_route(frm: str, to: str, pref: str = "", kws: tuple[str, ...] = ()) -> Route:
+    pref = "" if (pref or "").strip() in NO_PREF else pref.strip()
+    if pref and pref not in PREFECTURES:
+        raise SystemExit(f"都道府県名が正しくありません: {pref}")
+    return Route(_area(frm), _area(to), pref, tuple(kws))
+
+
+def load_routes() -> list[Route]:
+    """監視するルートを読み込む。環境変数 ROUTES があれば config.json より優先（手元での確認用）。
+
+    ROUTES の書き方: "関東>中部, 近畿>*, *>九州"
     """
     env = os.environ.get("ROUTES", "").strip()
     if env:
-        pairs = [p.strip() for p in re.split(r"[,、\n]", env) if p.strip()]
         routes = []
-        for p in pairs:
+        for p in (p.strip() for p in re.split(r"[,、\n]", env) if p.strip()):
             a, _, b = p.replace("→", ">").partition(">")
-            routes.append((a.strip(), b.strip() or "*"))
-    else:
-        cfg = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
-        routes = [(r.get("from", "*"), r.get("to", "*")) for r in cfg.get("routes", [])]
-    norm = []
-    for a, b in routes:
-        a, b = AREA_ALIASES.get(a, a), AREA_ALIASES.get(b, b)
-        for x in (a, b):
-            if x != "*" and x not in AREA_CODES.values():
-                raise SystemExit(f"エリア名が正しくありません: {x}（使えるのは {', '.join(AREA_CODES.values())}, *）")
-        norm.append((a, b))
-    return norm
+            routes.append(make_route(a.strip(), b.strip() or "*"))
+        return routes
+    cfg = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
+    return [Route.from_dict(r) for r in cfg.get("routes", [])]
 
 
-def matches(car: Car, routes: list[tuple[str, str]]) -> bool:
-    return any(
-        (a == "*" or a == car.start_area) and (b == "*" or b == car.return_area)
-        for a, b in routes
-    )
+def matches(car: Car, routes: list[Route]) -> bool:
+    return any(r.hit(car) for r in routes)
 
 
 # ---------------------------------------------------------------- 状態の保存
@@ -300,16 +363,16 @@ def _chunks(lines: list[str]) -> list[str]:
     return out
 
 
-def send_listing(routes: list[tuple[str, str]], cars: list[Car], seen: dict,
+def send_listing(routes: list[Route], cars: list[Car], seen: dict,
                  dry_run: bool = False) -> int:
     """指定ルートの「今受付中の車」を、🆕（24時間以内の新着）を先頭にして通知する。受付終了は除く。"""
     now = now_jst()
     if not routes:
         send_ntfy("📋 一覧：ルートが登録されていません", "「ルート設定」で追加してください。", priority=2, dry_run=dry_run)
         return 0
-    for a, b in routes:
-        label = f"{a}→{b}".replace("*", "どこでも")
-        route_cars = [c for c in cars if matches(c, [(a, b)])]
+    for route in routes:
+        label = route.label
+        route_cars = [c for c in cars if route.hit(c)]
         n_ended = sum(1 for c in route_cars if c.ended)
         hit = sorted((c for c in route_cars if not c.ended), key=_period_sort_key)
         new = [c for c in hit if is_new(c, seen, now)]
@@ -396,7 +459,7 @@ def run(args: argparse.Namespace) -> int:
         elif current[k].ended:
             closed.append((k, prev, "受付終了"))
 
-    route_label = "、".join(f"{a}→{b}".replace("*", "どこでも") for a, b in routes) or "なし"
+    route_label = "、".join(r.label for r in routes) or "なし"
     print(f"掲載 {len(cars)} 件（受付中 {len(available)}）/ 通知する新着 {len(targets)} 件 / 終了に変わった通知済み {len(closed)} 件（{route_label}）")
 
     notified_now: set[str] = set()
@@ -441,67 +504,59 @@ def run(args: argparse.Namespace) -> int:
     return 0
 
 
-def _area(x: str) -> str:
-    x = AREA_ALIASES.get(x.strip(), x.strip())
-    if x != "*" and x not in AREA_CODES.values():
-        raise SystemExit(f"エリア名が正しくありません: {x}")
-    return x
-
-
-def _route_label(routes: list[dict]) -> str:
+def _route_label(routes: list[Route]) -> str:
     if not routes:
         return "（なし：通知は届きません）"
-    return "\n".join(f"・{r['from']} → {r['to']}".replace("*", "どこでも") for r in routes)
+    return "\n".join(f"・{r.label}" for r in routes)
 
 
 LIST_REGISTERED = "一覧を見る（登録中のルート）"
 LIST_SELECTED = "一覧を見る（選んだエリア）"
 
 
-def edit_routes(op: str, start: str, dest: str, dry_run: bool = False,
-                html_path: str | None = None) -> int:
+def edit_routes(op: str, start: str, dest: str, pref: str = "", keywords: str = "",
+                dry_run: bool = False, html_path: str | None = None) -> int:
     """「ルート設定・一覧」ボタンから呼ばれる。ルートの追加・削除と、一覧の通知。"""
     cfg = json.loads(CONFIG_PATH.read_text(encoding="utf-8")) if CONFIG_PATH.exists() else {}
-    routes: list[dict] = cfg.get("routes", [])
-    r = {"from": _area(start), "to": _area(dest)}
+    routes = [Route.from_dict(d) for d in cfg.get("routes", [])]
+    r = make_route(start, dest, pref, split_keywords(keywords))
     seen = load_state().get("seen", {})
 
     if op in (LIST_REGISTERED, LIST_SELECTED):
-        target = [(x["from"], x["to"]) for x in routes] if op == LIST_REGISTERED else [(r["from"], r["to"])]
+        target = routes if op == LIST_REGISTERED else [r]
         return send_listing(target, _load_cars(html_path), seen, dry_run=dry_run)
 
     show_list = False
     if op == "追加":
-        if routes == [{"from": "*", "to": "*"}]:
+        if routes == [Route()]:
             routes = []  # 初期設定（全ルート）は、最初の追加で置き換える
         if r not in routes:
             routes.append(r)
-        head = f"ルートを追加しました：{r['from']} → {r['to']}"
+        head = f"ルートを追加しました：{r.label}"
         show_list = True
     elif op == "削除":
         if r not in routes:
-            head = f"そのルートは登録されていません：{r['from']} → {r['to']}"
+            head = f"そのルートは登録されていません：{r.label}"
         else:
             routes.remove(r)
-            head = f"ルートを削除しました：{r['from']} → {r['to']}"
+            head = f"ルートを削除しました：{r.label}"
     elif op == "この1件だけにする":
         routes = [r]
-        head = f"ルートを {r['from']} → {r['to']} の1件にしました"
+        head = f"ルートを {r.label} の1件にしました"
         show_list = True
     elif op == "確認だけ":
         head = "現在の監視ルート"
     else:
         raise SystemExit(f"不明な操作: {op}")
-    head = head.replace("*", "どこでも")
-    cfg["routes"] = routes
+    cfg["routes"] = [x.to_dict() for x in routes]
     if not dry_run:
         CONFIG_PATH.write_text(json.dumps(cfg, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     body = "監視中のルート：\n" + _route_label(routes)
     print(head + "\n" + body)
     send_ntfy("⚙️ " + head, body, priority=2, dry_run=dry_run)
     if show_list:
-        # 追加したルートで今掲載されている車も一緒に知らせる
-        send_listing([(r["from"], r["to"])], _load_cars(html_path), seen, dry_run=dry_run)
+        # 追加したルートで今受付中の車も一緒に知らせる
+        send_listing([r], _load_cars(html_path), seen, dry_run=dry_run)
     return 0
 
 
@@ -510,11 +565,13 @@ def main() -> int:
     p.add_argument("--test", action="store_true", help="テスト通知を送る")
     p.add_argument("--dry-run", action="store_true", help="通知も保存もせず、表示だけする")
     p.add_argument("--html", help="ネットから取らず、このHTMLファイルを使う")
+    p.add_argument("--pref", default="", help="--route と一緒に：出発の都道府県（任意）")
+    p.add_argument("--keywords", default="", help="--route と一緒に：出発店舗・市区町村のキーワード（任意、カンマ区切り）")
     p.add_argument("--route", nargs=3, metavar=("操作", "出発", "返却"),
                    help=f"ルート編集・一覧（操作: 追加/削除/この1件だけにする/確認だけ/{LIST_REGISTERED}/{LIST_SELECTED}）")
     a = p.parse_args()
     if a.route:
-        return edit_routes(*a.route, dry_run=a.dry_run, html_path=a.html)
+        return edit_routes(*a.route, pref=a.pref, keywords=a.keywords, dry_run=a.dry_run, html_path=a.html)
     return run(a)
 
 
