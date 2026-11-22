@@ -55,6 +55,7 @@ class Car:
     period: str
     reserve_shop: str
     tel: str
+    ended: bool = False  # サイトで「受付終了」の帯が付いている
 
     @property
     def key(self) -> str:
@@ -110,6 +111,9 @@ def parse_cars(html: str) -> list[Car]:
         if return_p is not None and return_p.small is not None:
             return_p.small.extract()
         tel = _text(li.select_one(".service-item__reserve-tel"))
+        body = li.select_one(".service-item__body")
+        # 受付終了の車は一覧に残ったまま、本体に show-entry-end クラスが付く（CSSで「受付終了」と表示）
+        ended = body is not None and "show-entry-end" in (body.get("class") or [])
         cars.append(
             Car(
                 start_area=AREA_CODES.get(li.get("data-start-area", ""), "不明"),
@@ -122,6 +126,7 @@ def parse_cars(html: str) -> list[Car]:
                 period=_text(_value_p(li.select_one(".service-item__date"))),
                 reserve_shop=_text(li.select_one(".service-item__reserve-shop")).replace("　", " "),
                 tel=tel,
+                ended=ended,
             )
         )
     return cars
@@ -182,11 +187,14 @@ def tel_uri(tel: str) -> str:
 
 
 def send_ntfy(title: str, message: str, *, tel: str = "", tags: list[str] | None = None,
-              priority: int = 4, dry_run: bool = False) -> None:
+              priority: int = 4, sequence_id: str = "", dry_run: bool = False) -> None:
     topic = os.environ.get("NTFY_TOPIC", "").strip()
     server = os.environ.get("NTFY_SERVER", "https://ntfy.sh").rstrip("/")
     payload: dict = {"topic": topic, "title": title, "message": message,
                      "tags": tags or [], "priority": priority}
+    if sequence_id:
+        # 同じIDで送り直すと、対応アプリでは前の通知が置き換わる
+        payload["sequence_id"] = sequence_id
     if tel:
         payload["click"] = tel_uri(tel)
         payload["actions"] = [{"action": "view", "label": f"電話する {tel}", "url": tel_uri(tel), "clear": False}]
@@ -205,8 +213,13 @@ def send_ntfy(title: str, message: str, *, tel: str = "", tags: list[str] | None
         res.read()
 
 
-def car_message(c: Car) -> tuple[str, str]:
-    title = f"🚗 {c.start_area}→{c.return_area}｜{c.car.split(' ')[0]}"
+def car_message(c: Car, status: str = "") -> tuple[str, str]:
+    """1台分の通知。status が「受付終了」などのときは、終了済みの表示にする。"""
+    name = c.car.split(" ")[0]
+    if status:
+        title = f"❌ {status}｜{c.start_area}→{c.return_area}｜{name}"
+    else:
+        title = f"🚗 {c.start_area}→{c.return_area}｜{name}"
     lines = [
         f"出発：{c.start_shop}（{c.start_place}）" if c.start_place else f"出発：{c.start_shop}",
         f"返却：{c.return_shop}",
@@ -215,7 +228,13 @@ def car_message(c: Car) -> tuple[str, str]:
         f"条件：{c.condition}",
         f"予約：{c.reserve_shop} ☎ {c.tel}",
     ]
+    if status:
+        lines.insert(0, f"【{status}】{now_jst():%m/%d %H:%M} に確認しました")
     return title, "\n".join(lines)
+
+
+def seq_id(key: str) -> str:
+    return f"car-{key}"
 
 
 # ---------------------------------------------------------------- 一覧
@@ -283,18 +302,21 @@ def _chunks(lines: list[str]) -> list[str]:
 
 def send_listing(routes: list[tuple[str, str]], cars: list[Car], seen: dict,
                  dry_run: bool = False) -> int:
-    """指定ルートの「今掲載中の車」を、🆕（24時間以内の新着）を先頭にして通知する。"""
+    """指定ルートの「今受付中の車」を、🆕（24時間以内の新着）を先頭にして通知する。受付終了は除く。"""
     now = now_jst()
     if not routes:
         send_ntfy("📋 一覧：ルートが登録されていません", "「ルート設定」で追加してください。", priority=2, dry_run=dry_run)
         return 0
     for a, b in routes:
         label = f"{a}→{b}".replace("*", "どこでも")
-        hit = sorted((c for c in cars if matches(c, [(a, b)])), key=_period_sort_key)
+        route_cars = [c for c in cars if matches(c, [(a, b)])]
+        n_ended = sum(1 for c in route_cars if c.ended)
+        hit = sorted((c for c in route_cars if not c.ended), key=_period_sort_key)
         new = [c for c in hit if is_new(c, seen, now)]
         old = [c for c in hit if not is_new(c, seen, now)]
         if not hit:
-            send_ntfy(f"📋 {label}：現在 0台", "このルートの掲載は今ありません。\n新しく出たら通知します。",
+            extra = f"\n（受付終了の掲載 {n_ended}台は除いています）" if n_ended else ""
+            send_ntfy(f"📋 {label}：受付中 0台", "このルートで今予約できる車はありません。\n新しく出たら通知します。" + extra,
                       priority=2, dry_run=dry_run)
             continue
         lines = []
@@ -304,12 +326,14 @@ def send_listing(routes: list[tuple[str, str]], cars: list[Car], seen: dict,
         if old:
             if new:
                 lines.append("")
-            lines.append(f"【掲載中 {len(old)}台】")
+            lines.append(f"【受付中 {len(old)}台】")
             lines += [listing_line(c, False) for c in old]
+        if n_ended:
+            lines += ["", f"（受付終了の掲載 {n_ended}台は除いています）"]
         chunks = _chunks(lines)
         for i, body in enumerate(chunks, 1):
             page = f"（{i}/{len(chunks)}）" if len(chunks) > 1 else ""
-            send_ntfy(f"📋 {label}：{len(hit)}台（🆕{len(new)}）{page}", body, priority=3, dry_run=dry_run)
+            send_ntfy(f"📋 {label}：受付中 {len(hit)}台（🆕{len(new)}）{page}", body, priority=3, dry_run=dry_run)
         print(f"{label}: {len(hit)}台（新着 {len(new)}）を {len(chunks)} 通で送信")
     return 0
 
@@ -352,29 +376,66 @@ def run(args: argparse.Namespace) -> int:
 
     seen: dict = state.get("seen", {})
     current = {c.key: c for c in cars}
-    new_cars = [c for k, c in current.items() if k not in seen]
-    targets = [c for c in new_cars if matches(c, routes)]
-    route_label = "、".join(f"{a}→{b}".replace("*", "どこでも") for a, b in routes) or "なし"
-    print(f"掲載 {len(cars)} 件 / 新着 {len(new_cars)} 件 / 条件に合う新着 {len(targets)} 件（{route_label}）")
+    available = [c for c in cars if not c.ended]
 
+    # 通知する車：①初めて見る受付中の車 ②受付終了→受付中に戻った車
+    def became_available(k: str, c: Car) -> bool:
+        prev = seen.get(k)
+        return not c.ended and (prev is None or prev.get("ended") is True)
+
+    targets = [c for k, c in current.items() if became_available(k, c) and matches(c, routes)]
+    reopened = {c.key for c in targets if c.key in seen}
+
+    # 通知済みの車が「受付終了」になった／一覧から消えた → 前の通知を書き換える
+    closed: list[tuple[str, dict, str]] = []
+    for k, prev in seen.items():
+        if not prev.get("notified") or prev.get("ended"):
+            continue
+        if k not in current:
+            closed.append((k, prev, "掲載終了"))
+        elif current[k].ended:
+            closed.append((k, prev, "受付終了"))
+
+    route_label = "、".join(f"{a}→{b}".replace("*", "どこでも") for a, b in routes) or "なし"
+    print(f"掲載 {len(cars)} 件（受付中 {len(available)}）/ 通知する新着 {len(targets)} 件 / 終了に変わった通知済み {len(closed)} 件（{route_label}）")
+
+    notified_now: set[str] = set()
     if first_run:
-        hit = [c for c in cars if matches(c, routes)]
-        body = f"監視ルート：{route_label}\n現在の掲載 {len(cars)} 台のうち、条件に合うのは {len(hit)} 台です。\n以後は新しく掲載された車だけを通知します。"
+        hit = [c for c in available if matches(c, routes)]
+        body = (f"監視ルート：{route_label}\n現在の掲載 {len(cars)} 台（うち受付中 {len(available)} 台）のうち、"
+                f"条件に合う受付中の車は {len(hit)} 台です。\n以後は新しく受付が始まった車だけを通知します。")
         send_ntfy("✅ 片道GO!の監視を開始しました", body, priority=3, dry_run=args.dry_run)
-    elif targets:
+    else:
         for c in targets[:MAX_INDIVIDUAL]:
             title, msg = car_message(c)
-            send_ntfy(title, msg, tel=c.tel, dry_run=args.dry_run)
+            if c.key in reopened:
+                title = title.replace("🚗", "🔁", 1)
+                msg = "【受付再開】\n" + msg
+            send_ntfy(title, msg, tel=c.tel, sequence_id=seq_id(c.key), dry_run=args.dry_run)
+            notified_now.add(c.key)
         rest = targets[MAX_INDIVIDUAL:]
         if rest:
             lines = [listing_line(c, True) for c in rest]
             for body in _chunks(lines):
                 send_ntfy(f"🚗 ほかに {len(rest)} 台の新着", body, dry_run=args.dry_run)
+        fields = Car.__dataclass_fields__.keys()
+        for k, prev, status in closed:
+            c = current.get(k) or Car(**{f: prev.get(f, "") for f in fields if f != "ended"})
+            title, msg = car_message(c, status)
+            send_ntfy(title, msg, priority=2, sequence_id=seq_id(k), dry_run=args.dry_run)
 
     # 今掲載されている車だけを記録（消えた車は忘れる）
     stamp = now_jst().isoformat(timespec="minutes")
-    state["seen"] = {k: seen.get(k) or {"first_seen": stamp, **asdict(c)}
-                     for k, c in current.items()}
+    new_seen = {}
+    for k, c in current.items():
+        prev = seen.get(k, {})
+        new_seen[k] = {
+            **asdict(c),
+            "first_seen": prev.get("first_seen", stamp),
+            # 通知済みフラグ：終了になったら外す（受付再開したらまた通知されるように）
+            "notified": (k in notified_now) or (bool(prev.get("notified")) and not c.ended),
+        }
+    state["seen"] = new_seen
     if not args.dry_run:
         save_state(state)
     return 0

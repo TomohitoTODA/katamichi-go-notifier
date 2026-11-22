@@ -87,7 +87,8 @@ def test_edit_routes(tmp_path, monkeypatch):
     edit("削除", "どこでも", "九州")
     assert notifier.load_routes() == []                 # 空なら何も通知しない
     # 追加・この1件だけにする では、そのルートの今の一覧も届く（設定通知＋一覧で2通）
-    assert [t for t in sent if t.startswith("📋")] == ["📋 関東→中部：1台（🆕1）", "📋 近畿→どこでも：1台（🆕1）", "📋 どこでも→九州：現在 0台"]
+    # 近畿発の車は受付終了なので一覧には出ない
+    assert [t for t in sent if t.startswith("📋")] == ["📋 関東→中部：受付中 1台（🆕1）", "📋 近畿→どこでも：受付中 0台", "📋 どこでも→九州：受付中 0台"]
     assert len(sent) == 8
 
 
@@ -104,9 +105,10 @@ def test_listing_marks_new(tmp_path, monkeypatch):
     monkeypatch.setattr(notifier, "send_ntfy", lambda title, msg, **kw: sent.append((title, msg)))
     notifier.send_listing([("*", "*")], cars, seen)
     title, body = sent[0]
-    assert title == "📋 どこでも→どこでも：3台（🆕2）"
-    assert body.index("【🆕 新着 2台") < body.index("【掲載中 1台】")
+    assert title == "📋 どこでも→どこでも：受付中 2台（🆕1）"
+    assert body.index("【🆕 新着 1台") < body.index("【受付中 1台】")
     assert "🆕11/19〜11/21 羽田空港（国内線）店（東京都）→ 静岡" in body
     assert "・11/18〜11/21 仙台空港店（宮城県）→ 福島" in body
+    assert "心斎橋" not in body and "受付終了の掲載 1台は除いています" in body
     # 古い形式（UTC・タイムゾーンなし）の記録も読める
     assert notifier._parse_seen_time("2026-11-21 15:05").utcoffset().total_seconds() == 0
