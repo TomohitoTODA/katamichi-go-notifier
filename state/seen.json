@@ -60,6 +60,21 @@
    "start_shop": "トヨタレンタリース大分 大分店",
    "tel": "097-537-0100"
   },
+  "07796549a776ef70": {
+   "car": "ヤリス 車両番号 4728",
+   "condition": "禁煙・5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-23T14:25+09:00",
+   "notified": false,
+   "period": "2026年11月24日 ～ 11月26日",
+   "reserve_shop": "総合予約室",
+   "return_area": "近畿",
+   "return_shop": "トヨタレンタリース大阪",
+   "start_area": "中部",
+   "start_place": "愛知県 名古屋市",
+   "start_shop": "トヨタレンタリース愛知 ささしまライブ東口店",
+   "tel": "0120-001-319"
+  },
   "08c1fb7c1f637b56": {
    "car": "アクア 車両番号 9566",
    "condition": "禁煙車 5人乗り",
