@@ -1308,7 +1308,7 @@
   "846107c9878049f2": {
    "car": "ノアHV 車両番号5656",
    "condition": "禁煙 8人乗り スタッドレスタイヤ",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-23T10:01+09:00",
    "notified": false,
    "period": "2026年11月23日 ～ 11月25日",
