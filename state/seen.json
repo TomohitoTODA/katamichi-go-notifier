@@ -1548,7 +1548,7 @@
   "aa369084d9559297": {
    "car": "カローラHV 車両番号 郡山300わ1776",
    "condition": "禁煙 AT ナビ・ETC付き 5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-21 15:05",
    "notified": false,
    "period": "2026年11月22日 ～ 11月23日",
