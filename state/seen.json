@@ -258,7 +258,7 @@
   "223a9df019fa5510": {
    "car": "カローラツーリングHV 車両番号6164",
    "condition": "禁煙・５人乗",
-   "ended": true,
+   "ended": false,
    "first_seen": "2026-11-22 07:45",
    "notified": false,
    "period": "2026年11月22日 ～ 11月24日",
@@ -1158,7 +1158,7 @@
   "864880779990db0f": {
    "car": "ヤリス 車両番号3464",
    "condition": "ｽﾀｯﾄﾞﾚｽ/2WD/禁煙/5人乗り/ﾅﾋﾞ･ETC付",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-21 15:05",
    "notified": false,
    "period": "2026年11月21日 ～ 11月23日",
