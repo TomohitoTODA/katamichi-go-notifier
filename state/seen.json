@@ -1023,7 +1023,7 @@
   "6440605fee39c85d": {
    "car": "シエンタHEV 車両番号山形500わ9690",
    "condition": "A/T 4WD 禁煙車 ナビ付 ETC付 スタッドレス 7人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-23T09:55+09:00",
    "notified": false,
    "period": "2026年11月23日 ～ 11月25日",
