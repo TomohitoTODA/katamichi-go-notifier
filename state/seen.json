@@ -420,6 +420,21 @@
    "start_shop": "トヨタレンタリース愛知 ささしまライブ東口店",
    "tel": "0120-001-319"
   },
+  "39915015467b207f": {
+   "car": "ヤリス 車両番号 1126",
+   "condition": "禁煙・5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-23T14:30+09:00",
+   "notified": true,
+   "period": "2026年11月24日 ～ 11月26日",
+   "reserve_shop": "品川高輪口店",
+   "return_area": "近畿",
+   "return_shop": "トヨタレンタリース大阪",
+   "start_area": "関東",
+   "start_place": "東京都 港区",
+   "start_shop": "トヨタモビリティサービス 品川高輪口店",
+   "tel": "03-3473-5021"
+  },
   "3a28b99f6a098b8b": {
    "car": "プリウス 青森300わ3392",
    "condition": "禁煙 AT 4WD 冬タイヤ ETC車載器 バックモニター Bluetooth ドライブレコーダー",
@@ -434,6 +449,21 @@
    "start_place": "山形県 山形市",
    "start_shop": "トヨタレンタリース山形 山形駅前店",
    "tel": "023-625-0100"
+  },
+  "3b7fd2af14f910b9": {
+   "car": "ヤリス 車両番号 7497",
+   "condition": "禁煙 5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-23T14:30+09:00",
+   "notified": false,
+   "period": "2026年11月23日 ～ 11月25日",
+   "reserve_shop": "日暮里駅前店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース名古屋",
+   "start_area": "関東",
+   "start_place": "東京都 荒川区",
+   "start_shop": "トヨタモビリティサービス 日暮里駅前店",
+   "tel": "03-5604-0100"
   },
   "3bfe046a351b5c06": {
    "car": "ヤリス 仙台502わ2305",
