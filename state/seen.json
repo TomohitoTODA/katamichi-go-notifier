@@ -1488,7 +1488,7 @@
   "997bd3205a6f6455": {
    "car": "ヤリス 仙台502わ3514",
    "condition": "5人乗り/AT/禁煙車/4WD/ｽﾀｯﾄﾞﾚｽ/ETC車載器･ﾅﾋﾞ付き",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-21 15:05",
    "notified": false,
    "period": "2026年11月21日 ～ 11月23日",
