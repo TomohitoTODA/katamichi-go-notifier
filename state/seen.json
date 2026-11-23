@@ -1335,6 +1335,21 @@
    "start_shop": "トヨタレンタリース静岡 熱海駅前店",
    "tel": "0120-926-325"
   },
+  "959eba9cdd607915": {
+   "car": "カローラスポーツ 登録番号3300",
+   "condition": "禁煙5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-23T15:50+09:00",
+   "notified": false,
+   "period": "2026年11月24日 ～ 11月26日",
+   "reserve_shop": "池袋東口店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース愛知",
+   "start_area": "関東",
+   "start_place": "東京都 豊島区",
+   "start_shop": "トヨタモビリティサービス 池袋東口店",
+   "tel": "03-3987-2906"
+  },
   "9730173f9e71d92e": {
    "car": "カローラツーリング 車両番号 3201",
    "condition": "禁煙車 5人乗り",
