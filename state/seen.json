@@ -1668,7 +1668,7 @@
   "db7dc56f648afd07": {
    "car": "アクア 車両番号4597",
    "condition": "禁煙車 5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-23T12:00+09:00",
    "notified": false,
    "period": "2026年11月23日 ～ 11月25日",
