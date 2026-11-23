@@ -1155,6 +1155,21 @@
    "start_shop": "トヨタS＆Dレンタシェア西東京 町田店",
    "tel": "042-725-0140"
   },
+  "6c5bb5f2f6b607f9": {
+   "car": "ハイエースバン 車両番号 4364",
+   "condition": "禁煙 3/6人乗り",
+   "ended": false,
+   "first_seen": "2026-11-23T12:20+09:00",
+   "notified": false,
+   "period": "2026年11月23日 ～ 11月25日",
+   "reserve_shop": "品川高輪口店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース名古屋",
+   "start_area": "関東",
+   "start_place": "東京都 港区",
+   "start_shop": "トヨタモビリティサービス 品川高輪口店",
+   "tel": "03-3473-5021"
+  },
   "6c67de47d789ddfd": {
    "car": "ﾌﾟﾛﾎﾞｯｸｽ 山形400わ3857",
    "condition": "A/T・4WD・禁煙・ナビ付・ETC付",
