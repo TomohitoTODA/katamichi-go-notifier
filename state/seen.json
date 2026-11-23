@@ -330,6 +330,21 @@
    "start_shop": "トヨタレンタリース静岡 三島新幹線口店",
    "tel": "0120-926-327"
   },
+  "212670d891511ff8": {
+   "car": "ヤリス 車両番号 713",
+   "condition": "禁煙車 ５人乗 ガソリン車 ノーマルタイヤ",
+   "ended": false,
+   "first_seen": "2026-11-23T09:00+09:00",
+   "notified": false,
+   "period": "2026年11月23日 ～ 11月25日",
+   "reserve_shop": "平塚店",
+   "return_area": "関東",
+   "return_shop": "トヨタS＆Dレンタシェア西東京",
+   "start_area": "関東",
+   "start_place": "神奈川県 平塚市",
+   "start_shop": "トヨタレンタリース神奈川 平塚店",
+   "tel": "0463-23-0100"
+  },
   "223a9df019fa5510": {
    "car": "カローラツーリングHV 車両番号6164",
    "condition": "禁煙・５人乗",
@@ -2354,21 +2369,6 @@
    "start_place": "山形県 酒田市",
    "start_shop": "トヨタレンタリース山形 庄内空港店",
    "tel": "0234-92-4100"
-  },
-  "f472c7d55fd7b729": {
-   "car": "ヤリス 車両番号 713",
-   "condition": "禁煙車 ５人乗 ガソリン車 ノーマルタイヤ",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月19日 ～ 11月21日",
-   "reserve_shop": "平塚店",
-   "return_area": "関東",
-   "return_shop": "トヨタS＆Dレンタシェア西東京",
-   "start_area": "関東",
-   "start_place": "神奈川県 平塚市",
-   "start_shop": "トヨタレンタリース神奈川 平塚店",
-   "tel": "0463-23-0100"
   },
   "f55127493b2581ae": {
    "car": "ヤリス 4413",
