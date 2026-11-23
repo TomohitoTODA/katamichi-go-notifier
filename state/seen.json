@@ -2310,6 +2310,21 @@
    "start_shop": "トヨタレンタリース山形 山形駅前店",
    "tel": "023-625-0100"
   },
+  "ef028fd62cee8dfa": {
+   "car": "ハイエースバン 八戸400わ2763",
+   "condition": "6人乗・禁煙車 スタッドレス",
+   "ended": false,
+   "first_seen": "2026-11-23T09:05+09:00",
+   "notified": false,
+   "period": "2026年11月23日 ～ 11月29日",
+   "reserve_shop": "いわき平店",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース青森",
+   "start_area": "東北",
+   "start_place": "福島県 いわき市",
+   "start_shop": "トヨタレンタリース福島 いわき平店",
+   "tel": "0246-23-0100"
+  },
   "ef7249a7b6ea9693": {
    "car": "ルーミー 宮城502わ7069",
    "condition": "禁煙 スタッドレス AT ナビ・ETC付き 5人乗り",
