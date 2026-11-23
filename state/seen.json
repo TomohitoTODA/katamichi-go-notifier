@@ -393,7 +393,7 @@
   "36aef4447c48dcde": {
    "car": "シエンタＨＶ 車両番号8797",
    "condition": "禁煙 7人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-23T12:40+09:00",
    "notified": false,
    "period": "2026年11月23日 ～ 11月25日",
@@ -1473,7 +1473,7 @@
   "bc938fee003128d1": {
    "car": "シエンタHV 車両番号 6130",
    "condition": "禁煙 7人乗り スタッドレスタイヤ付",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-23T12:00+09:00",
    "notified": false,
    "period": "2026年11月23日 ～ 11月25日",
