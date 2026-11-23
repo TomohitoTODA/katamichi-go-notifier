@@ -1158,7 +1158,7 @@
   "94d59a6c7665f9f8": {
    "car": "ヤリス 車両番号 4194",
    "condition": "禁煙車 5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-23T14:00+09:00",
    "notified": false,
    "period": "2026年11月24日 ～ 11月27日",
