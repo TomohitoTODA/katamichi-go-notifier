@@ -663,9 +663,9 @@
   "57b9d25ba9e44cae": {
    "car": "アルファードHEV 車両番号 848",
    "condition": "禁煙・8人乗り",
-   "ended": true,
+   "ended": false,
    "first_seen": "2026-11-23T14:40+09:00",
-   "notified": false,
+   "notified": true,
    "period": "2026年11月24日 ～ 11月26日",
    "reserve_shop": "羽田空港（国内線）店",
    "return_area": "近畿",
@@ -723,7 +723,7 @@
   "5b986309327a002e": {
    "car": "ヤリスＨＶ 八戸501わ213",
    "condition": "5人乗・禁煙・スタッドレス装着",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-21 15:05",
    "notified": false,
    "period": "2026年11月22日 ～ 11月28日",
