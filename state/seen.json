@@ -708,7 +708,7 @@
   "569068f72d0627f6": {
    "car": "ヤリスクロス 車両番号4424",
    "condition": "禁煙・5人乗り スタッド",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-23T15:40+09:00",
    "notified": false,
    "period": "2026年11月23日 ～ 11月25日",
