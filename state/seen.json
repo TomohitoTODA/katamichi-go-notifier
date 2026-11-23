@@ -1125,6 +1125,21 @@
    "start_shop": "トヨタレンタリース福島 福島駅前店",
    "tel": "024-524-0100"
   },
+  "9335d866a16ef965": {
+   "car": "ハリアーHV 車両番号 3193",
+   "condition": "禁煙 ５人乗り",
+   "ended": true,
+   "first_seen": "2026-11-23T12:45+09:00",
+   "notified": false,
+   "period": "2026年11月23日 ～ 11月25日",
+   "reserve_shop": "東京駅日本橋口店",
+   "return_area": "近畿",
+   "return_shop": "トヨタレンタリース京都",
+   "start_area": "関東",
+   "start_place": "東京都 千代田区",
+   "start_shop": "トヨタモビリティサービス 東京駅日本橋口店",
+   "tel": "03-5220-2220"
+  },
   "94374a11862e4a13": {
    "car": "シエンタ 車両番号 3008",
    "condition": "禁煙・7人乗り（スタッドレスタイヤ）",
@@ -1365,6 +1380,21 @@
    "start_shop": "トヨタレンタリース宮城 仙台空港店",
    "tel": "0223-22-0100"
   },
+  "b13da51f5c134cc1": {
+   "car": "ハリアーHV 車両番号 1744",
+   "condition": "禁煙 ５人乗り",
+   "ended": true,
+   "first_seen": "2026-11-23T12:45+09:00",
+   "notified": false,
+   "period": "2026年11月23日 ～ 11月25日",
+   "reserve_shop": "東京駅日本橋口店",
+   "return_area": "近畿",
+   "return_shop": "トヨタレンタリース京都",
+   "start_area": "関東",
+   "start_place": "東京都 千代田区",
+   "start_shop": "トヨタモビリティサービス 東京駅日本橋口店",
+   "tel": "03-5220-2220"
+  },
   "b3e5f283793e9b44": {
    "car": "ヤリス 白河500わ504",
    "condition": "禁煙車 5人乗り スタッドレス ナビ",
@@ -1574,6 +1604,21 @@
    "start_place": "東京都 武蔵野市",
    "start_shop": "トヨタS＆Dレンタシェア西東京 武蔵境店",
    "tel": "0422-55-0100"
+  },
+  "cf43753483fe411e": {
+   "car": "ハリアーHV 車両番号 9118",
+   "condition": "禁煙 ５人乗り",
+   "ended": false,
+   "first_seen": "2026-11-23T12:45+09:00",
+   "notified": true,
+   "period": "2026年11月23日 ～ 11月25日",
+   "reserve_shop": "船堀駅前店",
+   "return_area": "近畿",
+   "return_shop": "トヨタレンタリース京都",
+   "start_area": "関東",
+   "start_place": "東京都 江戸川区",
+   "start_shop": "トヨタモビリティサービス 船堀駅前店",
+   "tel": "03-3804-4100"
   },
   "d6d2d9698042be1d": {
    "car": "カローラツーリング 車両番号 879",
