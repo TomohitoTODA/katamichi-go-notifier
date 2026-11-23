@@ -1125,6 +1125,21 @@
    "start_shop": "トヨタレンタリース名古屋 八田駅北店",
    "tel": "0120-921-758"
   },
+  "6dce1547e63d32a9": {
+   "car": "ヤリス 車両番号山形501わ1148",
+   "condition": "A/T 2WD 禁煙車 ナビ付 ETC付 スタッドレス",
+   "ended": false,
+   "first_seen": "2026-11-23T10:10+09:00",
+   "notified": false,
+   "period": "2026年11月23日 ～ 11月25日",
+   "reserve_shop": "仙台空港店",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース山形",
+   "start_area": "東北",
+   "start_place": "宮城県 岩沼市",
+   "start_shop": "トヨタレンタリース宮城 仙台空港店",
+   "tel": "0223-22-0100"
+  },
   "777f3c8be8a705a6": {
    "car": "ヤリス 青森501わ3045",
    "condition": "5人乗・禁煙・スタッドレス装着",
@@ -1709,6 +1724,21 @@
    "start_place": "愛知県 常滑市",
    "start_shop": "トヨタレンタリース愛知 中部国際空港店",
    "tel": "0120-001-319"
+  },
+  "aec267b2aa63a68a": {
+   "car": "ヤリス 車両番号山形500わ9922",
+   "condition": "A/T 2WD 禁煙車 ナビ付 ETC付 スタッドレス",
+   "ended": false,
+   "first_seen": "2026-11-23T10:10+09:00",
+   "notified": false,
+   "period": "2026年11月23日 ～ 11月25日",
+   "reserve_shop": "仙台空港店",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース山形",
+   "start_area": "東北",
+   "start_place": "宮城県 岩沼市",
+   "start_shop": "トヨタレンタリース宮城 仙台空港店",
+   "tel": "0223-22-0100"
   },
   "b2f709575bba3c97": {
    "car": "カローラツーリング 登録番号9404",
