@@ -378,7 +378,7 @@
   "2f6e890897ee67e2": {
    "car": "ルーミー 福島501わ3793",
    "condition": "ＡＴ 禁煙 ＥＴＣ車載機",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-21 15:05",
    "notified": false,
    "period": "2026年11月21日 ～ 11月23日",
