@@ -150,6 +150,21 @@
    "start_shop": "トヨタレンタリース新福島 会津店",
    "tel": "0242-28-0100"
   },
+  "0ab81b93a084514e": {
+   "car": "カローラ 車両番号9396",
+   "condition": "禁煙車 5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-23T12:00+09:00",
+   "notified": false,
+   "period": "2026年11月23日 ～ 11月25日",
+   "reserve_shop": "吾妻橋店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース愛知",
+   "start_area": "関東",
+   "start_place": "東京都 墨田区",
+   "start_shop": "トヨタモビリティサービス 吾妻橋店",
+   "tel": "03-3626-5300"
+  },
   "0d30dd57584cc918": {
    "car": "アルファードHV 登録番号3426",
    "condition": "禁煙車 8人乗",
@@ -405,6 +420,21 @@
    "start_shop": "トヨタモビリティサービス 羽田空港（国内線）店",
    "tel": "03-3744-0100"
   },
+  "260a9ae572846b33": {
+   "car": "ルーミー 車両番号2055",
+   "condition": "禁煙車 5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-23T12:00+09:00",
+   "notified": false,
+   "period": "2026年11月23日 ～ 11月25日",
+   "reserve_shop": "三条京阪北店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース愛知",
+   "start_area": "近畿",
+   "start_place": "京都府 京都市",
+   "start_shop": "トヨタレンタリース京都 堀川店",
+   "tel": "075-762-0115"
+  },
   "2761cffd360194df": {
    "car": "ヤリス 宮城502わ8854",
    "condition": "禁煙 スタッドレス 2WD AT ナビ・ETC付き 5人乗り",
@@ -554,6 +584,21 @@
    "start_place": "大阪府 大阪市",
    "start_shop": "トヨタレンタリース大阪 なんばターミナル店",
    "tel": "06-6647-0100"
+  },
+  "34cefd49fdb04d00": {
+   "car": "ﾉｱ 車両番号3661",
+   "condition": "禁煙8人乗り ｽﾀｯﾄﾞﾚｽ付",
+   "ended": false,
+   "first_seen": "2026-11-23T12:00+09:00",
+   "notified": false,
+   "period": "2026年11月23日 ～ 11月25日",
+   "reserve_shop": "三条京阪北店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース愛知",
+   "start_area": "近畿",
+   "start_place": "京都府 京都市",
+   "start_shop": "トヨタレンタリース京都 三条京阪北店",
+   "tel": "075-762-0115"
   },
   "34d42415ee6fd689": {
    "car": "シエンタ 車両番号3909",
@@ -1079,6 +1124,21 @@
    "start_place": "福島県 福島市",
    "start_shop": "トヨタレンタリース福島 福島駅前店",
    "tel": "024-524-0100"
+  },
+  "6b1d3973ae8c4d65": {
+   "car": "シエンタHEV 車両番号9860",
+   "condition": "禁煙車 7人乗り",
+   "ended": false,
+   "first_seen": "2026-11-23T12:00+09:00",
+   "notified": false,
+   "period": "2026年11月23日 ～ 11月25日",
+   "reserve_shop": "日暮里駅前店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース愛知",
+   "start_area": "関東",
+   "start_place": "東京都 荒川区",
+   "start_shop": "トヨタモビリティサービス 日暮里駅前店",
+   "tel": "03-5604-0100"
   },
   "6b65160dcb461780": {
    "car": "ヤリス 車両番号 8365",
@@ -1875,6 +1935,21 @@
    "start_shop": "トヨタレンタリース宮城 卸町店",
    "tel": "022-237-0100"
   },
+  "bc938fee003128d1": {
+   "car": "シエンタHV 車両番号 6130",
+   "condition": "禁煙 7人乗り スタッドレスタイヤ・ジュニアシート付",
+   "ended": false,
+   "first_seen": "2026-11-23T12:00+09:00",
+   "notified": false,
+   "period": "2026年11月23日 ～ 11月25日",
+   "reserve_shop": "阿倍野駅前店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース名古屋",
+   "start_area": "近畿",
+   "start_place": "大阪府 大阪市",
+   "start_shop": "トヨタレンタリース大阪 阿倍野駅前店",
+   "tel": "06-6621-0100"
+  },
   "be2383986f6db661": {
    "car": "ｱﾙﾌｧｰﾄﾞ 登録番号5641",
    "condition": "禁煙 8人乗り",
@@ -2204,6 +2279,21 @@
    "start_place": "千葉県 成田市",
    "start_shop": "トヨタモビリティサービス 成田空港店",
    "tel": "0476-32-1020"
+  },
+  "db7dc56f648afd07": {
+   "car": "アクア 車両番号4597",
+   "condition": "禁煙車 5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-23T12:00+09:00",
+   "notified": false,
+   "period": "2026年11月23日 ～ 11月25日",
+   "reserve_shop": "泉佐野店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース愛知",
+   "start_area": "近畿",
+   "start_place": "大阪府 泉佐野市",
+   "start_shop": "トヨタレンタリース大阪 泉佐野店",
+   "tel": "072-464-6623"
   },
   "dbc83d523172dd8e": {
    "car": "ヤリス 車両番号 9028",
