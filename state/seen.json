@@ -468,9 +468,9 @@
   "39915015467b207f": {
    "car": "ヤリス 車両番号 1126",
    "condition": "禁煙・5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-23T14:30+09:00",
-   "notified": true,
+   "notified": false,
    "period": "2026年11月24日 ～ 11月26日",
    "reserve_shop": "品川高輪口店",
    "return_area": "近畿",
