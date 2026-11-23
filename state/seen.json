@@ -1383,9 +1383,9 @@
   "b13da51f5c134cc1": {
    "car": "ハリアーHV 車両番号 1744",
    "condition": "禁煙 ５人乗り",
-   "ended": true,
+   "ended": false,
    "first_seen": "2026-11-23T12:45+09:00",
-   "notified": false,
+   "notified": true,
    "period": "2026年11月23日 ～ 11月25日",
    "reserve_shop": "東京駅日本橋口店",
    "return_area": "近畿",
