@@ -165,21 +165,6 @@
    "start_shop": "トヨタモビリティサービス 船堀駅前店",
    "tel": "03-3804-4100"
   },
-  "1470b58576ad9bf1": {
-   "car": "グランドキャビン1685",
-   "condition": "禁煙・10名乗",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月21日 ～ 11月23日",
-   "reserve_shop": "吾妻橋店",
-   "return_area": "近畿",
-   "return_shop": "トヨタレンタリース大阪",
-   "start_area": "関東",
-   "start_place": "東京都 墨田区",
-   "start_shop": "トヨタモビリティサービス 吾妻橋店",
-   "tel": "03-3626-5300"
-  },
   "1648408fd864cf56": {
    "car": "プリウス 八戸300わ1840",
    "condition": "5人乗・禁煙車 スタッドレス",
