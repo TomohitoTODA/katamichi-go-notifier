@@ -333,7 +333,7 @@
   "212670d891511ff8": {
    "car": "ヤリス 車両番号 713",
    "condition": "禁煙車 ５人乗 ガソリン車 ノーマルタイヤ",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-23T09:00+09:00",
    "notified": false,
    "period": "2026年11月23日 ～ 11月25日",
