@@ -93,7 +93,7 @@
   "0a4308171c96f58b": {
    "car": "ノアHV 車両番号1895",
    "condition": "禁煙・8人乗り スタッド",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-23T15:35+09:00",
    "notified": false,
    "period": "2026年11月23日 ～ 11月25日",
