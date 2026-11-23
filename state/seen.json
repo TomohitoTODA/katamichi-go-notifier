@@ -120,6 +120,21 @@
    "start_shop": "トヨタモビリティサービス 吾妻橋店",
    "tel": "03-3626-5300"
   },
+  "1142fa32dae43f47": {
+   "car": "アルファードHV 車両番号0982",
+   "condition": "禁煙・8人乗り ノーマル",
+   "ended": false,
+   "first_seen": "2026-11-23T15:45+09:00",
+   "notified": false,
+   "period": "2026年11月23日 ～ 11月25日",
+   "reserve_shop": "総合予約室",
+   "return_area": "関東",
+   "return_shop": "トヨタモビリティサービス",
+   "start_area": "中部",
+   "start_place": "愛知県 常滑市",
+   "start_shop": "トヨタレンタリース愛知 中部国際空港店",
+   "tel": "0120-001-319"
+  },
   "12f95078aa1e8a90": {
    "car": "ヤリスＨＶ 車両番号7639",
    "condition": "禁煙・5人乗り スタッド",
@@ -303,7 +318,7 @@
   "26e6a7ace286aab5": {
    "car": "クラウンクロスオーバーＨＶ 車両番号8507",
    "condition": "禁煙・5人乗り ノーマル",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-23T15:40+09:00",
    "notified": false,
    "period": "2026年11月23日 ～ 11月25日",
@@ -359,6 +374,21 @@
    "start_place": "山形県 酒田市",
    "start_shop": "トヨタレンタリース山形 庄内空港店",
    "tel": "0234-92-4100"
+  },
+  "30637e44b2d68ee0": {
+   "car": "アルファードHV 車両番号2401",
+   "condition": "禁煙・8人乗り スタッド",
+   "ended": false,
+   "first_seen": "2026-11-23T15:45+09:00",
+   "notified": false,
+   "period": "2026年11月23日 ～ 11月25日",
+   "reserve_shop": "りんくうタウン駅前店",
+   "return_area": "関東",
+   "return_shop": "トヨタモビリティサービス",
+   "start_area": "近畿",
+   "start_place": "大阪府 泉佐野市",
+   "start_shop": "トヨタレンタリース新大阪 りんくうタウン駅前店",
+   "tel": "072-463-0100"
   },
   "347a4d76c4a03fb3": {
    "car": "プリウス 郡山300わ1382",
@@ -569,6 +599,21 @@
    "start_place": "福島県 いわき市",
    "start_shop": "トヨタレンタリース新福島 いわき駅前店",
    "tel": "0246-85-5539"
+  },
+  "46c1efb866004ec7": {
+   "car": "アルファードHV 車両番号4126",
+   "condition": "禁煙・8人乗り ノーマル",
+   "ended": false,
+   "first_seen": "2026-11-23T15:45+09:00",
+   "notified": false,
+   "period": "2026年11月23日 ～ 11月25日",
+   "reserve_shop": "新白河駅新幹線口店",
+   "return_area": "関東",
+   "return_shop": "トヨタモビリティサービス",
+   "start_area": "東北",
+   "start_place": "福島県 西白河郡西郷村",
+   "start_shop": "トヨタレンタリース新福島 新白河駅新幹線口店",
+   "tel": "0248-21-0100"
   },
   "4789fc02f63d5157": {
    "car": "ヤリスHV 宮城502わ4141",
@@ -1620,6 +1665,21 @@
    "start_shop": "トヨタレンタリース宮城 卸町店",
    "tel": "022-237-0100"
   },
+  "bc7c8a8a607390af": {
+   "car": "アルファードHV 車両番号3108",
+   "condition": "禁煙・8人乗り スタッド",
+   "ended": false,
+   "first_seen": "2026-11-23T15:45+09:00",
+   "notified": false,
+   "period": "2026年11月23日 ～ 11月25日",
+   "reserve_shop": "富士山静岡空港店",
+   "return_area": "関東",
+   "return_shop": "トヨタモビリティサービス",
+   "start_area": "中部",
+   "start_place": "静岡県 牧之原市",
+   "start_shop": "トヨタレンタリース静岡 富士山静岡空港店",
+   "tel": "0120-921695"
+  },
   "bc938fee003128d1": {
    "car": "シエンタHV 車両番号 6130",
    "condition": "禁煙 7人乗り スタッドレスタイヤ付",
@@ -1653,7 +1713,7 @@
   "c46d5a6c66349fd5": {
    "car": "ヤリスＨＶ 車両番号7627",
    "condition": "禁煙・5人乗り スタッド",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-23T15:40+09:00",
    "notified": false,
    "period": "2026年11月23日 ～ 11月25日",
