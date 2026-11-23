@@ -1383,9 +1383,9 @@
   "b13da51f5c134cc1": {
    "car": "ハリアーHV 車両番号 1744",
    "condition": "禁煙 ５人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-23T12:45+09:00",
-   "notified": true,
+   "notified": false,
    "period": "2026年11月23日 ～ 11月25日",
    "reserve_shop": "東京駅日本橋口店",
    "return_area": "近畿",
@@ -1608,9 +1608,9 @@
   "cf43753483fe411e": {
    "car": "ハリアーHV 車両番号 9118",
    "condition": "禁煙 ５人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-23T12:45+09:00",
-   "notified": true,
+   "notified": false,
    "period": "2026年11月23日 ～ 11月25日",
    "reserve_shop": "船堀駅前店",
    "return_area": "近畿",
