@@ -378,7 +378,7 @@
   "30637e44b2d68ee0": {
    "car": "アルファードHV 車両番号2401",
    "condition": "禁煙・8人乗り スタッド",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-23T15:45+09:00",
    "notified": false,
    "period": "2026年11月23日 ～ 11月25日",
