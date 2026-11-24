@@ -555,6 +555,21 @@
    "start_shop": "トヨタモビリティサービス 中野坂上店",
    "tel": "03-3379-7100"
   },
+  "4d32b00b5d5253d4": {
+   "car": "カローラツーリングHV 宮城300わ7978",
+   "condition": "禁煙 AT スタッドレス 4WD ナビ・ETC付き 5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-25T08:55+09:00",
+   "notified": false,
+   "period": "2026年11月25日 ～ 11月28日",
+   "reserve_shop": "本社 レンタル課（営業時間 9:00-18:00）",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース宮城",
+   "start_area": "東北",
+   "start_place": "岩手県 一関市",
+   "start_shop": "トヨタレンタリース岩手 一ノ関駅西口店",
+   "tel": "019-606-3076"
+  },
   "4df17ea90dc309cb": {
    "car": "シエンタHV 八戸500わ9148",
    "condition": "禁煙 AT 4WD 冬タイヤ ETC車載器 バックモニター Bluetooth ドライブレコーダー",
