@@ -663,7 +663,7 @@
   "49a20ffb162dac14": {
    "car": "アルファードHV 車両番号0987",
    "condition": "禁煙・8人乗り ノーマル",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-24T15:10+09:00",
    "notified": false,
    "period": "2026年11月24日 ～ 11月26日",
