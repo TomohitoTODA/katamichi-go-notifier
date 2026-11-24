@@ -45,6 +45,21 @@
    "start_shop": "トヨタレンタリース宮城 仙台駅西口店",
    "tel": "022-213-0100"
   },
+  "05a6692b67f198cb": {
+   "car": "ルーミー 山形500わ9346",
+   "condition": "A/T・4WD・禁煙・ナビ付・ETC付・ｽﾀｯﾄﾞﾚｽ",
+   "ended": false,
+   "first_seen": "2026-11-24T10:20+09:00",
+   "notified": false,
+   "period": "2026年11月24日 ～ 11月26日",
+   "reserve_shop": "郡山駅新幹線口店",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース山形",
+   "start_area": "東北",
+   "start_place": "福島県 郡山市",
+   "start_shop": "トヨタレンタリース福島 郡山駅新幹線口店",
+   "tel": "024-939-0100"
+  },
   "072d10e067f1c489": {
    "car": "パッソ 車両番号787",
    "condition": "禁煙・5人乗り",
