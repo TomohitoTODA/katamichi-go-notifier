@@ -1893,7 +1893,7 @@
   "c6fc6f1dbca098e5": {
    "car": "ヤリス 車両番号1817",
    "condition": "禁煙 5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-24T14:00+09:00",
    "notified": false,
    "period": "2026年11月24日 ～ 11月26日",
