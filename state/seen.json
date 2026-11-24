@@ -138,7 +138,7 @@
   "0ab81b93a084514e": {
    "car": "カローラ 車両番号9396",
    "condition": "禁煙車 5人乗り",
-   "ended": true,
+   "ended": false,
    "first_seen": "2026-11-23T12:00+09:00",
    "notified": false,
    "period": "2026年11月23日 ～ 11月25日",
@@ -2163,9 +2163,9 @@
   "fec7ddcee1fd280d": {
    "car": "アルファード 車輛番号 8531",
    "condition": "禁煙 8人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-24T12:50+09:00",
-   "notified": true,
+   "notified": false,
    "period": "2026年11月24日 ～ 11月26日",
    "reserve_shop": "錦糸町店",
    "return_area": "近畿",
