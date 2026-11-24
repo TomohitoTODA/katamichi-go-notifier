@@ -513,7 +513,7 @@
   "3b7fd2af14f910b9": {
    "car": "ヤリス 車両番号 7497",
    "condition": "禁煙 5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-23T14:30+09:00",
    "notified": false,
    "period": "2026年11月23日 ～ 11月25日",
@@ -644,6 +644,21 @@
    "start_place": "山形県 新庄市",
    "start_shop": "トヨタレンタリース山形 新庄駅前店",
    "tel": "0233-23-0100"
+  },
+  "4cba5e99a9c36af2": {
+   "car": "ハリアー 車輛番号 3311",
+   "condition": "禁煙 5人乗り",
+   "ended": true,
+   "first_seen": "2026-11-24T12:45+09:00",
+   "notified": false,
+   "period": "2026年11月24日 ～ 11月26日",
+   "reserve_shop": "中野坂上店",
+   "return_area": "近畿",
+   "return_shop": "トヨタレンタリース京都",
+   "start_area": "関東",
+   "start_place": "東京都 中野区",
+   "start_shop": "トヨタモビリティサービス 中野坂上店",
+   "tel": "03-3379-7100"
   },
   "4df17ea90dc309cb": {
    "car": "シエンタHV 八戸500わ9148",
@@ -1545,6 +1560,21 @@
    "start_shop": "トヨタレンタリース青森 五所川原店",
    "tel": "017-782-7298"
   },
+  "aba01a809983755e": {
+   "car": "ヤリス 車輛番号 6443",
+   "condition": "禁煙 5人乗り スタッドレスタイヤ",
+   "ended": false,
+   "first_seen": "2026-11-24T12:45+09:00",
+   "notified": true,
+   "period": "2026年11月24日 ～ 11月26日",
+   "reserve_shop": "浅草橋店",
+   "return_area": "近畿",
+   "return_shop": "トヨタレンタリース京都",
+   "start_area": "関東",
+   "start_place": "東京都 台東区",
+   "start_shop": "トヨタモビリティサービス 浅草橋店",
+   "tel": "03-5821-6324"
+  },
   "ae0c8d17df745948": {
    "car": "ヤリスＨＶ 車両番号7669",
    "condition": "禁煙・5人乗り スタッド",
@@ -1638,9 +1668,9 @@
   "b5ef6ad2db3e5068": {
    "car": "RAV4HV 車輛番号 2218",
    "condition": "禁煙 5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-24T12:40+09:00",
-   "notified": true,
+   "notified": false,
    "period": "2026年11月24日 ～ 11月26日",
    "reserve_shop": "中野坂上店",
    "return_area": "近畿",
@@ -1979,6 +2009,21 @@
    "start_place": "宮城県 仙台市",
    "start_shop": "トヨタレンタリース宮城 卸町店",
    "tel": "022-237-0100"
+  },
+  "e9c84b495e6be8dd": {
+   "car": "アルファードHEV 車輛番号 2087",
+   "condition": "禁煙 8人乗り",
+   "ended": false,
+   "first_seen": "2026-11-24T12:45+09:00",
+   "notified": true,
+   "period": "2026年11月24日 ～ 11月26日",
+   "reserve_shop": "東京駅日本橋口店",
+   "return_area": "近畿",
+   "return_shop": "トヨタレンタリース京都",
+   "start_area": "関東",
+   "start_place": "東京都 千代田区",
+   "start_shop": "トヨタモビリティサービス 東京駅日本橋口店",
+   "tel": "03-5220-2220"
   },
   "eacc6b7f919e1d1b": {
    "car": "カローラ 庄内300わ0505",
