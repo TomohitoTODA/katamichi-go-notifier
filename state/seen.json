@@ -723,7 +723,7 @@
   "529d4e559a8fdc0b": {
    "car": "アルファードHEV 車両番号 8085",
    "condition": "禁煙車 ８人乗 ハイブリッド ノーマルタイヤ",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-24T08:55+09:00",
    "notified": false,
    "period": "2026年11月24日 ～ 11月26日",
