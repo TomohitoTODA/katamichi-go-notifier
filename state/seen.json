@@ -405,6 +405,21 @@
    "start_shop": "トヨタレンタリース大阪 新大阪駅前店",
    "tel": "06-6397-1000"
   },
+  "27292b08b867a82b": {
+   "car": "アクア 車両番号456",
+   "condition": "禁煙・AT・ナビ・ETC車載器・５人乗り・スタッドレス",
+   "ended": true,
+   "first_seen": "2026-11-24T19:30+09:00",
+   "notified": false,
+   "period": "2026年11月27日 ～ 11月29日",
+   "reserve_shop": "仙台新幹線口店",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース新福島",
+   "start_area": "東北",
+   "start_place": "宮城県 仙台市",
+   "start_shop": "トヨタレンタリース仙台 仙台新幹線口店",
+   "tel": "022-291-0100"
+  },
   "2c69a0c931c84289": {
    "car": "アルファードHV 車両番号2448",
    "condition": "禁煙・8人乗り スタッド",
@@ -779,21 +794,6 @@
    "start_place": "東京都 中央区",
    "start_shop": "トヨタモビリティサービス 八丁堀店",
    "tel": "03-3555-8100"
-  },
-  "5461ea0a5dfcdf91": {
-   "car": "アクア 車両番号456",
-   "condition": "禁煙・AT・ナビ・ETC車載器・５人乗り・スタッドレス",
-   "ended": true,
-   "first_seen": "2026-11-24T18:30+09:00",
-   "notified": false,
-   "period": "2026年11月25日 ～ 11月27日",
-   "reserve_shop": "仙台新幹線口店",
-   "return_area": "東北",
-   "return_shop": "トヨタレンタリース新福島",
-   "start_area": "東北",
-   "start_place": "宮城県 仙台市",
-   "start_shop": "トヨタレンタリース仙台 仙台新幹線口店",
-   "tel": "022-291-0100"
   },
   "557119dffaa357b8": {
    "car": "ヤリスHV 車両番号6091",
