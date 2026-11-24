@@ -210,6 +210,21 @@
    "start_shop": "トヨタレンタリース山形 天童駅前店",
    "tel": "023-653-0100"
   },
+  "19f5b11b49520315": {
+   "car": "アクア 車輛番号 7057",
+   "condition": "禁煙 5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-24T12:40+09:00",
+   "notified": false,
+   "period": "2026年11月24日 ～ 11月26日",
+   "reserve_shop": "総合予約室",
+   "return_area": "近畿",
+   "return_shop": "トヨタレンタリース京都",
+   "start_area": "中部",
+   "start_place": "愛知県 名古屋市",
+   "start_shop": "トヨタレンタリース愛知 ささしまライブ東口店",
+   "tel": "0120-001-319"
+  },
   "1cbe4e98eb0241e7": {
    "car": "カローラツーリングHV 宮城300わ7983",
    "condition": "禁煙 AT スタッドレス 2WD ナビ・ETC付き 5人乗り",
@@ -1619,6 +1634,21 @@
    "start_place": "福島県 郡山市",
    "start_shop": "トヨタレンタリース福島 郡山駅新幹線口店",
    "tel": "024-939-0100"
+  },
+  "b5ef6ad2db3e5068": {
+   "car": "RAV4HV 車輛番号 2218",
+   "condition": "禁煙 5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-24T12:40+09:00",
+   "notified": true,
+   "period": "2026年11月24日 ～ 11月26日",
+   "reserve_shop": "中野坂上店",
+   "return_area": "近畿",
+   "return_shop": "トヨタレンタリース京都",
+   "start_area": "関東",
+   "start_place": "東京都 中野区",
+   "start_shop": "トヨタモビリティサービス 中野坂上店",
+   "tel": "03-3379-7100"
   },
   "b9b9b61b09b81675": {
    "car": "カローラツーリング 車両番号3198",
