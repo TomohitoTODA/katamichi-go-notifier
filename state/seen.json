@@ -2130,6 +2130,21 @@
    "start_shop": "トヨタレンタリース山形 庄内空港店",
    "tel": "0234-92-4100"
   },
+  "f58ab5b3d3e2a5ee": {
+   "car": "カローラツーリング 車両番号 4233",
+   "condition": "禁煙 5人乗り スタッドレスタイヤ付",
+   "ended": false,
+   "first_seen": "2026-11-24T13:30+09:00",
+   "notified": false,
+   "period": "2026年11月24日 ～ 11月26日",
+   "reserve_shop": "吾妻橋店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース名古屋",
+   "start_area": "関東",
+   "start_place": "東京都 墨田区",
+   "start_shop": "トヨタモビリティサービス 吾妻橋店",
+   "tel": "03-3626-5300"
+  },
   "f94ad3948dae13de": {
    "car": "ルーミー 車両番号3539",
    "condition": "禁煙 ５人乗り",
