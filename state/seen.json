@@ -258,7 +258,7 @@
   "2320234bdad14805": {
    "car": "シエンタHEV 青森501わ3794",
    "condition": "7人乗・禁煙車 スタッドレス",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-23T17:45+09:00",
    "notified": false,
    "period": "2026年11月23日 ～ 11月30日",
