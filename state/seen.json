@@ -195,21 +195,6 @@
    "start_shop": "トヨタレンタリース京都 堀川店",
    "tel": "075-813-8200"
   },
-  "144b51adadbdd7f8": {
-   "car": "プリウス 車両番号3456",
-   "condition": "禁煙 5人乗り",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月21日 ～ 11月23日",
-   "reserve_shop": "船堀駅前店",
-   "return_area": "中部",
-   "return_shop": "トヨタレンタリース静岡",
-   "start_area": "関東",
-   "start_place": "東京都 江戸川区",
-   "start_shop": "トヨタモビリティサービス 船堀駅前店",
-   "tel": "03-3804-4100"
-  },
   "1648408fd864cf56": {
    "car": "プリウス 八戸300わ1840",
    "condition": "5人乗・禁煙車 スタッドレス",
@@ -224,21 +209,6 @@
    "start_place": "山形県 天童市",
    "start_shop": "トヨタレンタリース山形 天童駅前店",
    "tel": "023-653-0100"
-  },
-  "1916231659269486": {
-   "car": "カローラクロスHV 宮城300わ7730",
-   "condition": "禁煙 スタッドレス 4WD AT ナビ・ETC付き 5人乗り",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月20日 ～ 11月23日",
-   "reserve_shop": "本社 レンタル課（営業時間 9:00-18:00）",
-   "return_area": "東北",
-   "return_shop": "トヨタレンタリース宮城",
-   "start_area": "東北",
-   "start_place": "岩手県 花巻市",
-   "start_shop": "トヨタレンタリース岩手 新花巻駅西口店",
-   "tel": "019-606-3076"
   },
   "1cbe4e98eb0241e7": {
    "car": "カローラツーリングHV 宮城300わ7983",
@@ -435,21 +405,6 @@
    "start_shop": "トヨタレンタリース大阪 新大阪駅前店",
    "tel": "06-6397-1000"
   },
-  "2761cffd360194df": {
-   "car": "ヤリス 宮城502わ8854",
-   "condition": "禁煙 スタッドレス 2WD AT ナビ・ETC付き 5人乗り",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月20日 ～ 11月23日",
-   "reserve_shop": "山形駅前店",
-   "return_area": "東北",
-   "return_shop": "トヨタレンタリース宮城",
-   "start_area": "東北",
-   "start_place": "山形県 山形市",
-   "start_shop": "トヨタレンタリース山形 山形駅前店",
-   "tel": "023-625-0100"
-  },
   "2c69a0c931c84289": {
    "car": "アルファードHV 車両番号2448",
    "condition": "禁煙・8人乗り スタッド",
@@ -480,21 +435,6 @@
    "start_shop": "トヨタレンタリース福島 福島駅前店",
    "tel": "024-524-0100"
   },
-  "2f6e890897ee67e2": {
-   "car": "ルーミー 福島501わ3793",
-   "condition": "ＡＴ 禁煙 ＥＴＣ車載機",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月21日 ～ 11月23日",
-   "reserve_shop": "庄内空港店",
-   "return_area": "東北",
-   "return_shop": "トヨタレンタリース新福島",
-   "start_area": "東北",
-   "start_place": "山形県 酒田市",
-   "start_shop": "トヨタレンタリース山形 庄内空港店",
-   "tel": "0234-92-4100"
-  },
   "30637e44b2d68ee0": {
    "car": "アルファードHV 車両番号2401",
    "condition": "禁煙・8人乗り スタッド",
@@ -509,51 +449,6 @@
    "start_place": "大阪府 泉佐野市",
    "start_shop": "トヨタレンタリース新大阪 りんくうタウン駅前店",
    "tel": "072-463-0100"
-  },
-  "347a4d76c4a03fb3": {
-   "car": "プリウス 郡山300わ1382",
-   "condition": "ＡＴ 禁煙 ナビ ＥＴＣ スタッドレスタイヤ",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月21日 ～ 11月23日",
-   "reserve_shop": "仙台新幹線口店",
-   "return_area": "東北",
-   "return_shop": "トヨタレンタリース新福島",
-   "start_area": "東北",
-   "start_place": "宮城県 仙台市",
-   "start_shop": "トヨタレンタリース仙台 仙台新幹線口店",
-   "tel": "022-291-0100"
-  },
-  "34d42415ee6fd689": {
-   "car": "シエンタ 車両番号3909",
-   "condition": "禁煙 7人乗り",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月21日 ～ 11月23日",
-   "reserve_shop": "東京駅日本橋口店",
-   "return_area": "近畿",
-   "return_shop": "トヨタレンタリース京都",
-   "start_area": "関東",
-   "start_place": "東京都 千代田区",
-   "start_shop": "トヨタモビリティサービス 東京駅日本橋口店",
-   "tel": "03-5220-2220"
-  },
-  "35514e4b1c96d25b": {
-   "car": "ヤリス 車両番号3901",
-   "condition": "ｽﾀｯﾄﾞﾚｽ/2WD/禁煙/5人乗り/ﾅﾋﾞ･ETC付",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月22日 ～ 11月23日",
-   "reserve_shop": "仙台新幹線口店",
-   "return_area": "東北",
-   "return_shop": "トヨタレンタリース岩手",
-   "start_area": "東北",
-   "start_place": "宮城県 仙台市",
-   "start_shop": "トヨタレンタリース仙台 仙台新幹線口店",
-   "tel": "022-291-0100"
   },
   "36aef4447c48dcde": {
    "car": "シエンタＨＶ 車両番号8797",
@@ -614,21 +509,6 @@
    "start_place": "東京都 荒川区",
    "start_shop": "トヨタモビリティサービス 日暮里駅前店",
    "tel": "03-5604-0100"
-  },
-  "3bfe046a351b5c06": {
-   "car": "ヤリス 仙台502わ2305",
-   "condition": "禁煙 スタッドレス 2WD AT ナビ・ETC付き 5人乗り",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月20日 ～ 11月23日",
-   "reserve_shop": "郡山駅東口店",
-   "return_area": "東北",
-   "return_shop": "トヨタレンタリース宮城",
-   "start_area": "東北",
-   "start_place": "福島県 郡山市",
-   "start_shop": "トヨタレンタリース新福島 郡山駅東口店",
-   "tel": "024-942-0100"
   },
   "3e6a6806e9a257cc": {
    "car": "プロボックス 八戸400わ3194",
@@ -720,21 +600,6 @@
    "start_shop": "トヨタレンタリース新福島 新白河駅新幹線口店",
    "tel": "0248-21-0100"
   },
-  "4789fc02f63d5157": {
-   "car": "ヤリスHV 宮城502わ4141",
-   "condition": "禁煙 スタッドレス 2WD AT ナビ・ETC付き 5人乗り",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月20日 ～ 11月23日",
-   "reserve_shop": "本社 レンタル課（営業時間 9:00-18:00）",
-   "return_area": "東北",
-   "return_shop": "トヨタレンタリース宮城",
-   "start_area": "東北",
-   "start_place": "岩手県 一関市",
-   "start_shop": "トヨタレンタリース岩手 一ノ関駅西口店",
-   "tel": "019-606-3076"
-  },
   "48fa1cc0cccd51f6": {
    "car": "ヤリス 宮城502わ8823",
    "condition": "禁煙 AT スタッドレス 2WD ナビ・ETC付き 5人乗り",
@@ -764,21 +629,6 @@
    "start_place": "山形県 新庄市",
    "start_shop": "トヨタレンタリース山形 新庄駅前店",
    "tel": "0233-23-0100"
-  },
-  "4a8f34a682b24b14": {
-   "car": "ヤリス 車両番号 984",
-   "condition": "禁煙車 ５人乗 ガソリン車 ノーマルタイヤ",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月21日 ～ 11月23日",
-   "reserve_shop": "海老名駅前店",
-   "return_area": "関東",
-   "return_shop": "トヨタS＆Dレンタシェア西東京",
-   "start_area": "関東",
-   "start_place": "神奈川県 海老名市",
-   "start_shop": "トヨタレンタリース神奈川 海老名駅前店",
-   "tel": "046-235-5131"
   },
   "4df17ea90dc309cb": {
    "car": "シエンタHV 八戸500わ9148",
@@ -975,21 +825,6 @@
    "start_shop": "トヨタレンタリース愛知 ささしまライブ東口店",
    "tel": "0120-001-319"
   },
-  "5b8393c03a1f2ea4": {
-   "car": "RAV4 車両番号1265",
-   "condition": "ｽﾀｯﾄﾞﾚｽ/4WD/禁煙/5人乗り/ﾅﾋﾞ･ETC付",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月21日 ～ 11月23日",
-   "reserve_shop": "仙台駅西口店",
-   "return_area": "東北",
-   "return_shop": "トヨタレンタリース岩手",
-   "start_area": "東北",
-   "start_place": "宮城県 仙台市",
-   "start_shop": "トヨタレンタリース宮城 仙台駅西口店",
-   "tel": "022-213-0100"
-  },
   "5b986309327a002e": {
    "car": "ヤリスＨＶ 八戸501わ213",
    "condition": "5人乗・禁煙・スタッドレス装着",
@@ -1004,21 +839,6 @@
    "start_place": "宮城県 仙台市",
    "start_shop": "トヨタレンタリース宮城 仙台駅東口店",
    "tel": "022-293-0100"
-  },
-  "5c4faa54205e3375": {
-   "car": "ヤリス 白河500わ0970",
-   "condition": "禁煙 AT ナビ・ETC付き 5人乗り",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月21日 ～ 11月23日",
-   "reserve_shop": "仙台新幹線口店",
-   "return_area": "東北",
-   "return_shop": "トヨタレンタリース新福島",
-   "start_area": "東北",
-   "start_place": "宮城県 仙台市",
-   "start_shop": "トヨタレンタリース仙台 仙台新幹線口店",
-   "tel": "022-291-0100"
   },
   "5d480f6081ab64cb": {
    "car": "シエンタHV 車両番号0492",
@@ -1049,21 +869,6 @@
    "start_place": "大阪府 泉佐野市",
    "start_shop": "トヨタレンタリース新大阪 りんくうタウン駅前店",
    "tel": "072-463-0100"
-  },
-  "609b3be2667bcdb7": {
-   "car": "アクア いわき500わ4222",
-   "condition": "禁煙 AT スタッドレス ETC ナビ",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月22日 ～ 11月23日",
-   "reserve_shop": "仙台新幹線口店",
-   "return_area": "東北",
-   "return_shop": "トヨタレンタリース福島",
-   "start_area": "東北",
-   "start_place": "宮城県 仙台市",
-   "start_shop": "トヨタレンタリース仙台 仙台新幹線口店",
-   "tel": "022-291-0100"
   },
   "60b73a42c6b89b69": {
    "car": "ヤリス 車両番号3759",
@@ -1109,21 +914,6 @@
    "start_place": "福島県 会津若松市",
    "start_shop": "トヨタレンタリース新福島 会津若松駅店",
    "tel": "0242-32-0100"
-  },
-  "6450836f276d1f70": {
-   "car": "ヤリス 仙台502わ1902",
-   "condition": "5人乗り/AT/禁煙車/4WD/ｽﾀｯﾄﾞﾚｽ/ETC車載器･ﾅﾋﾞ付き",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月21日 ～ 11月23日",
-   "reserve_shop": "福島駅前店",
-   "return_area": "東北",
-   "return_shop": "トヨタレンタリース仙台",
-   "start_area": "東北",
-   "start_place": "福島県 福島市",
-   "start_shop": "トヨタレンタリース福島 福島駅前店",
-   "tel": "024-524-0100"
   },
   "675c301af0073cfd": {
    "car": "プリウス 宮城300わ6761",
@@ -1395,21 +1185,6 @@
    "start_shop": "トヨタレンタリース愛知 中部国際空港店",
    "tel": "0120-001-319"
   },
-  "7f8dcd352b52e9e9": {
-   "car": "アクア 車両番号 8281",
-   "condition": "禁煙 5人乗り ノーマルタイヤ",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月21日 ～ 11月23日",
-   "reserve_shop": "町田店",
-   "return_area": "関東",
-   "return_shop": "トヨタレンタリース神奈川",
-   "start_area": "関東",
-   "start_place": "東京都 町田市",
-   "start_shop": "トヨタS＆Dレンタシェア西東京 町田店",
-   "tel": "042-725-0140"
-  },
   "82080bbd8fb4f344": {
    "car": "プロボックスバン 車両番号山形400わ3777",
    "condition": "A/T 4WD 禁煙車 ナビ付 ETC付 スタッドレス",
@@ -1455,36 +1230,6 @@
    "start_shop": "トヨタレンタリース宮城 卸町店",
    "tel": "022-237-0100"
   },
-  "864880779990db0f": {
-   "car": "ヤリス 車両番号3464",
-   "condition": "ｽﾀｯﾄﾞﾚｽ/2WD/禁煙/5人乗り/ﾅﾋﾞ･ETC付",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月21日 ～ 11月23日",
-   "reserve_shop": "郡山駅新幹線口店",
-   "return_area": "東北",
-   "return_shop": "トヨタレンタリース岩手",
-   "start_area": "東北",
-   "start_place": "福島県 郡山市",
-   "start_shop": "トヨタレンタリース福島 郡山駅新幹線口店",
-   "tel": "024-939-0100"
-  },
-  "870eca3f1348d14f": {
-   "car": "アルファード 車両番号7918",
-   "condition": "禁煙・8人乗り（スタッドレスタイヤ付き）",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月21日 ～ 11月23日",
-   "reserve_shop": "総合予約室",
-   "return_area": "関東",
-   "return_shop": "トヨタモビリティサービス",
-   "start_area": "中部",
-   "start_place": "愛知県 常滑市",
-   "start_shop": "トヨタレンタリース愛知 中部国際空港店",
-   "tel": "0120-001-319"
-  },
   "91fa54139d19851e": {
    "car": "ヤリス 車両番号5830",
    "condition": "禁煙 5人乗り",
@@ -1499,21 +1244,6 @@
    "start_place": "東京都 豊島区",
    "start_shop": "トヨタモビリティサービス 池袋東口店",
    "tel": "03-3987-2906"
-  },
-  "9311058940cdc15f": {
-   "car": "ヤリス 仙台501わ9714",
-   "condition": "禁煙 スタッドレス 2WD AT ナビ・ETC付き 5人乗り",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月20日 ～ 11月23日",
-   "reserve_shop": "福島駅前店",
-   "return_area": "東北",
-   "return_shop": "トヨタレンタリース宮城",
-   "start_area": "東北",
-   "start_place": "福島県 福島市",
-   "start_shop": "トヨタレンタリース福島 福島駅前店",
-   "tel": "024-524-0100"
   },
   "9335d866a16ef965": {
    "car": "ハリアーHV 車両番号 3193",
@@ -1620,21 +1350,6 @@
    "start_shop": "トヨタレンタリース神奈川 小田原駅新幹線口店",
    "tel": "045-620-0500"
   },
-  "997bd3205a6f6455": {
-   "car": "ヤリス 仙台502わ3514",
-   "condition": "5人乗り/AT/禁煙車/4WD/ｽﾀｯﾄﾞﾚｽ/ETC車載器･ﾅﾋﾞ付き",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月21日 ～ 11月23日",
-   "reserve_shop": "郡山駅新幹線口店",
-   "return_area": "東北",
-   "return_shop": "トヨタレンタリース仙台",
-   "start_area": "東北",
-   "start_place": "福島県 郡山市",
-   "start_shop": "トヨタレンタリース福島 郡山駅新幹線口店",
-   "tel": "024-939-0100"
-  },
   "99dfcb1b641b989f": {
    "car": "プリウス 車両番号 8960",
    "condition": "禁煙 5人乗り",
@@ -1664,21 +1379,6 @@
    "start_place": "大阪府 箕面市",
    "start_shop": "トヨタレンタリース大阪 箕面店",
    "tel": "072-730-0200"
-  },
-  "9c0aac9d2fe9e8fb": {
-   "car": "ノア 車両番号4584",
-   "condition": "禁煙・8人乗り",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月21日 ～ 11月23日",
-   "reserve_shop": "なんばターミナル店",
-   "return_area": "関東",
-   "return_shop": "トヨタモビリティサービス",
-   "start_area": "近畿",
-   "start_place": "大阪府 大阪市",
-   "start_shop": "トヨタレンタリース大阪 なんばターミナル店",
-   "tel": "06-6647-0100"
   },
   "9cce6045d5c64ea0": {
    "car": "ノア 車両番号1386",
@@ -1740,21 +1440,6 @@
    "start_shop": "トヨタレンタリース岩手 一ノ関駅西口店",
    "tel": "019-606-3076"
   },
-  "a5d457dbd3018bf7": {
-   "car": "カローラツーリング 仙台300わ6283",
-   "condition": "禁煙 AT スタッドレス 2WD ナビ・ETC付き 5人乗り",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月21日 ～ 11月23日",
-   "reserve_shop": "錦糸町店",
-   "return_area": "東北",
-   "return_shop": "トヨタレンタリース宮城",
-   "start_area": "関東",
-   "start_place": "東京都 墨田区",
-   "start_shop": "トヨタモビリティサービス 錦糸町店",
-   "tel": "03-3635-0100"
-  },
   "a727e449fd79a4ed": {
    "car": "ヤリスクロス 車両番号1355",
    "condition": "禁煙・5人乗り スタッド",
@@ -1815,21 +1500,6 @@
    "start_shop": "トヨタレンタリース神奈川 小田原駅新幹線口店",
    "tel": "045-620-0500"
   },
-  "aa369084d9559297": {
-   "car": "カローラHV 車両番号 郡山300わ1776",
-   "condition": "禁煙 AT ナビ・ETC付き 5人乗り",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月22日 ～ 11月23日",
-   "reserve_shop": "本社 レンタル課（営業時間 9:00-18:00）",
-   "return_area": "東北",
-   "return_shop": "トヨタレンタリース福島",
-   "start_area": "東北",
-   "start_place": "岩手県 盛岡市",
-   "start_shop": "トヨタレンタリース岩手 盛岡駅南口店",
-   "tel": "019-606-3076"
-  },
   "aaa99b1a77e101af": {
    "car": "ヤリス 白河500わ357",
    "condition": "禁煙 AT ナビ ETC車載器 ｽﾀｯﾄﾞﾚｽ",
@@ -1859,36 +1529,6 @@
    "start_place": "青森県 五所川原市",
    "start_shop": "トヨタレンタリース青森 五所川原店",
    "tel": "017-782-7298"
-  },
-  "abd5f6e1667ed2eb": {
-   "car": "シエンタ 車両番号 8117",
-   "condition": "7人乗り 禁煙車（ﾉｰﾏﾙﾀｲﾔ）",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月19日 ～ 11月23日",
-   "reserve_shop": "なんばターミナル店",
-   "return_area": "関東",
-   "return_shop": "トヨタレンタリース神奈川",
-   "start_area": "近畿",
-   "start_place": "大阪府 大阪市",
-   "start_shop": "トヨタレンタリース大阪 なんばターミナル店",
-   "tel": "06-6647-0100"
-  },
-  "ac61bb50ff302641": {
-   "car": "アクア 車両番号4251",
-   "condition": "ｽﾀｯﾄﾞﾚｽ/2WD/禁煙/5人乗り/ﾅﾋﾞ･ETC付",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月21日 ～ 11月23日",
-   "reserve_shop": "福島駅新幹線口店",
-   "return_area": "東北",
-   "return_shop": "トヨタレンタリース岩手",
-   "start_area": "東北",
-   "start_place": "福島県 福島市",
-   "start_shop": "トヨタレンタリース新福島 福島駅新幹線口店",
-   "tel": "024-531-0100"
   },
   "ae0c8d17df745948": {
    "car": "ヤリスＨＶ 車両番号7669",
@@ -1964,21 +1604,6 @@
    "start_place": "東京都 江戸川区",
    "start_shop": "トヨタモビリティサービス 船堀駅前店",
    "tel": "03-3804-4100"
-  },
-  "b3e5f283793e9b44": {
-   "car": "ヤリス 白河500わ504",
-   "condition": "禁煙車 5人乗り スタッドレス ナビ",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月20日 ～ 11月23日",
-   "reserve_shop": "仙台駅東口店",
-   "return_area": "東北",
-   "return_shop": "トヨタレンタリース新福島",
-   "start_area": "東北",
-   "start_place": "宮城県 仙台市",
-   "start_shop": "トヨタレンタリース宮城 仙台駅東口店",
-   "tel": "022-293-0100"
   },
   "b5046bebdf7b4bbf": {
    "car": "ヤリス 青森501わ4383",
@@ -2070,21 +1695,6 @@
    "start_shop": "トヨタレンタリース山形 山形空港店",
    "tel": "0237-47-0100"
   },
-  "be64c9d4778a9d21": {
-   "car": "カムリ 車両番号8290",
-   "condition": "禁煙 5人乗り",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月21日 ～ 11月23日",
-   "reserve_shop": "品川高輪口店",
-   "return_area": "近畿",
-   "return_shop": "トヨタレンタリース京都",
-   "start_area": "関東",
-   "start_place": "東京都 港区",
-   "start_shop": "トヨタモビリティサービス 品川高輪口店",
-   "tel": "03-3473-5021"
-  },
   "c46d5a6c66349fd5": {
    "car": "ヤリスＨＶ 車両番号7627",
    "condition": "禁煙・5人乗り スタッド",
@@ -2115,21 +1725,6 @@
    "start_shop": "トヨタレンタリース宮城 仙台空港店",
    "tel": "0223-22-0100"
   },
-  "c7bbf2e30de5f40e": {
-   "car": "ヤリス 郡山500わ4418",
-   "condition": "ＡＴ 禁煙 ナビ ＥＴＣ スタッドレスタイヤ",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月21日 ～ 11月23日",
-   "reserve_shop": "仙台新幹線口店",
-   "return_area": "東北",
-   "return_shop": "トヨタレンタリース新福島",
-   "start_area": "東北",
-   "start_place": "宮城県 仙台市",
-   "start_shop": "トヨタレンタリース仙台 仙台新幹線口店",
-   "tel": "022-291-0100"
-  },
   "c9da720b071bebc2": {
    "car": "カローラツーリング 車両番号 5392",
    "condition": "禁煙 5人乗り ノーマルタイヤ",
@@ -2159,21 +1754,6 @@
    "start_place": "岩手県 盛岡市",
    "start_shop": "トヨタレンタリース岩手 盛岡駅南口店",
    "tel": "019-606-3076"
-  },
-  "ca2f3fe0606ba9ad": {
-   "car": "ヤリス 福島501わ5118",
-   "condition": "ＡＴ・禁煙・ＥＴＣ車載器・5人乗り",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月21日 ～ 11月23日",
-   "reserve_shop": "仙台駅東口店",
-   "return_area": "東北",
-   "return_shop": "トヨタレンタリース福島",
-   "start_area": "東北",
-   "start_place": "宮城県 仙台市",
-   "start_shop": "トヨタレンタリース宮城 仙台駅東口店",
-   "tel": "022-293-0100"
   },
   "cc1857677142b309": {
    "car": "ノア 登録番号2941",
@@ -2220,21 +1800,6 @@
    "start_shop": "トヨタレンタリース新福島 会津若松駅店",
    "tel": "0242-32-0100"
   },
-  "ce5c64105ad4b980": {
-   "car": "シエンタHEV 車両番号3930",
-   "condition": "禁煙 7人乗り",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月21日 ～ 11月23日",
-   "reserve_shop": "武蔵境店",
-   "return_area": "中部",
-   "return_shop": "トヨタレンタリース静岡",
-   "start_area": "関東",
-   "start_place": "東京都 武蔵野市",
-   "start_shop": "トヨタS＆Dレンタシェア西東京 武蔵境店",
-   "tel": "0422-55-0100"
-  },
   "cf43753483fe411e": {
    "car": "ハリアーHV 車両番号 9118",
    "condition": "禁煙 ５人乗り",
@@ -2249,21 +1814,6 @@
    "start_place": "東京都 江戸川区",
    "start_shop": "トヨタモビリティサービス 船堀駅前店",
    "tel": "03-3804-4100"
-  },
-  "d6d2d9698042be1d": {
-   "car": "カローラツーリング 車両番号 879",
-   "condition": "禁煙車 ５人乗 ガソリン車 スタッドレス",
-   "ended": true,
-   "first_seen": "2026-11-22 07:45",
-   "notified": false,
-   "period": "2026年11月22日 ～ 11月23日",
-   "reserve_shop": "三島新幹線口店",
-   "return_area": "関東",
-   "return_shop": "トヨタS＆Dレンタシェア西東京",
-   "start_area": "中部",
-   "start_place": "静岡県 三島市",
-   "start_shop": "トヨタレンタリース静岡 三島新幹線口店",
-   "tel": "0120-926-327"
   },
   "d6e8380cbd5e1b21": {
    "car": "プリウス 白河300わ178",
@@ -2310,21 +1860,6 @@
    "start_shop": "トヨタレンタリース山形 天童駅前店",
    "tel": "023-653-0100"
   },
-  "dbc83d523172dd8e": {
-   "car": "ヤリス 車両番号 9028",
-   "condition": "禁煙 5人乗り ノーマルタイヤ",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月21日 ～ 11月23日",
-   "reserve_shop": "町田店",
-   "return_area": "関東",
-   "return_shop": "トヨタレンタリース神奈川",
-   "start_area": "関東",
-   "start_place": "東京都 町田市",
-   "start_shop": "トヨタS＆Dレンタシェア西東京 町田店",
-   "tel": "042-725-0140"
-  },
   "dc54ea3f3b2e180c": {
    "car": "ヤリスHV 仙台502わ1845",
    "condition": "禁煙 AT スタッドレス 2WD ナビ・ETC付き 5人乗り",
@@ -2354,21 +1889,6 @@
    "start_place": "大阪府 大阪市",
    "start_shop": "トヨタレンタリース大阪 心斎橋船場店",
    "tel": "06-6264-0100"
-  },
-  "dd91142ca0301b82": {
-   "car": "カローラツーリングＨＶ 福島300わ3331",
-   "condition": "5人乗り.AT.ETC付",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月21日 ～ 11月23日",
-   "reserve_shop": "卸町店",
-   "return_area": "東北",
-   "return_shop": "トヨタレンタリース福島",
-   "start_area": "東北",
-   "start_place": "宮城県 仙台市",
-   "start_shop": "トヨタレンタリース宮城 卸町店",
-   "tel": "022-237-0100"
   },
   "de70468d5b5e5c13": {
    "car": "タウンエースバン 青森400わ3227",
@@ -2429,36 +1949,6 @@
    "start_place": "宮城県 仙台市",
    "start_shop": "トヨタレンタリース宮城 卸町店",
    "tel": "022-237-0100"
-  },
-  "e5564799e85f11d5": {
-   "car": "シエンタ 車両番号0130",
-   "condition": "禁煙・7人乗り",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月21日 ～ 11月23日",
-   "reserve_shop": "三島新幹線口店",
-   "return_area": "関東",
-   "return_shop": "トヨタモビリティサービス",
-   "start_area": "中部",
-   "start_place": "静岡県 三島市",
-   "start_shop": "トヨタレンタリース静岡 三島新幹線口店",
-   "tel": "0120-926-327"
-  },
-  "ea017f5c508c8368": {
-   "car": "ライズHEV 車両番号4056",
-   "condition": "禁煙 5人乗り",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月21日 ～ 11月23日",
-   "reserve_shop": "吾妻橋店",
-   "return_area": "中部",
-   "return_shop": "トヨタレンタリース静岡",
-   "start_area": "関東",
-   "start_place": "東京都 墨田区",
-   "start_shop": "トヨタモビリティサービス 吾妻橋店",
-   "tel": "03-3626-5300"
   },
   "eacc6b7f919e1d1b": {
    "car": "カローラ 庄内300わ0505",
@@ -2550,21 +2040,6 @@
    "start_shop": "トヨタレンタリース山形 庄内空港店",
    "tel": "0234-92-4100"
   },
-  "f55127493b2581ae": {
-   "car": "ヤリス 4413",
-   "condition": "禁煙 AT ナビ・ETC付き 5人乗り",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月21日 ～ 11月23日",
-   "reserve_shop": "山形駅西口店",
-   "return_area": "東北",
-   "return_shop": "トヨタレンタリース新福島",
-   "start_area": "東北",
-   "start_place": "山形県 山形市",
-   "start_shop": "トヨタレンタリース山形 山形駅西口店",
-   "tel": "023-607-1100"
-  },
   "f94ad3948dae13de": {
    "car": "ルーミー 車両番号3539",
    "condition": "禁煙 ５人乗り",
@@ -2579,51 +2054,6 @@
    "start_place": "東京都 目黒区",
    "start_shop": "トヨタモビリティサービス 中目黒山手通り店",
    "tel": "03-5725-3210"
-  },
-  "f953de53e1130f9e": {
-   "car": "ヤリス 白河500わ923",
-   "condition": "ＡＴ 禁煙 ナビ ＥＴＣ スタッドレスタイヤ",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月21日 ～ 11月23日",
-   "reserve_shop": "仙台新幹線口店",
-   "return_area": "東北",
-   "return_shop": "トヨタレンタリース新福島",
-   "start_area": "東北",
-   "start_place": "宮城県 仙台市",
-   "start_shop": "トヨタレンタリース仙台 仙台新幹線口店",
-   "tel": "022-291-0100"
-  },
-  "fc135da9e61c6142": {
-   "car": "ルーミー 車両番号 993",
-   "condition": "５人乗り 禁煙車",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月19日 ～ 11月23日",
-   "reserve_shop": "なんばターミナル店",
-   "return_area": "関東",
-   "return_shop": "トヨタレンタリース神奈川",
-   "start_area": "近畿",
-   "start_place": "大阪府 大阪市",
-   "start_shop": "トヨタレンタリース大阪 なんばターミナル店",
-   "tel": "06-6647-0100"
-  },
-  "fdeb1e00275753f2": {
-   "car": "プリウス 郡山300わ1384",
-   "condition": "禁煙 ＡＴ ナビ ＥＴＣ スタッドレスタイヤ",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月21日 ～ 11月23日",
-   "reserve_shop": "仙台駅西口店",
-   "return_area": "東北",
-   "return_shop": "トヨタレンタリース新福島",
-   "start_area": "東北",
-   "start_place": "宮城県 仙台市",
-   "start_shop": "トヨタレンタリース宮城 仙台駅西口店",
-   "tel": "022-213-0100"
   },
   "fe1576b2fee75765": {
    "car": "カローラHV 車両番号 8380",
