@@ -378,7 +378,7 @@
   "260a9ae572846b33": {
    "car": "ルーミー 車両番号2055",
    "condition": "禁煙車 5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-23T12:00+09:00",
    "notified": false,
    "period": "2026年11月23日 ～ 11月25日",
