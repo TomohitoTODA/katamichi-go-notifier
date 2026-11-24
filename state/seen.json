@@ -1545,6 +1545,21 @@
    "start_shop": "トヨタレンタリース神奈川 小田原駅新幹線口店",
    "tel": "045-620-0500"
   },
+  "a3f88409cfa6d61e": {
+   "car": "ヤリス 車両番号 6863",
+   "condition": "禁煙車 5人乗",
+   "ended": false,
+   "first_seen": "2026-11-24T17:45+09:00",
+   "notified": false,
+   "period": "2026年11月25日 ～ 11月27日",
+   "reserve_shop": "鹿児島中央駅店",
+   "return_area": "九州",
+   "return_shop": "トヨタレンタリース福岡",
+   "start_area": "九州",
+   "start_place": "鹿児島県 鹿児島市",
+   "start_shop": "トヨタレンタリース鹿児島 鹿児島中央駅店",
+   "tel": "099-250-0100"
+  },
   "a5c2ecb1d18a461a": {
    "car": "カローラクロスHEV 弘前300わ115",
    "condition": "5人乗・禁煙車 スタッドレス",
