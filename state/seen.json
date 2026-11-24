@@ -795,6 +795,21 @@
    "start_shop": "トヨタレンタリース宮城 仙台駅東口店",
    "tel": "022-293-0100"
   },
+  "510f4c810116475a": {
+   "car": "シエンタHV 宮城502わ9690",
+   "condition": "禁煙 AT スタッドレス 4WD ナビ・ETC付き 7人乗り",
+   "ended": false,
+   "first_seen": "2026-11-24T10:55+09:00",
+   "notified": false,
+   "period": "2026年11月24日 ～ 11月27日",
+   "reserve_shop": "山形空港店",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース宮城",
+   "start_area": "東北",
+   "start_place": "山形県 東根市",
+   "start_shop": "トヨタレンタリース山形 山形空港店",
+   "tel": "0237-47-0100"
+  },
   "529d4e559a8fdc0b": {
    "car": "アルファードHEV 車両番号 8085",
    "condition": "禁煙車 ８人乗 ハイブリッド ノーマルタイヤ",
@@ -1758,7 +1773,7 @@
   "b237345b91cfe947": {
    "car": "ヴォクシーHEV 車両番号1075",
    "condition": "禁煙 7人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-24T10:45+09:00",
    "notified": false,
    "period": "2026年11月24日 ～ 11月26日",
@@ -1844,6 +1859,21 @@
    "start_place": "大阪府 大阪市",
    "start_shop": "トヨタレンタリース大阪 阿倍野駅前店",
    "tel": "06-6621-0100"
+  },
+  "bd69797ca8508a5b": {
+   "car": "シエンタHV 仙台502わ2086",
+   "condition": "禁煙 AT スタッドレス 2WD ナビ・ETC付き 7人乗り",
+   "ended": false,
+   "first_seen": "2026-11-24T10:55+09:00",
+   "notified": false,
+   "period": "2026年11月24日 ～ 11月27日",
+   "reserve_shop": "山形空港店",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース宮城",
+   "start_area": "東北",
+   "start_place": "山形県 東根市",
+   "start_shop": "トヨタレンタリース山形 山形空港店",
+   "tel": "0237-47-0100"
   },
   "be64c9d4778a9d21": {
    "car": "カムリ 車両番号8290",
