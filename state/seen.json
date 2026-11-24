@@ -2025,6 +2025,21 @@
    "start_shop": "トヨタモビリティサービス 吾妻橋店",
    "tel": "03-3626-5300"
   },
+  "eacc6b7f919e1d1b": {
+   "car": "カローラ 庄内300わ0505",
+   "condition": "A/T 2WD 禁煙車 ナビ付 ETC付 スタッドレス",
+   "ended": false,
+   "first_seen": "2026-11-24T10:15+09:00",
+   "notified": false,
+   "period": "2026年11月24日 ～ 11月26日",
+   "reserve_shop": "本社 レンタル課（営業時間 9:00-18:00）",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース山形",
+   "start_area": "東北",
+   "start_place": "岩手県 一関市",
+   "start_shop": "トヨタレンタリース岩手 一ノ関駅西口店",
+   "tel": "019-606-3076"
+  },
   "eb142a7f67052113": {
    "car": "パッソ いわき500わ3954",
    "condition": "禁煙 AT ノーマルタイヤ ナビ/ETC付き 5人乗り",
@@ -2054,21 +2069,6 @@
    "start_place": "福島県 いわき市",
    "start_shop": "トヨタレンタリース福島 いわき平店",
    "tel": "0246-23-0100"
-  },
-  "ef7249a7b6ea9693": {
-   "car": "ルーミー 宮城502わ7069",
-   "condition": "禁煙 スタッドレス AT ナビ・ETC付き 5人乗り",
-   "ended": false,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月19日 ～ 11月23日",
-   "reserve_shop": "新白河駅新幹線口店",
-   "return_area": "東北",
-   "return_shop": "トヨタレンタリース宮城",
-   "start_area": "東北",
-   "start_place": "福島県 西白河郡西郷村",
-   "start_shop": "トヨタレンタリース新福島 新白河駅新幹線口店",
-   "tel": "0248-21-0100"
   },
   "f096edca64579189": {
    "car": "ヤリス 宮城502わ8182",
