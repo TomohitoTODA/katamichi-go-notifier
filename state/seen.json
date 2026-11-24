@@ -1905,6 +1905,21 @@
    "start_shop": "トヨタレンタリース仙台 仙台新幹線口店",
    "tel": "022-291-0100"
   },
+  "c9da720b071bebc2": {
+   "car": "カローラツーリング 車両番号 5392",
+   "condition": "禁煙 5人乗り ノーマルタイヤ",
+   "ended": false,
+   "first_seen": "2026-11-24T10:50+09:00",
+   "notified": false,
+   "period": "2026年11月24日 ～ 11月26日",
+   "reserve_shop": "立川駅南口店",
+   "return_area": "関東",
+   "return_shop": "トヨタレンタリース神奈川",
+   "start_area": "関東",
+   "start_place": "東京都 立川市",
+   "start_shop": "トヨタS＆Dレンタシェア西東京 立川駅南口店",
+   "tel": "042-523-0100"
+  },
   "ca263dbaba7308e6": {
    "car": "プロボックスバン 宮城401わ1828",
    "condition": "禁煙 AT スタッドレス 4WD ナビ・ETC付き 5人乗り",
@@ -2043,7 +2058,7 @@
   "dd26d69b0d722b1a": {
    "car": "カローラツーリング 車両番号 5672",
    "condition": "禁煙 5人乗り ノーマルタイヤ",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-24T10:45+09:00",
    "notified": false,
    "period": "2026年11月24日 ～ 11月27日",
