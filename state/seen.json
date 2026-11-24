@@ -105,6 +105,21 @@
    "start_shop": "トヨタレンタリース静岡 掛川新幹線口店",
    "tel": "0537-22-0100"
   },
+  "09b64999f333d260": {
+   "car": "カローラツーリング 車両番号 5397",
+   "condition": "禁煙 5人乗り ノーマルタイヤ",
+   "ended": false,
+   "first_seen": "2026-11-24T10:45+09:00",
+   "notified": false,
+   "period": "2026年11月24日 ～ 11月26日",
+   "reserve_shop": "熱海駅前店",
+   "return_area": "関東",
+   "return_shop": "トヨタレンタリース神奈川",
+   "start_area": "中部",
+   "start_place": "静岡県 熱海市",
+   "start_shop": "トヨタレンタリース静岡 熱海駅前店",
+   "tel": "0120-926-325"
+  },
   "0a4308171c96f58b": {
    "car": "ノアHV 車両番号1895",
    "condition": "禁煙・8人乗り スタッド",
@@ -794,6 +809,21 @@
    "start_place": "神奈川県 川崎市川崎区",
    "start_shop": "トヨタレンタリース神奈川 川崎店",
    "tel": "044-245-0100"
+  },
+  "53b3deebeac0f8f0": {
+   "car": "ヴォクシーHEV 車両番号1072",
+   "condition": "禁煙 7人乗り",
+   "ended": false,
+   "first_seen": "2026-11-24T10:45+09:00",
+   "notified": false,
+   "period": "2026年11月24日 ～ 11月26日",
+   "reserve_shop": "八丁堀店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース静岡",
+   "start_area": "関東",
+   "start_place": "東京都 中央区",
+   "start_shop": "トヨタモビリティサービス 八丁堀店",
+   "tel": "03-3555-8100"
   },
   "557119dffaa357b8": {
    "car": "ヤリスHV 車両番号6091",
@@ -1725,6 +1755,21 @@
    "start_shop": "トヨタモビリティサービス 東京駅日本橋口店",
    "tel": "03-5220-2220"
   },
+  "b237345b91cfe947": {
+   "car": "ヴォクシーHEV 車両番号1075",
+   "condition": "禁煙 7人乗り",
+   "ended": false,
+   "first_seen": "2026-11-24T10:45+09:00",
+   "notified": false,
+   "period": "2026年11月24日 ～ 11月26日",
+   "reserve_shop": "船堀駅前店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース静岡",
+   "start_area": "関東",
+   "start_place": "東京都 江戸川区",
+   "start_shop": "トヨタモビリティサービス 船堀駅前店",
+   "tel": "03-3804-4100"
+  },
   "b3e5f283793e9b44": {
    "car": "ヤリス 白河500わ504",
    "condition": "禁煙車 5人乗り スタッドレス ナビ",
@@ -1994,6 +2039,21 @@
    "start_place": "東京都 町田市",
    "start_shop": "トヨタS＆Dレンタシェア西東京 町田店",
    "tel": "042-725-0140"
+  },
+  "dd26d69b0d722b1a": {
+   "car": "カローラツーリング 車両番号 5672",
+   "condition": "禁煙 5人乗り ノーマルタイヤ",
+   "ended": false,
+   "first_seen": "2026-11-24T10:45+09:00",
+   "notified": false,
+   "period": "2026年11月24日 ～ 11月27日",
+   "reserve_shop": "心斎橋船場店",
+   "return_area": "関東",
+   "return_shop": "トヨタレンタリース神奈川",
+   "start_area": "近畿",
+   "start_place": "大阪府 大阪市",
+   "start_shop": "トヨタレンタリース大阪 心斎橋船場店",
+   "tel": "06-6264-0100"
   },
   "dd91142ca0301b82": {
    "car": "カローラツーリングＨＶ 福島300わ3331",
