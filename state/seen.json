@@ -993,7 +993,7 @@
   "675c301af0073cfd": {
    "car": "プリウス 宮城300わ6761",
    "condition": "禁煙 AT スタッドレス 4WD ナビ・ETC付き 5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-24T11:15+09:00",
    "notified": false,
    "period": "2026年11月24日 ～ 11月27日",
