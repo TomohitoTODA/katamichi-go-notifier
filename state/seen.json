@@ -828,7 +828,7 @@
   "528981e698a5d0bf": {
    "car": "ヤリス 登録番号9727",
    "condition": "禁煙5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-24T11:30+09:00",
    "notified": false,
    "period": "2026年11月24日 ～ 11月26日",
