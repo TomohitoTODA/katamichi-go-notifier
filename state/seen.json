@@ -18,7 +18,7 @@
   "023f30260947c889": {
    "car": "アクア 車両番号庄内500わ2603",
    "condition": "A/T 2WD 禁煙車 ナビ付 ETC付 スタッドレス",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-23T10:05+09:00",
    "notified": false,
    "period": "2026年11月23日 ～ 11月25日",
@@ -1713,7 +1713,7 @@
   "bc7c8a8a607390af": {
    "car": "アルファードHV 車両番号3108",
    "condition": "禁煙・8人乗り スタッド",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-23T15:45+09:00",
    "notified": false,
    "period": "2026年11月23日 ～ 11月25日",
