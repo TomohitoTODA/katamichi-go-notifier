@@ -1680,6 +1680,21 @@
    "start_shop": "トヨタモビリティサービス 船堀駅前店",
    "tel": "03-3804-4100"
   },
+  "b3541225e5840cf6": {
+   "car": "ヤリス 車両番号4262",
+   "condition": "禁煙 5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-24T14:10+09:00",
+   "notified": false,
+   "period": "2026年11月24日 ～ 11月26日",
+   "reserve_shop": "辻堂駅前店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース静岡",
+   "start_area": "関東",
+   "start_place": "神奈川県 藤沢市",
+   "start_shop": "トヨタレンタリース神奈川 辻堂駅前店",
+   "tel": "0466-31-2711"
+  },
   "b5046bebdf7b4bbf": {
    "car": "ヤリス 青森501わ4383",
    "condition": "5人乗・禁煙・スタッドレス装着",
@@ -2178,7 +2193,7 @@
   "f58ab5b3d3e2a5ee": {
    "car": "カローラツーリング 車両番号 4233",
    "condition": "禁煙 5人乗り スタッドレスタイヤ付",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-24T13:30+09:00",
    "notified": false,
    "period": "2026年11月24日 ～ 11月26日",
