@@ -1140,21 +1140,6 @@
    "start_shop": "トヨタレンタリース新福島 福島空港店",
    "tel": "0247-57-1371"
   },
-  "99dfcb1b641b989f": {
-   "car": "プリウス 車両番号 8960",
-   "condition": "禁煙 5人乗り",
-   "ended": true,
-   "first_seen": "2026-11-23T14:00+09:00",
-   "notified": false,
-   "period": "2026年11月23日 ～ 11月25日",
-   "reserve_shop": "なんばターミナル店",
-   "return_area": "中部",
-   "return_shop": "トヨタレンタリース名古屋",
-   "start_area": "近畿",
-   "start_place": "大阪府 大阪市",
-   "start_shop": "トヨタレンタリース大阪 なんばターミナル店",
-   "tel": "06-6647-0100"
-  },
   "9a1b33f7e2fa3932": {
    "car": "ハイエースバン 車両番号8919",
    "condition": "禁煙車 3/6人乗り",
@@ -1454,21 +1439,6 @@
    "start_place": "静岡県 牧之原市",
    "start_shop": "トヨタレンタリース静岡 富士山静岡空港店",
    "tel": "0120-921695"
-  },
-  "bc938fee003128d1": {
-   "car": "シエンタHV 車両番号 6130",
-   "condition": "禁煙 7人乗り スタッドレスタイヤ付",
-   "ended": true,
-   "first_seen": "2026-11-23T12:00+09:00",
-   "notified": false,
-   "period": "2026年11月23日 ～ 11月25日",
-   "reserve_shop": "阿倍野駅前店",
-   "return_area": "中部",
-   "return_shop": "トヨタレンタリース名古屋",
-   "start_area": "近畿",
-   "start_place": "大阪府 大阪市",
-   "start_shop": "トヨタレンタリース大阪 阿倍野駅前店",
-   "tel": "06-6621-0100"
   },
   "bd69797ca8508a5b": {
    "car": "シエンタHV 仙台502わ2086",
