@@ -1545,6 +1545,21 @@
    "start_shop": "トヨタレンタリース神奈川 横浜みなとみらい店",
    "tel": "045-228-0100"
   },
+  "a80fc9dac2a48e48": {
+   "car": "シエンタHEV 車両番号 7560",
+   "condition": "禁煙車 ７人乗 ハイブリッド スタッドレス",
+   "ended": false,
+   "first_seen": "2026-11-24T09:15+09:00",
+   "notified": false,
+   "period": "2026年11月24日 ～ 11月25日",
+   "reserve_shop": "相模大野駅前店",
+   "return_area": "関東",
+   "return_shop": "トヨタS＆Dレンタシェア西東京",
+   "start_area": "関東",
+   "start_place": "神奈川県 相模原市南区",
+   "start_shop": "トヨタレンタリース神奈川 相模大野駅前店",
+   "tel": "042-765-0100"
+  },
   "aa278d6c0d05d7d7": {
    "car": "ルーミー 車両番号 474",
    "condition": "禁煙 5人乗り ノーマルタイヤ",
