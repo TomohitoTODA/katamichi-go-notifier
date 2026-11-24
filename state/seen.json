@@ -1815,6 +1815,21 @@
    "start_shop": "トヨタレンタリース宮城 仙台空港店",
    "tel": "0223-22-0100"
   },
+  "c6fc6f1dbca098e5": {
+   "car": "ヤリス 車両番号1817",
+   "condition": "禁煙 5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-24T14:00+09:00",
+   "notified": false,
+   "period": "2026年11月24日 ～ 11月26日",
+   "reserve_shop": "枚方市駅前店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース静岡",
+   "start_area": "近畿",
+   "start_place": "大阪府 枚方市",
+   "start_shop": "トヨタレンタリース大阪 枚方市駅前店",
+   "tel": "072-843-1100"
+  },
   "c9da720b071bebc2": {
    "car": "カローラツーリング 車両番号 5392",
    "condition": "禁煙 5人乗り ノーマルタイヤ",
