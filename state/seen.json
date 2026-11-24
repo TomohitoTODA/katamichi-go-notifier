@@ -783,7 +783,7 @@
   "5461ea0a5dfcdf91": {
    "car": "アクア 車両番号456",
    "condition": "禁煙・AT・ナビ・ETC車載器・５人乗り・スタッドレス",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-24T18:30+09:00",
    "notified": false,
    "period": "2026年11月25日 ～ 11月27日",
