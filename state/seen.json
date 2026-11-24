@@ -123,7 +123,7 @@
   "09b64999f333d260": {
    "car": "カローラツーリング 車両番号 5397",
    "condition": "禁煙 5人乗り ノーマルタイヤ",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-24T10:45+09:00",
    "notified": false,
    "period": "2026年11月24日 ～ 11月26日",
