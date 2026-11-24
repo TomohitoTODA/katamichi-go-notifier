@@ -2130,6 +2130,21 @@
    "start_shop": "トヨタレンタリース大阪 西長堀駅前店",
    "tel": "06-6531-7155"
   },
+  "ce123cbe7ea5b1cb": {
+   "car": "ヤリス 宮城502わ7455",
+   "condition": "禁煙 AT スタッドレス 2WD ナビ・ETC付き 5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-24T11:55+09:00",
+   "notified": false,
+   "period": "2026年11月24日 ～ 11月27日",
+   "reserve_shop": "会津若松駅店",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース宮城",
+   "start_area": "東北",
+   "start_place": "福島県 会津若松市",
+   "start_shop": "トヨタレンタリース新福島 会津若松駅店",
+   "tel": "0242-32-0100"
+  },
   "ce5c64105ad4b980": {
    "car": "シエンタHEV 車両番号3930",
    "condition": "禁煙 7人乗り",
@@ -2193,7 +2208,7 @@
   "d7f069412cdbca87": {
    "car": "カローラスポーツ 登録番号5193",
    "condition": "禁煙5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-24T11:30+09:00",
    "notified": false,
    "period": "2026年11月24日 ～ 11月26日",
@@ -2414,21 +2429,6 @@
    "start_place": "福島県 いわき市",
    "start_shop": "トヨタレンタリース福島 いわき平店",
    "tel": "0246-23-0100"
-  },
-  "f096edca64579189": {
-   "car": "ヤリス 宮城502わ8182",
-   "condition": "禁煙 AT スタッドレス 2WD ナビ・ETC付き 5人乗り",
-   "ended": false,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月21日 ～ 11月24日",
-   "reserve_shop": "郡山駅新幹線口店",
-   "return_area": "東北",
-   "return_shop": "トヨタレンタリース宮城",
-   "start_area": "東北",
-   "start_place": "福島県 郡山市",
-   "start_shop": "トヨタレンタリース福島 郡山駅新幹線口店",
-   "tel": "024-939-0100"
   },
   "f2865163c638583a": {
    "car": "ルーミー 車両番号3363",
