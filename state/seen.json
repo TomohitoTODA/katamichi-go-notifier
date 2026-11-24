@@ -1263,7 +1263,7 @@
   "82080bbd8fb4f344": {
    "car": "プロボックスバン 車両番号山形400わ3777",
    "condition": "A/T 4WD 禁煙車 ナビ付 ETC付 スタッドレス",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-22 07:45",
    "notified": false,
    "period": "2026年11月22日 ～ 11月24日",
@@ -1293,7 +1293,7 @@
   "8605a73e37f8b4b5": {
    "car": "ヤリス 車両番号山形501わ828",
    "condition": "A/T 2WD 禁煙車 ナビ付 ETC付 スタッドレス",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-22 07:45",
    "notified": false,
    "period": "2026年11月22日 ～ 11月24日",
@@ -1803,7 +1803,7 @@
   "bb8a1bb87721f56b": {
    "car": "カローラツーリングHV 車両番号山形300わ2137",
    "condition": "A/T 4WD 禁煙車 ナビ付 ETC付 スタッドレス",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-22 07:45",
    "notified": false,
    "period": "2026年11月22日 ～ 11月24日",
@@ -2283,7 +2283,7 @@
   "fe304113a6ce69b6": {
    "car": "ヤリス 宮城502わ5529",
    "condition": "禁煙 AT スタッドレス 2WD ナビ・ETC付き 5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-24T17:00+09:00",
    "notified": false,
    "period": "2026年11月24日 ～ 11月27日",
