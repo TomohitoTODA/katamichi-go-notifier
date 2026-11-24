@@ -465,6 +465,21 @@
    "start_shop": "トヨタレンタリース新大阪 りんくうタウン駅前店",
    "tel": "072-463-0100"
   },
+  "313f6380f44fb44a": {
+   "car": "アクア 車両番号162",
+   "condition": "禁煙 5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-24T13:50+09:00",
+   "notified": false,
+   "period": "2026年11月24日 ～ 11月26日",
+   "reserve_shop": "武蔵境店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース静岡",
+   "start_area": "関東",
+   "start_place": "東京都 武蔵野市",
+   "start_shop": "トヨタS＆Dレンタシェア西東京 武蔵境店",
+   "tel": "0422-55-0100"
+  },
   "36aef4447c48dcde": {
    "car": "シエンタＨＶ 車両番号8797",
    "condition": "禁煙 7人乗り",
@@ -1424,6 +1439,21 @@
    "start_place": "静岡県 静岡市",
    "start_shop": "トヨタレンタリース静岡 静岡新幹線口店",
    "tel": "0120-926-307"
+  },
+  "9ec1884585349783": {
+   "car": "アクア 車両番号3613",
+   "condition": "禁煙 5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-24T13:50+09:00",
+   "notified": false,
+   "period": "2026年11月24日 ～ 11月26日",
+   "reserve_shop": "八王子駅前店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース静岡",
+   "start_area": "関東",
+   "start_place": "東京都 八王子市",
+   "start_shop": "トヨタS＆Dレンタシェア西東京 八王子駅前店",
+   "tel": "042-648-0100"
   },
   "9f032717623bb598": {
    "car": "カローラツーリングＨＶ 車両番号0878",
