@@ -858,7 +858,7 @@
   "53b3deebeac0f8f0": {
    "car": "ヴォクシーHEV 車両番号1072",
    "condition": "禁煙 7人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-24T10:45+09:00",
    "notified": false,
    "period": "2026年11月24日 ～ 11月26日",
