@@ -798,7 +798,7 @@
   "4fb5d8a4b4636821": {
    "car": "カローラ 弘前300わ105",
    "condition": "禁煙 AT 2WD 冬タイヤ ETC車載器 バックモニター Bluetooth ドライブレコーダー",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-21 15:05",
    "notified": false,
    "period": "2026年11月21日 ～ 11月27日",
@@ -824,6 +824,21 @@
    "start_place": "山形県 東根市",
    "start_shop": "トヨタレンタリース山形 山形空港店",
    "tel": "0237-47-0100"
+  },
+  "528981e698a5d0bf": {
+   "car": "ヤリス 登録番号9727",
+   "condition": "禁煙5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-24T11:30+09:00",
+   "notified": false,
+   "period": "2026年11月24日 ～ 11月26日",
+   "reserve_shop": "羽田空港（国内線）店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース愛知",
+   "start_area": "関東",
+   "start_place": "東京都 大田区",
+   "start_shop": "トヨタモビリティサービス 羽田空港（国内線）店",
+   "tel": "03-3744-0100"
   },
   "529d4e559a8fdc0b": {
    "car": "アルファードHEV 車両番号 8085",
@@ -1785,6 +1800,21 @@
    "start_shop": "トヨタレンタリース愛知 中部国際空港店",
    "tel": "0120-001-319"
   },
+  "ae9051df6bef432a": {
+   "car": "ヤリスＨＶ 登録番号7289",
+   "condition": "禁煙5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-24T11:30+09:00",
+   "notified": false,
+   "period": "2026年11月24日 ～ 11月26日",
+   "reserve_shop": "成田空港店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース愛知",
+   "start_area": "関東",
+   "start_place": "千葉県 成田市",
+   "start_shop": "トヨタモビリティサービス 成田空港店",
+   "tel": "0476-32-1020"
+  },
   "aec267b2aa63a68a": {
    "car": "ヤリス 車両番号山形500わ9922",
    "condition": "A/T 2WD 禁煙車 ナビ付 ETC付 スタッドレス",
@@ -2025,6 +2055,21 @@
    "start_shop": "トヨタレンタリース宮城 仙台駅東口店",
    "tel": "022-293-0100"
   },
+  "cc1857677142b309": {
+   "car": "ノア 登録番号2941",
+   "condition": "禁煙8人乗り",
+   "ended": false,
+   "first_seen": "2026-11-24T11:30+09:00",
+   "notified": false,
+   "period": "2026年11月24日 ～ 11月26日",
+   "reserve_shop": "新大阪新幹線口店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース愛知",
+   "start_area": "近畿",
+   "start_place": "大阪府 大阪市",
+   "start_shop": "トヨタレンタリース大阪 新大阪新幹線口店",
+   "tel": "06-6393-0100"
+  },
   "cd9268e05b1fc55f": {
    "car": "ノア 車両番号7951",
    "condition": "禁煙・8人乗",
@@ -2099,6 +2144,21 @@
    "start_place": "宮城県 仙台市",
    "start_shop": "トヨタレンタリース宮城 仙台駅西口店",
    "tel": "022-213-0100"
+  },
+  "d7f069412cdbca87": {
+   "car": "カローラスポーツ 登録番号5193",
+   "condition": "禁煙5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-24T11:30+09:00",
+   "notified": false,
+   "period": "2026年11月24日 ～ 11月26日",
+   "reserve_shop": "新大阪駅前店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース愛知",
+   "start_area": "近畿",
+   "start_place": "大阪府 大阪市",
+   "start_shop": "トヨタレンタリース大阪 新大阪駅前店",
+   "tel": "06-6397-1000"
   },
   "db561854a4aa18f9": {
    "car": "プリウス 郡山300わ1574",
@@ -2204,6 +2264,21 @@
    "start_place": "大阪府 大阪市",
    "start_shop": "トヨタレンタリース大阪 蒲生店",
    "tel": "06-6933-1461"
+  },
+  "e36a2fa4e0e915f6": {
+   "car": "カローラツーリング 登録番号3334",
+   "condition": "禁煙5人乗り スタッドレス",
+   "ended": false,
+   "first_seen": "2026-11-24T11:30+09:00",
+   "notified": false,
+   "period": "2026年11月24日 ～ 11月26日",
+   "reserve_shop": "三条京阪北店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース愛知",
+   "start_area": "近畿",
+   "start_place": "京都府 京都市",
+   "start_shop": "トヨタレンタリース京都 三条京阪北店",
+   "tel": "075-762-0115"
   },
   "e4397743818f3c4a": {
    "car": "ノア 車両番号山形300わ1911",
@@ -2324,6 +2399,21 @@
    "start_place": "東京都 大田区",
    "start_shop": "トヨタモビリティサービス 羽田空港（国内線）店",
    "tel": "03-3744-0100"
+  },
+  "f2fb69e77f227785": {
+   "car": "カローラツーリング 登録番号5391",
+   "condition": "禁煙5人乗り スタッドレス",
+   "ended": false,
+   "first_seen": "2026-11-24T11:30+09:00",
+   "notified": false,
+   "period": "2026年11月24日 ～ 11月26日",
+   "reserve_shop": "心斎橋船場店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース愛知",
+   "start_area": "近畿",
+   "start_place": "大阪府 大阪市",
+   "start_shop": "トヨタレンタリース大阪 心斎橋船場店",
+   "tel": "06-6264-0100"
   },
   "f385e2bff31c45f4": {
    "car": "プロボックスバン 仙台401わ･414",
