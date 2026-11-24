@@ -300,6 +300,21 @@
    "start_shop": "トヨタレンタリース福島 郡山駅新幹線口店",
    "tel": "024-939-0100"
   },
+  "1fa214be39025bcc": {
+   "car": "シエンタ 車両番号7815",
+   "condition": "禁煙・7人乗り スタッド",
+   "ended": false,
+   "first_seen": "2026-11-24T12:05+09:00",
+   "notified": false,
+   "period": "2026年11月24日 ～ 11月26日",
+   "reserve_shop": "熱海駅前店",
+   "return_area": "関東",
+   "return_shop": "トヨタモビリティサービス",
+   "start_area": "中部",
+   "start_place": "静岡県 熱海市",
+   "start_shop": "トヨタレンタリース静岡 熱海駅前店",
+   "tel": "0120-926-325"
+  },
   "20ca415aee8ee9a5": {
    "car": "ルーミー 車両番号 2866",
    "condition": "禁煙・5人乗り",
@@ -1004,6 +1019,21 @@
    "start_place": "宮城県 仙台市",
    "start_shop": "トヨタレンタリース仙台 仙台新幹線口店",
    "tel": "022-291-0100"
+  },
+  "5d480f6081ab64cb": {
+   "car": "シエンタHV 車両番号0492",
+   "condition": "禁煙・7人乗り スタッド",
+   "ended": false,
+   "first_seen": "2026-11-24T12:05+09:00",
+   "notified": false,
+   "period": "2026年11月24日 ～ 11月26日",
+   "reserve_shop": "谷町店",
+   "return_area": "関東",
+   "return_shop": "トヨタモビリティサービス",
+   "start_area": "近畿",
+   "start_place": "大阪府 大阪市",
+   "start_shop": "トヨタレンタリース大阪 谷町店",
+   "tel": "06-6763-0100"
   },
   "5fb7b6f37c9eae29": {
    "car": "アルファード 車両番号3354",
@@ -1725,6 +1755,21 @@
    "start_shop": "トヨタモビリティサービス 錦糸町店",
    "tel": "03-3635-0100"
   },
+  "a727e449fd79a4ed": {
+   "car": "ヤリスクロス 車両番号1355",
+   "condition": "禁煙・5人乗り スタッド",
+   "ended": false,
+   "first_seen": "2026-11-24T12:05+09:00",
+   "notified": false,
+   "period": "2026年11月24日 ～ 11月26日",
+   "reserve_shop": "京都駅新幹線口店",
+   "return_area": "関東",
+   "return_shop": "トヨタモビリティサービス",
+   "start_area": "近畿",
+   "start_place": "京都府 京都市",
+   "start_shop": "トヨタレンタリース京都 京都駅新幹線口店",
+   "tel": "075-682-0800"
+  },
   "a7d923c0733bbb46": {
    "car": "アクア 車両番号 1092",
    "condition": "禁煙車 ５人乗 ハイブリッド ノーマルタイヤ",
@@ -1949,6 +1994,21 @@
    "start_place": "福島県 郡山市",
    "start_shop": "トヨタレンタリース福島 郡山駅新幹線口店",
    "tel": "024-939-0100"
+  },
+  "b9b9b61b09b81675": {
+   "car": "カローラツーリング 車両番号3198",
+   "condition": "禁煙・5人乗り ノーマル",
+   "ended": false,
+   "first_seen": "2026-11-24T12:05+09:00",
+   "notified": false,
+   "period": "2026年11月24日 ～ 11月26日",
+   "reserve_shop": "りんくうタウン駅前店",
+   "return_area": "関東",
+   "return_shop": "トヨタモビリティサービス",
+   "start_area": "近畿",
+   "start_place": "大阪府 泉佐野市",
+   "start_shop": "トヨタレンタリース新大阪 りんくうタウン駅前店",
+   "tel": "072-463-0100"
   },
   "bb8a1bb87721f56b": {
    "car": "カローラツーリングHV 車両番号山形300わ2137",
