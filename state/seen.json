@@ -585,6 +585,21 @@
    "start_shop": "トヨタレンタリース福島 郡山駅新幹線口店",
    "tel": "024-939-0100"
   },
+  "41645d6298f723e0": {
+   "car": "アルファードHV 車両番号1966",
+   "condition": "禁煙・8人乗り スタッド",
+   "ended": false,
+   "first_seen": "2026-11-24T15:10+09:00",
+   "notified": false,
+   "period": "2026年11月24日 ～ 11月26日",
+   "reserve_shop": "新富士駅前店",
+   "return_area": "関東",
+   "return_shop": "トヨタモビリティサービス",
+   "start_area": "中部",
+   "start_place": "静岡県 富士市",
+   "start_shop": "トヨタレンタリース静岡 新富士駅前店",
+   "tel": "0545-63-0100"
+  },
   "41a6fefcd82e56e6": {
    "car": "シエンタ 車両番号7814",
    "condition": "禁煙・7人乗り スタッド",
@@ -644,6 +659,21 @@
    "start_place": "福島県 福島市",
    "start_shop": "トヨタレンタリース新福島 福島駅新幹線口店",
    "tel": "024-531-0100"
+  },
+  "49a20ffb162dac14": {
+   "car": "アルファードHV 車両番号0987",
+   "condition": "禁煙・8人乗り ノーマル",
+   "ended": false,
+   "first_seen": "2026-11-24T15:10+09:00",
+   "notified": false,
+   "period": "2026年11月24日 ～ 11月26日",
+   "reserve_shop": "山科店",
+   "return_area": "関東",
+   "return_shop": "トヨタモビリティサービス",
+   "start_area": "近畿",
+   "start_place": "京都府 京都市",
+   "start_shop": "トヨタレンタリース京都 山科店",
+   "tel": "075-502-0100"
   },
   "4a5f922532cec028": {
    "car": "ヤリス 車両番号 4351",
@@ -1379,6 +1409,21 @@
    "start_place": "静岡県 御殿場市",
    "start_shop": "トヨタレンタリース静岡 御殿場駅前店",
    "tel": "0550-81-0100"
+  },
+  "97548135bd3e9caf": {
+   "car": "ノア 車両番号7940",
+   "condition": "禁煙・8人乗り ノーマル",
+   "ended": false,
+   "first_seen": "2026-11-24T15:10+09:00",
+   "notified": false,
+   "period": "2026年11月24日 ～ 11月26日",
+   "reserve_shop": "なんばターミナル店",
+   "return_area": "関東",
+   "return_shop": "トヨタモビリティサービス",
+   "start_area": "近畿",
+   "start_place": "大阪府 大阪市",
+   "start_shop": "トヨタレンタリース大阪 なんばターミナル店",
+   "tel": "06-6647-0100"
   },
   "98c9f55362d7c803": {
    "car": "ヤリス 仙台501わ9813",
