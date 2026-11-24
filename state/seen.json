@@ -2280,6 +2280,21 @@
    "start_shop": "トヨタモビリティサービス 中目黒山手通り店",
    "tel": "03-5725-3210"
   },
+  "fe304113a6ce69b6": {
+   "car": "ヤリス 宮城502わ5529",
+   "condition": "禁煙 AT スタッドレス 2WD ナビ・ETC付き 5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-24T17:00+09:00",
+   "notified": false,
+   "period": "2026年11月24日 ～ 11月27日",
+   "reserve_shop": "池袋東口店",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース宮城",
+   "start_area": "関東",
+   "start_place": "東京都 豊島区",
+   "start_shop": "トヨタモビリティサービス 池袋東口店",
+   "tel": "03-3987-2906"
+  },
   "fec7ddcee1fd280d": {
    "car": "アルファード 車輛番号 8531",
    "condition": "禁煙 8人乗り",
