@@ -30,6 +30,21 @@
    "start_shop": "トヨタレンタリース宮城 卸町店",
    "tel": "022-237-0100"
   },
+  "04434ba771b02d71": {
+   "car": "ルーミー 車両番号 2866",
+   "condition": "禁煙・5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-24T13:25+09:00",
+   "notified": false,
+   "period": "2026年11月25日 ～ 11月27日",
+   "reserve_shop": "総合予約室",
+   "return_area": "近畿",
+   "return_shop": "トヨタレンタリース大阪",
+   "start_area": "中部",
+   "start_place": "愛知県 名古屋市",
+   "start_shop": "トヨタレンタリース愛知 ささしまライブ東口店",
+   "tel": "0120-001-319"
+  },
   "0548c9aed4757ee1": {
    "car": "ノアHEV 郡山300わ1953",
    "condition": "AT・禁煙車・7人乗り・ナビ・ＥＴＣ付き",
@@ -299,21 +314,6 @@
    "start_place": "静岡県 熱海市",
    "start_shop": "トヨタレンタリース静岡 熱海駅前店",
    "tel": "0120-926-325"
-  },
-  "20ca415aee8ee9a5": {
-   "car": "ルーミー 車両番号 2866",
-   "condition": "禁煙・5人乗り",
-   "ended": true,
-   "first_seen": "2026-11-22 07:45",
-   "notified": false,
-   "period": "2026年11月23日 ～ 11月25日",
-   "reserve_shop": "総合予約室",
-   "return_area": "近畿",
-   "return_shop": "トヨタレンタリース大阪",
-   "start_area": "中部",
-   "start_place": "愛知県 名古屋市",
-   "start_shop": "トヨタレンタリース愛知 ささしまライブ東口店",
-   "tel": "0120-001-319"
   },
   "212670d891511ff8": {
    "car": "ヤリス 車両番号 713",
