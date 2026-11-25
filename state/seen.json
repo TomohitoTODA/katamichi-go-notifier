@@ -1923,7 +1923,7 @@
   "e462390645787432": {
    "car": "ハリアーHV 車両番号 383",
    "condition": "禁煙 ５人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-25T12:15+09:00",
    "notified": false,
    "period": "2026年11月25日 ～ 11月27日",
