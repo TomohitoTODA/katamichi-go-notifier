@@ -180,25 +180,10 @@
    "start_shop": "トヨタレンタリース愛知 中部国際空港店",
    "tel": "0120-001-319"
   },
-  "0ab81b93a084514e": {
-   "car": "カローラ 車両番号9396",
-   "condition": "禁煙車 5人乗り",
-   "ended": true,
-   "first_seen": "2026-11-23T12:00+09:00",
-   "notified": false,
-   "period": "2026年11月23日 ～ 11月25日",
-   "reserve_shop": "吾妻橋店",
-   "return_area": "中部",
-   "return_shop": "トヨタレンタリース愛知",
-   "start_area": "関東",
-   "start_place": "東京都 墨田区",
-   "start_shop": "トヨタモビリティサービス 吾妻橋店",
-   "tel": "03-3626-5300"
-  },
   "113109282285476e": {
    "car": "シエンタHV 車両番号1418",
    "condition": "禁煙・7人乗り ノーマル",
-   "ended": true,
+   "ended": false,
    "first_seen": "2026-11-24T12:00+09:00",
    "notified": false,
    "period": "2026年11月24日 ～ 11月26日",
@@ -1439,6 +1424,21 @@
    "start_place": "岩手県 一関市",
    "start_shop": "トヨタレンタリース岩手 一ノ関駅西口店",
    "tel": "019-606-3076"
+  },
+  "a68f163b6ed0359e": {
+   "car": "カローラ 車両番号9396",
+   "condition": "禁煙車 5人乗り",
+   "ended": true,
+   "first_seen": "2026-11-25T12:55+09:00",
+   "notified": false,
+   "period": "2026年11月25日 ～ 11月27日",
+   "reserve_shop": "吾妻橋店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース愛知",
+   "start_area": "関東",
+   "start_place": "東京都 墨田区",
+   "start_shop": "トヨタモビリティサービス 吾妻橋店",
+   "tel": "03-3626-5300"
   },
   "a727e449fd79a4ed": {
    "car": "ヤリスクロス 車両番号1355",
