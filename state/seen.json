@@ -1620,6 +1620,21 @@
    "start_shop": "トヨタレンタリース大阪 枚方市駅前店",
    "tel": "072-843-1100"
   },
+  "c87627978db4b44c": {
+   "car": "ノア 車両番号3151",
+   "condition": "禁煙8人乗り",
+   "ended": false,
+   "first_seen": "2026-11-25T12:00+09:00",
+   "notified": false,
+   "period": "2026年11月25日 ～ 11月27日",
+   "reserve_shop": "三島新幹線口店",
+   "return_area": "関東",
+   "return_shop": "トヨタモビリティサービス",
+   "start_area": "中部",
+   "start_place": "静岡県 三島市",
+   "start_shop": "トヨタレンタリース静岡 三島新幹線口店",
+   "tel": "0120-926-327"
+  },
   "c9da720b071bebc2": {
    "car": "カローラツーリング 車両番号 5392",
    "condition": "禁煙 5人乗り ノーマルタイヤ",
