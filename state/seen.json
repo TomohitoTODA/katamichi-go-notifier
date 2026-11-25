@@ -708,7 +708,7 @@
   "4e70709cd6e28c5f": {
    "car": "プリウス 仙台300わ6600",
    "condition": "禁煙 AT スタッドレス 2WD ナビ・ETC付き 5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-25T08:45+09:00",
    "notified": false,
    "period": "2026年11月25日 ～ 11月28日",
