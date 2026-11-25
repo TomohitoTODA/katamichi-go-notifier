@@ -108,7 +108,7 @@
   "064b8218f8446ed1": {
    "car": "カローラツーリングHV 山形300わ2325",
    "condition": "A/T・4WD・禁煙・ナビ付・ETC付・ｽﾀｯﾄﾞﾚｽ",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-25T11:40+09:00",
    "notified": false,
    "period": "2026年11月25日 ～ 11月27日",
@@ -1503,7 +1503,7 @@
   "a727e449fd79a4ed": {
    "car": "ヤリスクロス 車両番号1355",
    "condition": "禁煙・5人乗り スタッド",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-24T12:05+09:00",
    "notified": false,
    "period": "2026年11月24日 ～ 11月26日",
@@ -1758,7 +1758,7 @@
   "bc8110facfeec415": {
    "car": "アルファード 車両番号4113",
    "condition": "禁煙8人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-25T13:35+09:00",
    "notified": false,
    "period": "2026年11月25日 ～ 11月27日",
@@ -2223,7 +2223,7 @@
   "f653ead7159835a1": {
    "car": "アルファード 車両番号4114",
    "condition": "禁煙8人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-25T13:35+09:00",
    "notified": false,
    "period": "2026年11月25日 ～ 11月27日",
