@@ -525,6 +525,21 @@
    "start_shop": "トヨタレンタリース京都 山科店",
    "tel": "075-502-0100"
   },
+  "4b3e10e0ff3969af": {
+   "car": "カローラクロス 車両番号 6272",
+   "condition": "禁煙 5人乗り スタッドレスタイヤ",
+   "ended": false,
+   "first_seen": "2026-11-25T10:25+09:00",
+   "notified": false,
+   "period": "2026年11月25日 ～ 11月27日",
+   "reserve_shop": "なんばターミナル店",
+   "return_area": "関東",
+   "return_shop": "トヨタレンタリース神奈川",
+   "start_area": "近畿",
+   "start_place": "大阪府 大阪市",
+   "start_shop": "トヨタレンタリース大阪 なんばターミナル店",
+   "tel": "06-6647-0100"
+  },
   "4cba5e99a9c36af2": {
    "car": "ハリアー 車輛番号 3311",
    "condition": "禁煙 5人乗り",
