@@ -1560,6 +1560,21 @@
    "start_shop": "トヨタモビリティサービス 船堀駅前店",
    "tel": "03-3804-4100"
   },
+  "d14672dd86dc5ce7": {
+   "car": "シエンタ 車両番号4589",
+   "condition": "ｽﾀｯﾄﾞﾚｽ/4WD/禁煙/5人乗り/ﾅﾋﾞ･ETC付",
+   "ended": false,
+   "first_seen": "2026-11-25T09:25+09:00",
+   "notified": false,
+   "period": "2026年11月25日 ～ 11月27日",
+   "reserve_shop": "山形空港店",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース岩手",
+   "start_area": "東北",
+   "start_place": "山形県 東根市",
+   "start_shop": "トヨタレンタリース山形 山形空港店",
+   "tel": "0237-47-0100"
+  },
   "d6e8380cbd5e1b21": {
    "car": "プリウス 白河300わ178",
    "condition": "禁煙 スタットレス AT ナビ ETC車載器 5人乗り",
