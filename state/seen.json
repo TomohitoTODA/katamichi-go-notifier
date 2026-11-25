@@ -840,6 +840,21 @@
    "start_shop": "トヨタレンタリース大阪 谷町店",
    "tel": "06-6763-0100"
   },
+  "5d6717bc3937a303": {
+   "car": "シエンタ 車両番号7562",
+   "condition": "禁煙7人乗り",
+   "ended": true,
+   "first_seen": "2026-11-25T12:05+09:00",
+   "notified": false,
+   "period": "2026年11月25日 ～ 11月27日",
+   "reserve_shop": "京都駅新幹線口店",
+   "return_area": "関東",
+   "return_shop": "トヨタモビリティサービス",
+   "start_area": "近畿",
+   "start_place": "京都府 京都市",
+   "start_shop": "トヨタレンタリース京都 京都駅新幹線口店",
+   "tel": "075-682-0800"
+  },
   "61edf06ee7064f07": {
    "car": "アクア 車両番号 4589",
    "condition": "禁煙 5人乗り",
@@ -1229,6 +1244,21 @@
    "start_place": "福島県 石川郡玉川村",
    "start_shop": "トヨタレンタリース新福島 福島空港店",
    "tel": "0247-57-1371"
+  },
+  "9a0222bb8f17bb18": {
+   "car": "ノア 車両番号4631",
+   "condition": "禁煙・8人乗り（スタッドレスタイヤ付き）",
+   "ended": false,
+   "first_seen": "2026-11-25T12:05+09:00",
+   "notified": false,
+   "period": "2026年11月25日 ～ 11月27日",
+   "reserve_shop": "三島新幹線口店",
+   "return_area": "関東",
+   "return_shop": "トヨタモビリティサービス",
+   "start_area": "中部",
+   "start_place": "静岡県 三島市",
+   "start_shop": "トヨタレンタリース静岡 三島新幹線口店",
+   "tel": "0120-926-327"
   },
   "9a1b33f7e2fa3932": {
    "car": "ハイエースバン 車両番号8919",
@@ -1979,6 +2009,21 @@
    "start_place": "大阪府 大阪市",
    "start_shop": "トヨタレンタリース大阪 心斎橋船場店",
    "tel": "06-6264-0100"
+  },
+  "f32948c24e731966": {
+   "car": "カローラツーリング 車両番号3902",
+   "condition": "禁煙5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-25T12:05+09:00",
+   "notified": false,
+   "period": "2026年11月25日 ～ 11月27日",
+   "reserve_shop": "三島新幹線口店",
+   "return_area": "関東",
+   "return_shop": "トヨタモビリティサービス",
+   "start_area": "中部",
+   "start_place": "静岡県 三島市",
+   "start_shop": "トヨタレンタリース静岡 三島新幹線口店",
+   "tel": "0120-926-327"
   },
   "f3fafc9a62818e5c": {
    "car": "ルーミー 車両番号3363",
