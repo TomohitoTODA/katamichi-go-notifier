@@ -588,7 +588,7 @@
   "46c1efb866004ec7": {
    "car": "アルファードHV 車両番号4126",
    "condition": "禁煙・8人乗り ノーマル",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-25T14:20+09:00",
    "notified": false,
    "period": "2026年11月23日 ～ 11月25日",
@@ -749,6 +749,21 @@
    "start_place": "山形県 東根市",
    "start_shop": "トヨタレンタリース山形 山形空港店",
    "tel": "0237-47-0100"
+  },
+  "51478fb303916119": {
+   "car": "パッソ 車両番号787",
+   "condition": "禁煙・5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-26T08:55+09:00",
+   "notified": false,
+   "period": "2026年11月26日 ～ 11月28日",
+   "reserve_shop": "大分店",
+   "return_area": "九州",
+   "return_shop": "トヨタレンタリース長崎",
+   "start_area": "九州",
+   "start_place": "大分県 大分市",
+   "start_shop": "トヨタレンタリース大分 大分店",
+   "tel": "097-537-0100"
   },
   "51b12d9cef0d466f": {
    "car": "ヤリス 仙台501わ9400",
