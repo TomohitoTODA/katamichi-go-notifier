@@ -15,6 +15,21 @@
    "start_shop": "トヨタレンタリース宮城 卸町店",
    "tel": "022-237-0100"
   },
+  "027329d0b58da1b7": {
+   "car": "アクア 車両番号2244",
+   "condition": "禁煙 5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-25T13:40+09:00",
+   "notified": false,
+   "period": "2026年11月25日 ～ 11月27日",
+   "reserve_shop": "品川高輪口店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース静岡",
+   "start_area": "関東",
+   "start_place": "東京都 港区",
+   "start_shop": "トヨタモビリティサービス 品川高輪口店",
+   "tel": "03-3473-5021"
+  },
   "028c0be5d5e3fd27": {
    "car": "アクア 車両番号3613",
    "condition": "禁煙 5人乗り",
@@ -483,9 +498,9 @@
   "3602576a34bb87fa": {
    "car": "カローラ8084",
    "condition": "禁煙・5名乗",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-25T13:30+09:00",
-   "notified": true,
+   "notified": false,
    "period": "2026年11月25日 ～ 11月28日",
    "reserve_shop": "品川高輪口店",
    "return_area": "近畿",
@@ -1323,7 +1338,7 @@
   "9a0222bb8f17bb18": {
    "car": "ノア 車両番号4631",
    "condition": "禁煙・8人乗り（スタッドレスタイヤ付き）",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-25T12:05+09:00",
    "notified": false,
    "period": "2026年11月25日 ～ 11月27日",
@@ -1488,7 +1503,7 @@
   "a727e449fd79a4ed": {
    "car": "ヤリスクロス 車両番号1355",
    "condition": "禁煙・5人乗り スタッド",
-   "ended": true,
+   "ended": false,
    "first_seen": "2026-11-24T12:05+09:00",
    "notified": false,
    "period": "2026年11月24日 ～ 11月26日",
