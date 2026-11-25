@@ -1155,6 +1155,21 @@
    "start_shop": "トヨタレンタリース大阪 箕面店",
    "tel": "072-730-0200"
   },
+  "9c63a33ccde8ab52": {
+   "car": "タント 宮城580わ6201",
+   "condition": "禁煙 AT スタッドレス 4WD ナビ・ETC付き 4人乗り",
+   "ended": false,
+   "first_seen": "2026-11-25T09:10+09:00",
+   "notified": false,
+   "period": "2026年11月25日 ～ 11月28日",
+   "reserve_shop": "山形空港店",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース宮城",
+   "start_area": "東北",
+   "start_place": "山形県 東根市",
+   "start_shop": "トヨタレンタリース山形 山形空港店",
+   "tel": "0237-47-0100"
+  },
   "9f032717623bb598": {
    "car": "カローラツーリングＨＶ 車両番号0878",
    "condition": "禁煙・5人乗り ノーマル",
