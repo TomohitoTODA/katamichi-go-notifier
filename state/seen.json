@@ -1413,7 +1413,7 @@
   "a3bb1909c1c203f3": {
    "car": "アクア 車両番号162",
    "condition": "禁煙 5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-25T14:20+09:00",
    "notified": false,
    "period": "2026年11月25日 ～ 11月27日",
