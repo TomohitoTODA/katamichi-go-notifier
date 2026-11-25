@@ -1533,7 +1533,7 @@
   "a68f163b6ed0359e": {
    "car": "カローラ 車両番号9396",
    "condition": "禁煙車 5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-25T14:20+09:00",
    "notified": false,
    "period": "2026年11月25日 ～ 11月27日",
@@ -1653,7 +1653,7 @@
   "ae9051df6bef432a": {
    "car": "ヤリスＨＶ 登録番号7289",
    "condition": "禁煙5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-25T14:20+09:00",
    "notified": false,
    "period": "2026年11月24日 ～ 11月26日",
