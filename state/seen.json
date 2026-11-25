@@ -990,6 +990,21 @@
    "start_shop": "トヨタレンタリース宮城 仙台空港店",
    "tel": "0223-22-0100"
   },
+  "6fa5ace01a7e4c6a": {
+   "car": "ハリアー 車両番号3313",
+   "condition": "禁煙 ５人乗り",
+   "ended": false,
+   "first_seen": "2026-11-25T12:10+09:00",
+   "notified": true,
+   "period": "2026年11月25日 ～ 11月27日",
+   "reserve_shop": "中目黒山手通り店",
+   "return_area": "近畿",
+   "return_shop": "トヨタレンタリース京都",
+   "start_area": "関東",
+   "start_place": "東京都 目黒区",
+   "start_shop": "トヨタモビリティサービス 中目黒山手通り店",
+   "tel": "03-5725-3210"
+  },
   "7005f15086ccd15a": {
    "car": "ランクル250 車両番号3868",
    "condition": "禁煙・7人乗り スタッド",
