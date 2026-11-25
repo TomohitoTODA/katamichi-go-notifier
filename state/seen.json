@@ -1998,7 +1998,7 @@
   "e8092ea646bd4f94": {
    "car": "カローラスポーツHV 山形300わ2497",
    "condition": "A/T 2WD 禁煙車 ナビ付 ETC付 スタッドレス",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-25T11:45+09:00",
    "notified": false,
    "period": "2026年11月25日 ～ 11月27日",
