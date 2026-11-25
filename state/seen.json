@@ -1395,21 +1395,6 @@
    "start_shop": "トヨタレンタリース静岡 三島新幹線口店",
    "tel": "0120-926-327"
   },
-  "9a1b33f7e2fa3932": {
-   "car": "ハイエースバン 車両番号8919",
-   "condition": "禁煙車 3/6人乗り",
-   "ended": false,
-   "first_seen": "2026-11-25T14:20+09:00",
-   "notified": false,
-   "period": "2026年11月23日 ～ 11月25日",
-   "reserve_shop": "箕面店",
-   "return_area": "中部",
-   "return_shop": "トヨタレンタリース愛知",
-   "start_area": "近畿",
-   "start_place": "大阪府 箕面市",
-   "start_shop": "トヨタレンタリース大阪 箕面店",
-   "tel": "072-730-0200"
-  },
   "9c63a33ccde8ab52": {
    "car": "タント 宮城580わ6201",
    "condition": "禁煙 AT スタッドレス 4WD ナビ・ETC付き 4人乗り",
