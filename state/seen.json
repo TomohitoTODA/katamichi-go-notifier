@@ -1698,9 +1698,9 @@
   "ba315406f76bf035": {
    "car": "ルーミー6168",
    "condition": "禁煙・5名乗",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-25T14:20+09:00",
-   "notified": true,
+   "notified": false,
    "period": "2026年11月25日 ～ 11月28日",
    "reserve_shop": "新富士駅前店",
    "return_area": "近畿",
