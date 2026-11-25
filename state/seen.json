@@ -1814,6 +1814,21 @@
    "start_place": "東京都 墨田区",
    "start_shop": "トヨタモビリティサービス 錦糸町店",
    "tel": "03-3635-0100"
+  },
+  "fedaaba6b32f6b78": {
+   "car": "ヤリス 仙台501わ9757",
+   "condition": "禁煙 AT スタッドレス 2WD ナビ・ETC付き 5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-25T09:05+09:00",
+   "notified": false,
+   "period": "2026年11月25日 ～ 11月28日",
+   "reserve_shop": "福島駅新幹線口店",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース宮城",
+   "start_area": "東北",
+   "start_place": "福島県 福島市",
+   "start_shop": "トヨタレンタリース新福島 福島駅新幹線口店",
+   "tel": "024-531-0100"
   }
  }
 }
