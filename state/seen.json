@@ -408,9 +408,9 @@
   "3607d292362b1845": {
    "car": "カローラＨＶ 車両番号1752",
    "condition": "禁煙・５人乗り・スタッドレス",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-25T09:50+09:00",
-   "notified": true,
+   "notified": false,
    "period": "2026年11月25日 ～ 11月26日",
    "reserve_shop": "日暮里駅前店",
    "return_area": "近畿",
@@ -450,21 +450,6 @@
    "start_shop": "トヨタモビリティサービス 品川高輪口店",
    "tel": "03-3473-5021"
   },
-  "3a28b99f6a098b8b": {
-   "car": "プリウス 青森300わ3392",
-   "condition": "禁煙 AT 4WD 冬タイヤ ETC車載器 バックモニター Bluetooth ドライブレコーダー",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月19日 ～ 11月26日",
-   "reserve_shop": "山形駅前店",
-   "return_area": "東北",
-   "return_shop": "トヨタレンタリース青森",
-   "start_area": "東北",
-   "start_place": "山形県 山形市",
-   "start_shop": "トヨタレンタリース山形 山形駅前店",
-   "tel": "023-625-0100"
-  },
   "3b7fd2af14f910b9": {
    "car": "ヤリス 車両番号 7497",
    "condition": "禁煙 5人乗り",
@@ -479,21 +464,6 @@
    "start_place": "東京都 荒川区",
    "start_shop": "トヨタモビリティサービス 日暮里駅前店",
    "tel": "03-5604-0100"
-  },
-  "3e6a6806e9a257cc": {
-   "car": "プロボックス 八戸400わ3194",
-   "condition": "禁煙 AT 4WD 冬タイヤ ETC車載器 バックモニター Bluetooth ドライブレコーダー",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月18日 ～ 11月25日",
-   "reserve_shop": "卸町店",
-   "return_area": "東北",
-   "return_shop": "トヨタレンタリース青森",
-   "start_area": "東北",
-   "start_place": "宮城県 仙台市",
-   "start_shop": "トヨタレンタリース宮城 卸町店",
-   "tel": "022-237-0100"
   },
   "41645d6298f723e0": {
    "car": "アルファードHV 車両番号1966",
@@ -584,21 +554,6 @@
    "start_place": "岩手県 一関市",
    "start_shop": "トヨタレンタリース岩手 一ノ関駅西口店",
    "tel": "019-606-3076"
-  },
-  "4df17ea90dc309cb": {
-   "car": "シエンタHV 八戸500わ9148",
-   "condition": "禁煙 AT 4WD 冬タイヤ ETC車載器 バックモニター Bluetooth ドライブレコーダー",
-   "ended": false,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月20日 ～ 11月27日",
-   "reserve_shop": "仙台駅東口店",
-   "return_area": "東北",
-   "return_shop": "トヨタレンタリース青森",
-   "start_area": "東北",
-   "start_place": "宮城県 仙台市",
-   "start_shop": "トヨタレンタリース宮城 仙台駅東口店",
-   "tel": "022-293-0100"
   },
   "4e70709cd6e28c5f": {
    "car": "プリウス 仙台300わ6600",
@@ -1004,21 +959,6 @@
    "start_place": "宮城県 仙台市",
    "start_shop": "トヨタレンタリース仙台 仙台新幹線口店",
    "tel": "022-291-0100"
-  },
-  "7d486f5be80229b1": {
-   "car": "パッソ 青森501わ3027",
-   "condition": "禁煙 AT 4WD 冬タイヤ ETC車載器 バックモニター Bluetooth ドライブレコーダー",
-   "ended": true,
-   "first_seen": "2026-11-21 15:05",
-   "notified": false,
-   "period": "2026年11月18日 ～ 11月25日",
-   "reserve_shop": "仙台駅西口店",
-   "return_area": "東北",
-   "return_shop": "トヨタレンタリース青森",
-   "start_area": "東北",
-   "start_place": "宮城県 仙台市",
-   "start_shop": "トヨタレンタリース宮城 仙台駅西口店",
-   "tel": "022-213-0100"
   },
   "846107c9878049f2": {
    "car": "ノアHV 車両番号5656",
