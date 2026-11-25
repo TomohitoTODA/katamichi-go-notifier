@@ -1533,7 +1533,7 @@
   "a68f163b6ed0359e": {
    "car": "カローラ 車両番号9396",
    "condition": "禁煙車 5人乗り",
-   "ended": true,
+   "ended": false,
    "first_seen": "2026-11-25T14:20+09:00",
    "notified": false,
    "period": "2026年11月25日 ～ 11月27日",
@@ -2144,6 +2144,21 @@
    "start_place": "神奈川県 藤沢市",
    "start_shop": "トヨタレンタリース神奈川 辻堂駅前店",
    "tel": "0466-31-2711"
+  },
+  "e7cb4b8cd3db5fd4": {
+   "car": "ハリアーHV 車両番号7955",
+   "condition": "禁煙5人乗り ｽﾀｯﾄﾞﾚｽ付",
+   "ended": false,
+   "first_seen": "2026-11-25T15:40+09:00",
+   "notified": false,
+   "period": "2026年11月26日 ～ 11月28日",
+   "reserve_shop": "新大阪新幹線口店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース愛知",
+   "start_area": "近畿",
+   "start_place": "大阪府 大阪市",
+   "start_shop": "トヨタレンタリース大阪 新大阪新幹線口店",
+   "tel": "06-6393-0100"
   },
   "e9c84b495e6be8dd": {
    "car": "アルファードHEV 車輛番号 2087",
