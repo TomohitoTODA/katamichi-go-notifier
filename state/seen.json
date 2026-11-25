@@ -78,7 +78,7 @@
   "05ca3d05d106c202": {
    "car": "ヤリス0009",
    "condition": "禁煙・5名乗",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-25T11:00+09:00",
    "notified": false,
    "period": "2026年11月25日 ～ 11月28日",
@@ -449,6 +449,21 @@
    "start_place": "宮城県 岩沼市",
    "start_shop": "トヨタレンタリース宮城 仙台空港店",
    "tel": "0223-22-0100"
+  },
+  "33f093771ba938a1": {
+   "car": "ヤリス 車両番号9320",
+   "condition": "禁煙 ５人乗り",
+   "ended": false,
+   "first_seen": "2026-11-25T12:15+09:00",
+   "notified": false,
+   "period": "2026年11月25日 ～ 11月27日",
+   "reserve_shop": "総合予約室",
+   "return_area": "近畿",
+   "return_shop": "トヨタレンタリース京都",
+   "start_area": "中部",
+   "start_place": "愛知県 常滑市",
+   "start_shop": "トヨタレンタリース愛知 中部国際空港店",
+   "tel": "0120-001-319"
   },
   "35b0eb88e3acb7ed": {
    "car": "カローラツーリングHV 山形300わ2625",
@@ -993,9 +1008,9 @@
   "6fa5ace01a7e4c6a": {
    "car": "ハリアー 車両番号3313",
    "condition": "禁煙 ５人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-25T12:10+09:00",
-   "notified": true,
+   "notified": false,
    "period": "2026年11月25日 ～ 11月27日",
    "reserve_shop": "中目黒山手通り店",
    "return_area": "近畿",
@@ -1560,6 +1575,21 @@
    "start_shop": "トヨタモビリティサービス 船堀駅前店",
    "tel": "03-3804-4100"
   },
+  "b2fb5fcb16b655a0": {
+   "car": "ヤリスHV 車両番号2192",
+   "condition": "禁煙 ５人乗り",
+   "ended": false,
+   "first_seen": "2026-11-25T12:15+09:00",
+   "notified": false,
+   "period": "2026年11月25日 ～ 11月27日",
+   "reserve_shop": "総合予約室",
+   "return_area": "近畿",
+   "return_shop": "トヨタレンタリース京都",
+   "start_area": "中部",
+   "start_place": "愛知県 名古屋市",
+   "start_shop": "トヨタレンタリース愛知 ささしまライブ東口店",
+   "tel": "0120-001-319"
+  },
   "b5046bebdf7b4bbf": {
    "car": "ヤリス 青森501わ4383",
    "condition": "5人乗・禁煙・スタッドレス装着",
@@ -1889,6 +1919,21 @@
    "start_place": "宮城県 仙台市",
    "start_shop": "トヨタレンタリース宮城 卸町店",
    "tel": "022-237-0100"
+  },
+  "e462390645787432": {
+   "car": "ハリアーHV 車両番号 383",
+   "condition": "禁煙 ５人乗り",
+   "ended": false,
+   "first_seen": "2026-11-25T12:15+09:00",
+   "notified": false,
+   "period": "2026年11月25日 ～ 11月27日",
+   "reserve_shop": "総合予約室",
+   "return_area": "近畿",
+   "return_shop": "トヨタレンタリース京都",
+   "start_area": "中部",
+   "start_place": "愛知県 名古屋市",
+   "start_shop": "トヨタレンタリース愛知 ささしまライブ東口店",
+   "tel": "0120-001-319"
   },
   "e530c90523c8b26b": {
    "car": "プリウス 青森300わ2343",
