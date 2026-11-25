@@ -1278,7 +1278,7 @@
   "aaa99b1a77e101af": {
    "car": "ヤリス 白河500わ357",
    "condition": "禁煙 AT ナビ ETC車載器 ｽﾀｯﾄﾞﾚｽ",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-23T00:15+09:00",
    "notified": false,
    "period": "2026年11月23日 ～ 11月25日",
