@@ -390,6 +390,21 @@
    "start_shop": "トヨタレンタリース仙台 仙台新幹線口店",
    "tel": "022-291-0100"
   },
+  "2a9be2167fe8849a": {
+   "car": "ヤリス5907",
+   "condition": "禁煙・5名乗・スタッドレス",
+   "ended": false,
+   "first_seen": "2026-11-25T13:25+09:00",
+   "notified": true,
+   "period": "2026年11月25日 ～ 11月28日",
+   "reserve_shop": "浅草橋店",
+   "return_area": "近畿",
+   "return_shop": "トヨタレンタリース大阪",
+   "start_area": "関東",
+   "start_place": "東京都 台東区",
+   "start_shop": "トヨタモビリティサービス 浅草橋店",
+   "tel": "03-5821-6324"
+  },
   "2ccfad5c1afee92c": {
    "car": "ヤリス 山形501わ1226",
    "condition": "A/T 2WD 禁煙車 ナビ付 ETC付 スタッドレス",
@@ -2159,6 +2174,21 @@
    "start_place": "東京都 千代田区",
    "start_shop": "トヨタモビリティサービス 東京駅日本橋口店",
    "tel": "03-5220-2220"
+  },
+  "fb0917cedc42e4d6": {
+   "car": "アルファード3107",
+   "condition": "禁煙・7名乗・スタッドレス",
+   "ended": false,
+   "first_seen": "2026-11-25T13:25+09:00",
+   "notified": true,
+   "period": "2026年11月25日 ～ 11月28日",
+   "reserve_shop": "中目黒山手通り店",
+   "return_area": "近畿",
+   "return_shop": "トヨタレンタリース大阪",
+   "start_area": "関東",
+   "start_place": "東京都 目黒区",
+   "start_shop": "トヨタモビリティサービス 中目黒山手通り店",
+   "tel": "03-5725-3210"
   },
   "fec7ddcee1fd280d": {
    "car": "アルファード 車輛番号 8531",
