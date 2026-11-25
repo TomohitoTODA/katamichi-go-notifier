@@ -558,7 +558,7 @@
   "4d32b00b5d5253d4": {
    "car": "カローラツーリングHV 宮城300わ7978",
    "condition": "禁煙 AT スタッドレス 4WD ナビ・ETC付き 5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-25T08:55+09:00",
    "notified": false,
    "period": "2026年11月25日 ～ 11月28日",
@@ -1353,7 +1353,7 @@
   "aec267b2aa63a68a": {
    "car": "ヤリス 車両番号山形500わ9922",
    "condition": "A/T 2WD 禁煙車 ナビ付 ETC付 スタッドレス",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-23T10:10+09:00",
    "notified": false,
    "period": "2026年11月23日 ～ 11月25日",
