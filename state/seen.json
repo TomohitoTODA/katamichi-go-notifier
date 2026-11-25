@@ -1725,6 +1725,21 @@
    "start_shop": "トヨタレンタリース愛知 ささしまライブ東口店",
    "tel": "0120-001-319"
   },
+  "b44ac860acb48788": {
+   "car": "アルファードHV 車両番号9524",
+   "condition": "禁煙車 8人乗り",
+   "ended": false,
+   "first_seen": "2026-11-25T15:35+09:00",
+   "notified": false,
+   "period": "2026年11月26日 ～ 11月28日",
+   "reserve_shop": "なんばターミナル店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース愛知",
+   "start_area": "近畿",
+   "start_place": "大阪府 大阪市",
+   "start_shop": "トヨタレンタリース大阪 心斎橋船場店",
+   "tel": "06-6647-0100"
+  },
   "b5046bebdf7b4bbf": {
    "car": "ヤリス 青森501わ4383",
    "condition": "5人乗・禁煙・スタッドレス装着",
