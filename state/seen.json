@@ -453,7 +453,7 @@
   "3131d845c5f6d972": {
    "car": "シエンタHEV 山形501わ1069",
    "condition": "A/T・4WD・禁煙・ナビ付・ETC付・ｽﾀｯﾄﾞﾚｽ",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-25T14:20+09:00",
    "notified": false,
    "period": "2026年11月25日 ～ 11月27日",
