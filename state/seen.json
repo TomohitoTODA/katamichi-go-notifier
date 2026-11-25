@@ -18,7 +18,7 @@
   "027329d0b58da1b7": {
    "car": "アクア 車両番号2244",
    "condition": "禁煙 5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-25T14:20+09:00",
    "notified": false,
    "period": "2026年11月25日 ～ 11月27日",
@@ -933,7 +933,7 @@
   "61edf06ee7064f07": {
    "car": "アクア 車両番号 4589",
    "condition": "禁煙 5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-25T14:20+09:00",
    "notified": false,
    "period": "2026年11月24日 ～ 11月26日",
@@ -2163,9 +2163,9 @@
   "ef6a20f007fe6507": {
    "car": "シエンタ 車輛番号 1709",
    "condition": "禁煙 7人乗り",
-   "ended": true,
+   "ended": false,
    "first_seen": "2026-11-25T14:20+09:00",
-   "notified": false,
+   "notified": true,
    "period": "2026年11月24日 ～ 11月26日",
    "reserve_shop": "吾妻橋店",
    "return_area": "近畿",
