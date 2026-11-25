@@ -258,7 +258,7 @@
   "19f5b11b49520315": {
    "car": "アクア 車輛番号 7057",
    "condition": "禁煙 5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-25T14:20+09:00",
    "notified": false,
    "period": "2026年11月24日 ～ 11月26日",
@@ -1274,6 +1274,21 @@
    "start_place": "大阪府 大阪市",
    "start_shop": "トヨタレンタリース大阪 なんばターミナル店",
    "tel": "06-6647-0100"
+  },
+  "98810d689e6d046c": {
+   "car": "ヤリス 白河500わ970",
+   "condition": "禁煙 AT ナビ・ETC付き 5人乗り ｽﾀｯﾄﾞﾚｽ",
+   "ended": false,
+   "first_seen": "2026-11-25T20:00+09:00",
+   "notified": false,
+   "period": "2026年11月26日 ～ 11月28日",
+   "reserve_shop": "河辺駅前店",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース新福島",
+   "start_area": "関東",
+   "start_place": "東京都 青梅市",
+   "start_shop": "トヨタS＆Dレンタシェア西東京 河辺駅前店",
+   "tel": "0428-23-0100"
   },
   "98c9f55362d7c803": {
    "car": "ヤリス 仙台501わ9813",
