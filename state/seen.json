@@ -1995,6 +1995,21 @@
    "start_shop": "トヨタモビリティサービス 吾妻橋店",
    "tel": "03-3626-5300"
   },
+  "f7132c5691dd0182": {
+   "car": "シエンタHEV 山形501わ1048",
+   "condition": "A/T・4WD・禁煙・ナビ付・ETC付・ｽﾀｯﾄﾞﾚｽ",
+   "ended": false,
+   "first_seen": "2026-11-25T11:50+09:00",
+   "notified": false,
+   "period": "2026年11月25日 ～ 11月27日",
+   "reserve_shop": "東京駅日本橋口店",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース山形",
+   "start_area": "関東",
+   "start_place": "東京都 千代田区",
+   "start_shop": "トヨタモビリティサービス 東京駅日本橋口店",
+   "tel": "03-5220-2220"
+  },
   "fec7ddcee1fd280d": {
    "car": "アルファード 車輛番号 8531",
    "condition": "禁煙 8人乗り",
