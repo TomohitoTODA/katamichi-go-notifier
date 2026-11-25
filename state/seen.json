@@ -2399,6 +2399,21 @@
    "start_place": "福島県 福島市",
    "start_shop": "トヨタレンタリース新福島 福島駅新幹線口店",
    "tel": "024-531-0100"
+  },
+  "ffae17e9207cdded": {
+   "car": "カローラツーリング 車両番号0853",
+   "condition": "禁煙・５人乗",
+   "ended": false,
+   "first_seen": "2026-11-25T16:20+09:00",
+   "notified": false,
+   "period": "2026年11月24日 ～ 11月27日",
+   "reserve_shop": "りんくうタウン駅前店",
+   "return_area": "関東",
+   "return_shop": "トヨタモビリティサービス",
+   "start_area": "近畿",
+   "start_place": "大阪府 泉佐野市",
+   "start_shop": "トヨタレンタリース新大阪 りんくうタウン駅前店",
+   "tel": "072-463-0100"
   }
  }
 }
