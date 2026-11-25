@@ -528,7 +528,7 @@
   "4b3e10e0ff3969af": {
    "car": "カローラクロス 車両番号 6272",
    "condition": "禁煙 5人乗り スタッドレスタイヤ",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-25T10:25+09:00",
    "notified": false,
    "period": "2026年11月25日 ～ 11月27日",
