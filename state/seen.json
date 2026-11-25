@@ -453,7 +453,7 @@
   "3b7fd2af14f910b9": {
    "car": "ヤリス 車両番号 7497",
    "condition": "禁煙 5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-23T14:30+09:00",
    "notified": false,
    "period": "2026年11月23日 ～ 11月25日",
