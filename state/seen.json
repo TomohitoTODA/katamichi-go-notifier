@@ -498,9 +498,9 @@
   "3602576a34bb87fa": {
    "car": "カローラ8084",
    "condition": "禁煙・5名乗",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-25T14:20+09:00",
-   "notified": true,
+   "notified": false,
    "period": "2026年11月25日 ～ 11月28日",
    "reserve_shop": "品川高輪口店",
    "return_area": "近畿",
@@ -1113,7 +1113,7 @@
   "77a194eaf06fb959": {
    "car": "シエンタ 車両番号1003",
    "condition": "禁煙7人乗り スタッドレスタイヤ付き",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-25T14:20+09:00",
    "notified": false,
    "period": "2026年11月25日 ～ 11月27日",
