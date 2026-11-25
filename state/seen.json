@@ -555,21 +555,6 @@
    "start_shop": "トヨタモビリティサービス 品川高輪口店",
    "tel": "03-3473-5021"
   },
-  "3b7fd2af14f910b9": {
-   "car": "ヤリス 車両番号 7497",
-   "condition": "禁煙 5人乗り",
-   "ended": true,
-   "first_seen": "2026-11-25T14:20+09:00",
-   "notified": false,
-   "period": "2026年11月23日 ～ 11月25日",
-   "reserve_shop": "日暮里駅前店",
-   "return_area": "中部",
-   "return_shop": "トヨタレンタリース名古屋",
-   "start_area": "関東",
-   "start_place": "東京都 荒川区",
-   "start_shop": "トヨタモビリティサービス 日暮里駅前店",
-   "tel": "03-5604-0100"
-  },
   "41645d6298f723e0": {
    "car": "アルファードHV 車両番号1966",
    "condition": "禁煙・8人乗り スタッド",
@@ -989,21 +974,6 @@
    "start_place": "福島県 福島市",
    "start_shop": "トヨタレンタリース福島 福島駅前店",
    "tel": "024-524-0100"
-  },
-  "6c5bb5f2f6b607f9": {
-   "car": "ハイエースバン 車両番号 4364",
-   "condition": "禁煙 3/6人乗り",
-   "ended": true,
-   "first_seen": "2026-11-25T14:20+09:00",
-   "notified": false,
-   "period": "2026年11月23日 ～ 11月25日",
-   "reserve_shop": "品川高輪口店",
-   "return_area": "中部",
-   "return_shop": "トヨタレンタリース名古屋",
-   "start_area": "関東",
-   "start_place": "東京都 港区",
-   "start_shop": "トヨタモビリティサービス 品川高輪口店",
-   "tel": "03-3473-5021"
   },
   "6dab3732a161c20b": {
    "car": "カローラ 車両番号 3109",
@@ -2174,21 +2144,6 @@
    "start_place": "東京都 大田区",
    "start_shop": "トヨタモビリティサービス 羽田空港（国内線）店",
    "tel": "03-3744-0100"
-  },
-  "f58ab5b3d3e2a5ee": {
-   "car": "カローラツーリング 車両番号 4233",
-   "condition": "禁煙 5人乗り スタッドレスタイヤ付",
-   "ended": true,
-   "first_seen": "2026-11-25T14:20+09:00",
-   "notified": false,
-   "period": "2026年11月24日 ～ 11月26日",
-   "reserve_shop": "吾妻橋店",
-   "return_area": "中部",
-   "return_shop": "トヨタレンタリース名古屋",
-   "start_area": "関東",
-   "start_place": "東京都 墨田区",
-   "start_shop": "トヨタモビリティサービス 吾妻橋店",
-   "tel": "03-3626-5300"
   },
   "f653ead7159835a1": {
    "car": "アルファード 車両番号4114",
