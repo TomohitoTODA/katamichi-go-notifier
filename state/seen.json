@@ -75,6 +75,21 @@
    "start_shop": "トヨタレンタリース福島 郡山駅新幹線口店",
    "tel": "024-939-0100"
   },
+  "05ca3d05d106c202": {
+   "car": "ヤリス0009",
+   "condition": "禁煙・5名乗",
+   "ended": false,
+   "first_seen": "2026-11-25T11:00+09:00",
+   "notified": false,
+   "period": "2026年11月25日 ～ 11月28日",
+   "reserve_shop": "総合予約室",
+   "return_area": "近畿",
+   "return_shop": "トヨタレンタリース大阪",
+   "start_area": "中部",
+   "start_place": "愛知県 名古屋市",
+   "start_shop": "トヨタレンタリース愛知 今池店",
+   "tel": "0120-001-319"
+  },
   "072d10e067f1c489": {
    "car": "パッソ 車両番号787",
    "condition": "禁煙・5人乗り",
@@ -228,7 +243,7 @@
   "1d4889bca9f1c61b": {
    "car": "ヤリス 弘前500わ286",
    "condition": "5人乗・禁煙・スタッドレス装着",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-23T00:15+09:00",
    "notified": false,
    "period": "2026年11月23日 ～ 11月29日",
