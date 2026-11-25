@@ -33,7 +33,7 @@
   "028c0be5d5e3fd27": {
    "car": "アクア 車両番号3613",
    "condition": "禁煙 5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-25T14:20+09:00",
    "notified": false,
    "period": "2026年11月25日 ～ 11月27日",
@@ -944,6 +944,21 @@
    "start_place": "青森県 青森市",
    "start_shop": "トヨタレンタリース青森 新青森駅西口店",
    "tel": "017-782-7298"
+  },
+  "67d92a47a0b5ce46": {
+   "car": "ヴォクシーHEV 福島300わ3922",
+   "condition": "ＡＴ・禁煙・ＥＴＣ車載器・7人乗り・ベビーシート1台",
+   "ended": false,
+   "first_seen": "2026-11-25T20:10+09:00",
+   "notified": false,
+   "period": "2026年11月26日 ～ 11月28日",
+   "reserve_shop": "武蔵境店",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース福島",
+   "start_area": "関東",
+   "start_place": "東京都 武蔵野市",
+   "start_shop": "トヨタS＆Dレンタシェア西東京 武蔵境店",
+   "tel": "0422-55-0100"
   },
   "67d9a4b1293eba4e": {
    "car": "カローラツーリングHV 山形300わ1951",
