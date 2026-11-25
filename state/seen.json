@@ -375,21 +375,6 @@
    "start_shop": "トヨタレンタリース京都 堀川店",
    "tel": "075-762-0115"
   },
-  "26c37d27b4c270b1": {
-   "car": "ヤリスHV 宮城502わ5118",
-   "condition": "禁煙 AT スタッドレス 2WD ナビ・ETC付き 5人乗り",
-   "ended": true,
-   "first_seen": "2026-11-25T14:20+09:00",
-   "notified": false,
-   "period": "2026年11月24日 ～ 11月26日",
-   "reserve_shop": "本社 レンタル課（営業時間 9:00-18:00）",
-   "return_area": "東北",
-   "return_shop": "トヨタレンタリース宮城",
-   "start_area": "東北",
-   "start_place": "岩手県 盛岡市",
-   "start_shop": "トヨタレンタリース岩手 盛岡駅南口店",
-   "tel": "019-606-3076"
-  },
   "26c95ac341031aed": {
    "car": "ライズ 車両番号8500",
    "condition": "禁煙5人乗り ｽﾀｯﾄﾞﾚｽ付",
@@ -2403,7 +2388,7 @@
   "ffae17e9207cdded": {
    "car": "カローラツーリング 車両番号0853",
    "condition": "禁煙・５人乗",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-25T16:20+09:00",
    "notified": false,
    "period": "2026年11月24日 ～ 11月27日",
