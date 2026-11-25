@@ -1755,21 +1755,6 @@
    "start_shop": "トヨタレンタリース福島 郡山駅新幹線口店",
    "tel": "024-939-0100"
   },
-  "b5ef6ad2db3e5068": {
-   "car": "RAV4HV 車輛番号 2218",
-   "condition": "禁煙 5人乗り",
-   "ended": true,
-   "first_seen": "2026-11-25T14:20+09:00",
-   "notified": false,
-   "period": "2026年11月24日 ～ 11月26日",
-   "reserve_shop": "中野坂上店",
-   "return_area": "近畿",
-   "return_shop": "トヨタレンタリース京都",
-   "start_area": "関東",
-   "start_place": "東京都 中野区",
-   "start_shop": "トヨタモビリティサービス 中野坂上店",
-   "tel": "03-3379-7100"
-  },
   "b9b9b61b09b81675": {
    "car": "カローラツーリング 車両番号3198",
    "condition": "禁煙・5人乗り ノーマル",
