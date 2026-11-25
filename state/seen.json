@@ -378,7 +378,7 @@
   "26c95ac341031aed": {
    "car": "ライズ 車両番号8500",
    "condition": "禁煙5人乗り ｽﾀｯﾄﾞﾚｽ付",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-25T15:25+09:00",
    "notified": false,
    "period": "2026年11月26日 ～ 11月28日",
@@ -1593,7 +1593,7 @@
   "a9f0dd446007328f": {
    "car": "ヤリス 車両番号3222",
    "condition": "禁煙 5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-25T14:20+09:00",
    "notified": false,
    "period": "2026年11月25日 ～ 11月27日",
