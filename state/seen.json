@@ -723,7 +723,7 @@
   "4606f26168839df2": {
    "car": "ノア 車両番号1323",
    "condition": "禁煙・8人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-26T12:05+09:00",
    "notified": false,
    "period": "2026年11月26日 ～ 11月28日",
@@ -738,7 +738,7 @@
   "46143b4a30ec4640": {
    "car": "カローラツーリングHV 車両番号4208",
    "condition": "禁煙5人乗り ｽﾀｯﾄﾞﾚｽ付",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-26T12:10+09:00",
    "notified": false,
    "period": "2026年11月26日 ～ 11月28日",
@@ -1758,7 +1758,7 @@
   "aea0d99581c52513": {
    "car": "アクア 車両番号 1011",
    "condition": "禁煙車 ５人乗 ハイブリッド ノーマルタイヤ",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-25T14:20+09:00",
    "notified": false,
    "period": "2026年11月25日 ～ 11月27日",
