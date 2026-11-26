@@ -90,6 +90,21 @@
    "start_shop": "トヨタレンタリース宮城 仙台駅西口店",
    "tel": "022-213-0100"
   },
+  "05689f8c7888ea7a": {
+   "car": "ノア 車両番号1285",
+   "condition": "禁煙・8人乗り（スタッドレスタイヤ付き）",
+   "ended": true,
+   "first_seen": "2026-11-26T14:15+09:00",
+   "notified": false,
+   "period": "2026年11月26日 ～ 11月28日",
+   "reserve_shop": "心斎橋船場店",
+   "return_area": "関東",
+   "return_shop": "トヨタモビリティサービス",
+   "start_area": "近畿",
+   "start_place": "大阪府 大阪市",
+   "start_shop": "トヨタレンタリース大阪 心斎橋船場店",
+   "tel": "06-6264-0100"
+  },
   "05a6692b67f198cb": {
    "car": "ルーミー 山形500わ9346",
    "condition": "A/T・4WD・禁煙・ナビ付・ETC付・ｽﾀｯﾄﾞﾚｽ",
@@ -2114,6 +2129,21 @@
    "start_place": "神奈川県 藤沢市",
    "start_shop": "トヨタレンタリース神奈川 辻堂駅前店",
    "tel": "0466-31-2711"
+  },
+  "e9b999e773c40bf3": {
+   "car": "ノア 車両番号1360",
+   "condition": "禁煙・8人乗り（スタッドレスタイヤ付き）",
+   "ended": false,
+   "first_seen": "2026-11-26T14:15+09:00",
+   "notified": false,
+   "period": "2026年11月26日 ～ 11月28日",
+   "reserve_shop": "りんくうタウン駅前店",
+   "return_area": "関東",
+   "return_shop": "トヨタモビリティサービス",
+   "start_area": "近畿",
+   "start_place": "大阪府 泉佐野市",
+   "start_shop": "トヨタレンタリース新大阪 りんくうタウン駅前店",
+   "tel": "072-463-0100"
   },
   "e9c84b495e6be8dd": {
    "car": "アルファードHEV 車輛番号 2087",
