@@ -1203,7 +1203,7 @@
   "876f4bfeec872d43": {
    "car": "ルーミー 車両番号3865",
    "condition": "禁煙 5人乗り スタッドレスタイヤ",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-26T10:00+09:00",
    "notified": false,
    "period": "2026年11月26日 ～ 11月28日",
