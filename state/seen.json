@@ -453,7 +453,7 @@
   "26c95ac341031aed": {
    "car": "ライズ 車両番号8500",
    "condition": "禁煙5人乗り ｽﾀｯﾄﾞﾚｽ付",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-26T13:35+09:00",
    "notified": false,
    "period": "2026年11月26日 ～ 11月28日",
@@ -667,13 +667,13 @@
    "first_seen": "2026-11-26T13:35+09:00",
    "notified": false,
    "period": "2026年11月26日 ～ 11月28日",
-   "reserve_shop": "立川駅南口店",
+   "reserve_shop": "福生駅前店",
    "return_area": "中部",
    "return_shop": "トヨタレンタリース愛知",
    "start_area": "関東",
    "start_place": "東京都 福生市",
    "start_shop": "トヨタS＆Dレンタシェア西東京 福生駅前店",
-   "tel": "042-523-0100"
+   "tel": "042-551-0100"
   },
   "41645d6298f723e0": {
    "car": "アルファードHV 車両番号1966",
@@ -1725,6 +1725,21 @@
    "start_shop": "トヨタレンタリース静岡 掛川新幹線口店",
    "tel": "0537-22-0100"
   },
+  "aeaee963c6c9ec6c": {
+   "car": "アルファード 車両番号7914",
+   "condition": "禁煙・8人乗り",
+   "ended": false,
+   "first_seen": "2026-11-26T14:20+09:00",
+   "notified": false,
+   "period": "2026年11月26日 ～ 11月28日",
+   "reserve_shop": "京都駅新幹線口店",
+   "return_area": "関東",
+   "return_shop": "トヨタモビリティサービス",
+   "start_area": "近畿",
+   "start_place": "京都府 京都市",
+   "start_shop": "トヨタレンタリース京都 京都駅新幹線口店",
+   "tel": "075-682-0800"
+  },
   "b237345b91cfe947": {
    "car": "ヴォクシーHEV 車両番号1075",
    "condition": "禁煙 7人乗り",
@@ -1964,6 +1979,21 @@
    "start_place": "山形県 東根市",
    "start_shop": "トヨタレンタリース山形 山形空港店",
    "tel": "0237-47-0100"
+  },
+  "d14c7fd8d4dfdf8e": {
+   "car": "ヤリス 車両番号8854",
+   "condition": "禁煙5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-26T14:20+09:00",
+   "notified": false,
+   "period": "2026年11月26日 ～ 11月28日",
+   "reserve_shop": "谷町店",
+   "return_area": "関東",
+   "return_shop": "トヨタモビリティサービス",
+   "start_area": "近畿",
+   "start_place": "大阪府 大阪市",
+   "start_shop": "トヨタレンタリース大阪 谷町店",
+   "tel": "06-6763-0100"
   },
   "d493a9eb7f804ab1": {
    "car": "カローラツーリングHEV 車両番号1361",
