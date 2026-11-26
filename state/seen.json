@@ -255,6 +255,21 @@
    "start_shop": "トヨタレンタリース山形 天童駅前店",
    "tel": "023-653-0100"
   },
+  "18c799cd0b31c1aa": {
+   "car": "カローラHV 宮城300わ6563",
+   "condition": "禁煙 スタッドレス 2WD AT ナビ・ETC付き 5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-26T11:40+09:00",
+   "notified": false,
+   "period": "2026年11月26日 ～ 11月29日",
+   "reserve_shop": "福島駅新幹線口店",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース宮城",
+   "start_area": "東北",
+   "start_place": "福島県 福島市",
+   "start_shop": "トヨタレンタリース新福島 福島駅新幹線口店",
+   "tel": "024-531-0100"
+  },
   "19f5b11b49520315": {
    "car": "アクア 車輛番号 7057",
    "condition": "禁煙 5人乗り",
@@ -929,6 +944,21 @@
    "start_place": "京都府 京都市",
    "start_shop": "トヨタレンタリース京都 京都駅新幹線口店",
    "tel": "075-682-0800"
+  },
+  "5fd1df2c6ba2733a": {
+   "car": "カローラツーリングHV 宮城300わ6391",
+   "condition": "禁煙 スタッドレス 4WD AT ナビ・ETC付き 5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-26T11:40+09:00",
+   "notified": false,
+   "period": "2026年11月26日 ～ 11月28日",
+   "reserve_shop": "池袋東口店",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース宮城",
+   "start_area": "関東",
+   "start_place": "東京都 豊島区",
+   "start_shop": "トヨタモビリティサービス 池袋東口店",
+   "tel": "03-3987-2906"
   },
   "6284ccf5bfef62ba": {
    "car": "カローラ 車両番号山形300わ2129",
