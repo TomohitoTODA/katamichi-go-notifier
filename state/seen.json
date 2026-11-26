@@ -438,7 +438,7 @@
   "26c95ac341031aed": {
    "car": "ライズ 車両番号8500",
    "condition": "禁煙5人乗り ｽﾀｯﾄﾞﾚｽ付",
-   "ended": true,
+   "ended": false,
    "first_seen": "2026-11-26T13:35+09:00",
    "notified": false,
    "period": "2026年11月26日 ～ 11月28日",
@@ -735,21 +735,6 @@
    "start_shop": "トヨタレンタリース新大阪 りんくうタウン駅前店",
    "tel": "072-463-0100"
   },
-  "46143b4a30ec4640": {
-   "car": "カローラツーリングHV 車両番号4208",
-   "condition": "禁煙5人乗り ｽﾀｯﾄﾞﾚｽ付",
-   "ended": true,
-   "first_seen": "2026-11-26T13:35+09:00",
-   "notified": false,
-   "period": "2026年11月26日 ～ 11月28日",
-   "reserve_shop": "本郷三丁目駅前店",
-   "return_area": "中部",
-   "return_shop": "トヨタレンタリース愛知",
-   "start_area": "関東",
-   "start_place": "東京都 文京区",
-   "start_shop": "トヨタモビリティサービス 本郷三丁目駅前店",
-   "tel": "03-3817-7100"
-  },
   "46c1efb866004ec7": {
    "car": "アルファードHV 車両番号4126",
    "condition": "禁煙・8人乗り ノーマル",
@@ -975,21 +960,6 @@
    "start_shop": "トヨタモビリティサービス 浅草橋店",
    "tel": "03-5821-6324"
   },
-  "55d45254b3b22ebc": {
-   "car": "シエンタHEV 車両番号5527",
-   "condition": "禁煙車 7人乗り",
-   "ended": true,
-   "first_seen": "2026-11-26T13:35+09:00",
-   "notified": false,
-   "period": "2026年11月26日 ～ 11月28日",
-   "reserve_shop": "羽田空港（国内線）店",
-   "return_area": "中部",
-   "return_shop": "トヨタレンタリース愛知",
-   "start_area": "関東",
-   "start_place": "東京都 大田区",
-   "start_shop": "トヨタモビリティサービス 羽田空港（国内線）店",
-   "tel": "03-3744-0100"
-  },
   "569068f72d0627f6": {
    "car": "ヤリスクロス 車両番号4424",
    "condition": "禁煙・5人乗り スタッド",
@@ -1109,21 +1079,6 @@
    "start_place": "福島県 会津若松市",
    "start_shop": "トヨタレンタリース新福島 会津若松駅店",
    "tel": "0242-32-0100"
-  },
-  "6469d3494f1b0597": {
-   "car": "カローラツーリングHV 車両番号9707",
-   "condition": "禁煙車 5人乗り",
-   "ended": true,
-   "first_seen": "2026-11-26T13:35+09:00",
-   "notified": false,
-   "period": "2026年11月26日 ～ 11月28日",
-   "reserve_shop": "東京駅日本橋口店",
-   "return_area": "中部",
-   "return_shop": "トヨタレンタリース愛知",
-   "start_area": "関東",
-   "start_place": "東京都 千代田区",
-   "start_shop": "トヨタモビリティサービス 東京駅日本橋口店",
-   "tel": "03-5220-2220"
   },
   "675c301af0073cfd": {
    "car": "プリウス 宮城300わ6761",
