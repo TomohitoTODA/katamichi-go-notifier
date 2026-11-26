@@ -1323,7 +1323,7 @@
   "ab554fd3c83ff6c3": {
    "car": "ルーミー 車両番号 4065",
    "condition": "禁煙・5人乗り・ジュニアシート 1",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-27T01:55+09:00",
    "notified": false,
    "period": "2026年11月27日 ～ 11月29日",
