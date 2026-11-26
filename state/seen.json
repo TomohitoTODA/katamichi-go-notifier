@@ -615,21 +615,6 @@
    "start_shop": "トヨタレンタリース岩手 一ノ関駅西口店",
    "tel": "019-606-3076"
   },
-  "4dc55a6127e0425f": {
-   "car": "ヤリス 宮城502わ7455",
-   "condition": "禁煙 AT スタッドレス 2WD ナビ・ETC付き 5人乗り",
-   "ended": false,
-   "first_seen": "2026-11-27T01:55+09:00",
-   "notified": false,
-   "period": "2026年11月24日 ～ 11月28日",
-   "reserve_shop": "会津若松駅店",
-   "return_area": "東北",
-   "return_shop": "トヨタレンタリース宮城",
-   "start_area": "東北",
-   "start_place": "福島県 会津若松市",
-   "start_shop": "トヨタレンタリース新福島 会津若松駅店",
-   "tel": "0242-32-0100"
-  },
   "4e70709cd6e28c5f": {
    "car": "プリウス 仙台300わ6600",
    "condition": "禁煙 AT スタッドレス 2WD ナビ・ETC付き 5人乗り",
@@ -1154,21 +1139,6 @@
    "start_place": "静岡県 三島市",
    "start_shop": "トヨタレンタリース静岡 三島新幹線口店",
    "tel": "0120-926-327"
-  },
-  "9c63a33ccde8ab52": {
-   "car": "タント 宮城580わ6201",
-   "condition": "禁煙 AT スタッドレス 4WD ナビ・ETC付き 4人乗り",
-   "ended": false,
-   "first_seen": "2026-11-27T01:55+09:00",
-   "notified": false,
-   "period": "2026年11月25日 ～ 11月28日",
-   "reserve_shop": "山形空港店",
-   "return_area": "東北",
-   "return_shop": "トヨタレンタリース宮城",
-   "start_area": "東北",
-   "start_place": "山形県 東根市",
-   "start_shop": "トヨタレンタリース山形 山形空港店",
-   "tel": "0237-47-0100"
   },
   "9c8ebda44062f2d2": {
    "car": "カローラＨＶ1428",
