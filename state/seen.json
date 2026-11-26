@@ -1950,21 +1950,6 @@
    "start_shop": "トヨタレンタリース岩手 一ノ関駅西口店",
    "tel": "019-606-3076"
   },
-  "fa504fc508756f4b": {
-   "car": "アルファード3102",
-   "condition": "禁煙・7名乗・スタッドレス",
-   "ended": true,
-   "first_seen": "2026-11-26T13:35+09:00",
-   "notified": false,
-   "period": "2026年11月25日 ～ 11月28日",
-   "reserve_shop": "成田空港店",
-   "return_area": "近畿",
-   "return_shop": "トヨタレンタリース大阪",
-   "start_area": "関東",
-   "start_place": "千葉県 成田市",
-   "start_shop": "トヨタモビリティサービス 成田空港店",
-   "tel": "0476-32-1020"
-  },
   "fabf19b2dabd70cd": {
    "car": "シエンタ 車両番号1407",
    "condition": "禁煙・7人乗り（スタッドレスタイヤ付き）",
@@ -1979,21 +1964,6 @@
    "start_place": "京都府 京都市",
    "start_shop": "トヨタレンタリース京都 山科店",
    "tel": "075-502-0100"
-  },
-  "fb0917cedc42e4d6": {
-   "car": "アルファード3107",
-   "condition": "禁煙・7名乗・スタッドレス",
-   "ended": true,
-   "first_seen": "2026-11-26T13:35+09:00",
-   "notified": false,
-   "period": "2026年11月25日 ～ 11月28日",
-   "reserve_shop": "中目黒山手通り店",
-   "return_area": "近畿",
-   "return_shop": "トヨタレンタリース大阪",
-   "start_area": "関東",
-   "start_place": "東京都 目黒区",
-   "start_shop": "トヨタモビリティサービス 中目黒山手通り店",
-   "tel": "03-5725-3210"
   },
   "fedaaba6b32f6b78": {
    "car": "ヤリス 仙台501わ9757",
