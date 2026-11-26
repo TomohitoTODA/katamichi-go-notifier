@@ -1650,6 +1650,21 @@
    "start_shop": "トヨタレンタリース福島 郡山駅新幹線口店",
    "tel": "024-939-0100"
   },
+  "b972caab496fbf0e": {
+   "car": "カローラツーリング 宮城300わ6732",
+   "condition": "禁煙 スタッドレス 2WD AT ナビ・ETC付き 5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-26T12:00+09:00",
+   "notified": false,
+   "period": "2026年11月26日 ～ 11月29日",
+   "reserve_shop": "福島駅新幹線口店",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース宮城",
+   "start_area": "東北",
+   "start_place": "福島県 福島市",
+   "start_shop": "トヨタレンタリース新福島 福島駅新幹線口店",
+   "tel": "024-531-0100"
+  },
   "b9b9b61b09b81675": {
    "car": "カローラツーリング 車両番号3198",
    "condition": "禁煙・5人乗り ノーマル",
@@ -2085,6 +2100,21 @@
    "start_shop": "トヨタレンタリース大阪 なんばターミナル店",
    "tel": "06-6647-0100"
   },
+  "f9b78496854da19d": {
+   "car": "ヤリスHV 宮城502わ9408",
+   "condition": "禁煙 スタッドレス 2WD AT ナビ・ETC付き 5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-26T12:00+09:00",
+   "notified": false,
+   "period": "2026年11月26日 ～ 11月29日",
+   "reserve_shop": "本社 レンタル課（営業時間 9:00-18:00）",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース宮城",
+   "start_area": "東北",
+   "start_place": "岩手県 一関市",
+   "start_shop": "トヨタレンタリース岩手 一ノ関駅西口店",
+   "tel": "019-606-3076"
+  },
   "fa504fc508756f4b": {
    "car": "アルファード3102",
    "condition": "禁煙・7名乗・スタッドレス",
@@ -2099,6 +2129,21 @@
    "start_place": "千葉県 成田市",
    "start_shop": "トヨタモビリティサービス 成田空港店",
    "tel": "0476-32-1020"
+  },
+  "fabf19b2dabd70cd": {
+   "car": "シエンタ 車両番号1407",
+   "condition": "禁煙・7人乗り（スタッドレスタイヤ付き）",
+   "ended": false,
+   "first_seen": "2026-11-26T12:00+09:00",
+   "notified": false,
+   "period": "2026年11月26日 ～ 11月28日",
+   "reserve_shop": "山科店",
+   "return_area": "関東",
+   "return_shop": "トヨタモビリティサービス",
+   "start_area": "近畿",
+   "start_place": "京都府 京都市",
+   "start_shop": "トヨタレンタリース京都 山科店",
+   "tel": "075-502-0100"
   },
   "fb0917cedc42e4d6": {
    "car": "アルファード3107",
