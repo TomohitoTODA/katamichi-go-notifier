@@ -1788,7 +1788,7 @@
   "df8fa81218be048a": {
    "car": "ｱﾙﾌｧｰﾄﾞ 登録番号2704",
    "condition": "禁煙 8人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-26T16:10+09:00",
    "notified": false,
    "period": "2026年11月27日 ～ 11月29日",
