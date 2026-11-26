@@ -258,7 +258,7 @@
   "1fa214be39025bcc": {
    "car": "シエンタ 車両番号7815",
    "condition": "禁煙・7人乗り スタッド",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-25T14:20+09:00",
    "notified": false,
    "period": "2026年11月24日 ～ 11月26日",
@@ -933,7 +933,7 @@
   "6284ccf5bfef62ba": {
    "car": "カローラ 車両番号山形300わ2129",
    "condition": "A/T 2WD 禁煙車 ナビ付 ETC付 スタッドレス",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-25T14:20+09:00",
    "notified": false,
    "period": "2026年11月23日 ～ 11月25日",
@@ -1998,7 +1998,7 @@
   "e4397743818f3c4a": {
    "car": "ノア 車両番号山形300わ1911",
    "condition": "A/T 4WD 禁煙車 ナビ付 ETC付 スタッドレス 8人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-25T14:20+09:00",
    "notified": false,
    "period": "2026年11月23日 ～ 11月25日",
