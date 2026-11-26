@@ -1725,6 +1725,21 @@
    "start_shop": "トヨタレンタリース大阪 谷町店",
    "tel": "06-6763-0100"
   },
+  "d3d0034eba10fa89": {
+   "car": "アルファードHEV 車両番号 5635",
+   "condition": "禁煙車 8人乗り",
+   "ended": false,
+   "first_seen": "2026-11-26T16:00+09:00",
+   "notified": false,
+   "period": "2026年11月26日 ～ 11月28日",
+   "reserve_shop": "なんばターミナル店",
+   "return_area": "関東",
+   "return_shop": "トヨタモビリティサービス",
+   "start_area": "近畿",
+   "start_place": "大阪府 大阪市",
+   "start_shop": "トヨタレンタリース大阪 なんばターミナル店",
+   "tel": "06-6647-0100"
+  },
   "d493a9eb7f804ab1": {
    "car": "カローラツーリングHEV 車両番号1361",
    "condition": "禁煙 5人乗り",
