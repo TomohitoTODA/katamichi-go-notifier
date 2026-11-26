@@ -1203,7 +1203,7 @@
   "929ddeeaff89f753": {
    "car": "ヤリス 仙台501わ9400",
    "condition": "禁煙 AT スタッドレス 2WD ナビ・ETC付き 5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-26T13:35+09:00",
    "notified": false,
    "period": "2026年11月24日 ～ 11月28日",
