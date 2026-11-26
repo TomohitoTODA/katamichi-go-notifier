@@ -1008,7 +1008,7 @@
   "5768bec7cedcde35": {
    "car": "ノア 車両番号2999",
    "condition": "禁煙・8人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-26T13:35+09:00",
    "notified": false,
    "period": "2026年11月26日 ～ 11月28日",
@@ -2388,7 +2388,7 @@
   "ffae17e9207cdded": {
    "car": "カローラツーリング 車両番号0853",
    "condition": "禁煙・５人乗",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-26T13:35+09:00",
    "notified": false,
    "period": "2026年11月24日 ～ 11月27日",
