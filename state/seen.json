@@ -1128,7 +1128,7 @@
   "6469d3494f1b0597": {
    "car": "カローラツーリングHV 車両番号9707",
    "condition": "禁煙車 5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-26T12:10+09:00",
    "notified": false,
    "period": "2026年11月26日 ～ 11月28日",
@@ -1338,7 +1338,7 @@
   "7c85878c62cd4f73": {
    "car": "アクア 青森501わ2871",
    "condition": "5人乗・禁煙車 スタッドレス",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-26T11:15+09:00",
    "notified": false,
    "period": "2026年11月26日 ～ 12月3日",
