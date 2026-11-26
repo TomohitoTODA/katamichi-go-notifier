@@ -1725,6 +1725,21 @@
    "start_shop": "トヨタS＆Dレンタシェア西東京 立川駅南口店",
    "tel": "042-523-0100"
   },
+  "ca5ab0041da7775e": {
+   "car": "ヤリス 青森501わ3044",
+   "condition": "5人乗・禁煙車 スタッドレス",
+   "ended": false,
+   "first_seen": "2026-11-26T16:35+09:00",
+   "notified": false,
+   "period": "2026年11月26日 ～ 12月3日",
+   "reserve_shop": "仙台駅西口店",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース青森",
+   "start_area": "東北",
+   "start_place": "宮城県 仙台市",
+   "start_shop": "トヨタレンタリース宮城 仙台駅西口店",
+   "tel": "022-213-0100"
+  },
   "d14672dd86dc5ce7": {
    "car": "シエンタ 車両番号4589",
    "condition": "ｽﾀｯﾄﾞﾚｽ/4WD/禁煙/5人乗り/ﾅﾋﾞ･ETC付",
