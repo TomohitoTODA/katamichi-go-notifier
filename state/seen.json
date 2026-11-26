@@ -45,21 +45,6 @@
    "start_shop": "トヨタS＆Dレンタシェア西東京 八王子駅前店",
    "tel": "042-648-0100"
   },
-  "04434ba771b02d71": {
-   "car": "ルーミー 車両番号 2866",
-   "condition": "禁煙・5人乗り",
-   "ended": true,
-   "first_seen": "2026-11-26T13:35+09:00",
-   "notified": false,
-   "period": "2026年11月25日 ～ 11月27日",
-   "reserve_shop": "総合予約室",
-   "return_area": "近畿",
-   "return_shop": "トヨタレンタリース大阪",
-   "start_area": "中部",
-   "start_place": "愛知県 名古屋市",
-   "start_shop": "トヨタレンタリース愛知 ささしまライブ東口店",
-   "tel": "0120-001-319"
-  },
   "05689f8c7888ea7a": {
    "car": "ノア 車両番号1285",
    "condition": "禁煙・8人乗り（スタッドレスタイヤ付き）",
@@ -90,21 +75,6 @@
    "start_shop": "トヨタレンタリース福島 郡山駅新幹線口店",
    "tel": "024-939-0100"
   },
-  "05ca3d05d106c202": {
-   "car": "ヤリス0009",
-   "condition": "禁煙・5名乗",
-   "ended": true,
-   "first_seen": "2026-11-26T13:35+09:00",
-   "notified": false,
-   "period": "2026年11月25日 ～ 11月28日",
-   "reserve_shop": "総合予約室",
-   "return_area": "近畿",
-   "return_shop": "トヨタレンタリース大阪",
-   "start_area": "中部",
-   "start_place": "愛知県 名古屋市",
-   "start_shop": "トヨタレンタリース愛知 今池店",
-   "tel": "0120-001-319"
-  },
   "0657fa65834b16d3": {
    "car": "アルファードHEV 車両番号 4024",
    "condition": "禁煙・8人乗り",
@@ -112,21 +82,6 @@
    "first_seen": "2026-11-26T16:20+09:00",
    "notified": false,
    "period": "2026年11月27日 ～ 11月29日",
-   "reserve_shop": "総合予約室",
-   "return_area": "近畿",
-   "return_shop": "トヨタレンタリース大阪",
-   "start_area": "中部",
-   "start_place": "愛知県 名古屋市",
-   "start_shop": "トヨタレンタリース愛知 ささしまライブ東口店",
-   "tel": "0120-001-319"
-  },
-  "07796549a776ef70": {
-   "car": "ヤリス 車両番号 4728",
-   "condition": "禁煙・5人乗り",
-   "ended": true,
-   "first_seen": "2026-11-26T13:35+09:00",
-   "notified": false,
-   "period": "2026年11月24日 ～ 11月26日",
    "reserve_shop": "総合予約室",
    "return_area": "近畿",
    "return_shop": "トヨタレンタリース大阪",
@@ -495,21 +450,6 @@
    "start_shop": "トヨタモビリティサービス 日暮里駅前店",
    "tel": "03-5604-0100"
   },
-  "39915015467b207f": {
-   "car": "ヤリス 車両番号 1126",
-   "condition": "禁煙・5人乗り",
-   "ended": true,
-   "first_seen": "2026-11-26T13:35+09:00",
-   "notified": false,
-   "period": "2026年11月24日 ～ 11月26日",
-   "reserve_shop": "品川高輪口店",
-   "return_area": "近畿",
-   "return_shop": "トヨタレンタリース大阪",
-   "start_area": "関東",
-   "start_place": "東京都 港区",
-   "start_shop": "トヨタモビリティサービス 品川高輪口店",
-   "tel": "03-3473-5021"
-  },
   "41645d6298f723e0": {
    "car": "アルファードHV 車両番号1966",
    "condition": "禁煙・8人乗り スタッド",
@@ -840,21 +780,6 @@
    "start_shop": "トヨタレンタリース新大阪 りんくうタウン駅前店",
    "tel": "072-463-0100"
   },
-  "57b9d25ba9e44cae": {
-   "car": "アルファードHEV 車両番号 848",
-   "condition": "禁煙・8人乗り",
-   "ended": true,
-   "first_seen": "2026-11-26T13:35+09:00",
-   "notified": false,
-   "period": "2026年11月24日 ～ 11月26日",
-   "reserve_shop": "羽田空港（国内線）店",
-   "return_area": "近畿",
-   "return_shop": "トヨタレンタリース大阪",
-   "start_area": "関東",
-   "start_place": "東京都 大田区",
-   "start_shop": "トヨタモビリティサービス 羽田空港（国内線）店",
-   "tel": "03-3744-0100"
-  },
   "589189a9d3e49696": {
    "car": "シエンタ 車両番号3660",
    "condition": "禁煙7人乗り",
@@ -989,21 +914,6 @@
    "start_place": "東京都 目黒区",
    "start_shop": "トヨタモビリティサービス 中目黒山手通り店",
    "tel": "03-5725-3210"
-  },
-  "705f24fa0eb1547c": {
-   "car": "アルファード 車両番号 429",
-   "condition": "禁煙・7人乗り",
-   "ended": true,
-   "first_seen": "2026-11-26T13:35+09:00",
-   "notified": false,
-   "period": "2026年11月24日 ～ 11月26日",
-   "reserve_shop": "羽田空港（国内線）店",
-   "return_area": "近畿",
-   "return_shop": "トヨタレンタリース大阪",
-   "start_area": "関東",
-   "start_place": "東京都 大田区",
-   "start_shop": "トヨタモビリティサービス 羽田空港（国内線）店",
-   "tel": "03-3744-0100"
   },
   "7275a580aa59a0d4": {
    "car": "カローラツーリングHEV 車両番号1223",
@@ -1574,21 +1484,6 @@
    "start_place": "大阪府 泉佐野市",
    "start_shop": "トヨタレンタリース新大阪 りんくうタウン駅前店",
    "tel": "072-463-0100"
-  },
-  "ba315406f76bf035": {
-   "car": "ルーミー6168",
-   "condition": "禁煙・5名乗",
-   "ended": true,
-   "first_seen": "2026-11-26T13:35+09:00",
-   "notified": false,
-   "period": "2026年11月25日 ～ 11月28日",
-   "reserve_shop": "新富士駅前店",
-   "return_area": "近畿",
-   "return_shop": "トヨタレンタリース大阪",
-   "start_area": "中部",
-   "start_place": "静岡県 富士市",
-   "start_shop": "トヨタレンタリース静岡 新富士駅前店",
-   "tel": "0545-63-0100"
   },
   "bc8110facfeec415": {
    "car": "アルファード 車両番号4113",
