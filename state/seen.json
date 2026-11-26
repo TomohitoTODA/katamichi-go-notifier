@@ -540,6 +540,21 @@
    "start_shop": "トヨタS＆Dレンタシェア西東京 八王子駅前店",
    "tel": "042-648-0100"
   },
+  "43e34e712bdab940": {
+   "car": "ヤリス いわき500わ4105",
+   "condition": "禁煙 AT 2WD 黒 スタッドレス ETC車載器",
+   "ended": true,
+   "first_seen": "2026-11-26T17:45+09:00",
+   "notified": false,
+   "period": "2026年11月26日 ～ 11月27日",
+   "reserve_shop": "仙台新幹線口店",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース福島",
+   "start_area": "東北",
+   "start_place": "宮城県 仙台市",
+   "start_shop": "トヨタレンタリース仙台 仙台新幹線口店",
+   "tel": "022-291-0100"
+  },
   "4568e75f983ed9cc": {
    "car": "アクア 山形500わ9387",
    "condition": "A/T 2WD 禁煙車 ナビ付 ETC付 スタッドレス",
@@ -1383,7 +1398,7 @@
   "ab4b729226ff04fd": {
    "car": "カローラクロスHEV 青森300わ2603",
    "condition": "5人乗・禁煙車 スタッドレス",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-26T16:40+09:00",
    "notified": false,
    "period": "2026年11月26日 ～ 12月3日",
@@ -1754,21 +1769,6 @@
    "start_place": "岩手県 花巻市",
    "start_shop": "トヨタレンタリース岩手 新花巻駅西口店",
    "tel": "019-606-3076"
-  },
-  "dc890f19af66f7b1": {
-   "car": "ヤリス いわき500わ4105",
-   "condition": "禁煙 AT 2WD 黒 スタッドレス ETC車載器",
-   "ended": false,
-   "first_seen": "2026-11-26T13:35+09:00",
-   "notified": false,
-   "period": "2026年11月25日 ～ 11月26日",
-   "reserve_shop": "仙台新幹線口店",
-   "return_area": "東北",
-   "return_shop": "トヨタレンタリース福島",
-   "start_area": "東北",
-   "start_place": "宮城県 仙台市",
-   "start_shop": "トヨタレンタリース仙台 仙台新幹線口店",
-   "tel": "022-291-0100"
   },
   "dd26d69b0d722b1a": {
    "car": "カローラツーリング 車両番号 5672",
