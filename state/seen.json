@@ -330,21 +330,6 @@
    "start_shop": "トヨタレンタリース宮城 仙台空港店",
    "tel": "0223-22-0100"
   },
-  "2328b035eaf907e6": {
-   "car": "アクア 登録番号 5803",
-   "condition": "禁煙・５人乗り",
-   "ended": false,
-   "first_seen": "2026-11-26T13:35+09:00",
-   "notified": false,
-   "period": "2026年11月27日 ～ 11月29日",
-   "reserve_shop": "福岡空港店",
-   "return_area": "九州",
-   "return_shop": "トヨタレンタリース宮崎",
-   "start_area": "九州",
-   "start_place": "福岡県 福岡市博多区",
-   "start_shop": "トヨタレンタリース福岡 福岡空港店",
-   "tel": "092-621-0100"
-  },
   "23d3d1cd5965e258": {
    "car": "カローラＨＶ 八戸300わ1505",
    "condition": "禁煙 AT 4WD 冬タイヤ ETC車載器 バックモニター Bluetooth ドライブレコーダー",
