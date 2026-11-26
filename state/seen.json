@@ -1995,6 +1995,21 @@
    "start_shop": "トヨタレンタリース山形 山形空港店",
    "tel": "0237-47-0100"
   },
+  "d493a9eb7f804ab1": {
+   "car": "カローラツーリングHEV 車両番号1361",
+   "condition": "禁煙 5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-26T13:10+09:00",
+   "notified": false,
+   "period": "2026年11月26日 ～ 11月28日",
+   "reserve_shop": "横浜みなとみらい店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース静岡",
+   "start_area": "関東",
+   "start_place": "神奈川県 横浜市西区",
+   "start_shop": "トヨタレンタリース神奈川 横浜みなとみらい店",
+   "tel": "045-228-0100"
+  },
   "d6e8380cbd5e1b21": {
    "car": "プリウス 白河300わ178",
    "condition": "禁煙 スタットレス AT ナビ ETC車載器 5人乗り",
