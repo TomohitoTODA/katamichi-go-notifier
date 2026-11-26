@@ -78,7 +78,7 @@
   "05a6692b67f198cb": {
    "car": "ルーミー 山形500わ9346",
    "condition": "A/T・4WD・禁煙・ナビ付・ETC付・ｽﾀｯﾄﾞﾚｽ",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-26T13:35+09:00",
    "notified": false,
    "period": "2026年11月24日 ～ 11月26日",
@@ -378,7 +378,7 @@
   "2ccfad5c1afee92c": {
    "car": "ヤリス 山形501わ1226",
    "condition": "A/T 2WD 禁煙車 ナビ付 ETC付 スタッドレス",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-26T13:35+09:00",
    "notified": false,
    "period": "2026年11月24日 ～ 11月26日",
@@ -558,7 +558,7 @@
   "4568e75f983ed9cc": {
    "car": "アクア 山形500わ9387",
    "condition": "A/T 2WD 禁煙車 ナビ付 ETC付 スタッドレス",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-26T13:35+09:00",
    "notified": false,
    "period": "2026年11月24日 ～ 11月26日",
@@ -1908,7 +1908,7 @@
   "eacc6b7f919e1d1b": {
    "car": "カローラ 庄内300わ0505",
    "condition": "A/T 2WD 禁煙車 ナビ付 ETC付 スタッドレス",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-26T13:35+09:00",
    "notified": false,
    "period": "2026年11月24日 ～ 11月26日",
