@@ -2073,7 +2073,7 @@
   "e530c90523c8b26b": {
    "car": "プリウス 青森300わ2343",
    "condition": "5人乗・禁煙・スタッドレス装着",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-25T14:20+09:00",
    "notified": false,
    "period": "2026年11月25日 ～ 11月30日",
