@@ -2028,7 +2028,7 @@
   "e36a2fa4e0e915f6": {
    "car": "カローラツーリング 登録番号3334",
    "condition": "禁煙5人乗り スタッドレス",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-25T14:20+09:00",
    "notified": false,
    "period": "2026年11月24日 ～ 11月26日",
