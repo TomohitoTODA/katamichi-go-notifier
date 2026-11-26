@@ -990,6 +990,21 @@
    "start_shop": "トヨタレンタリース岩手 一ノ関駅西口店",
    "tel": "019-606-3076"
   },
+  "699b19b6ee6ec02c": {
+   "car": "ヤリス 山形501わ0946",
+   "condition": "A/T 2WD 禁煙車 ナビ付 ETC付 スタッドレス",
+   "ended": false,
+   "first_seen": "2026-11-26T10:00+09:00",
+   "notified": false,
+   "period": "2026年11月26日 ～ 11月28日",
+   "reserve_shop": "福島駅前店",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース山形",
+   "start_area": "東北",
+   "start_place": "福島県 福島市",
+   "start_shop": "トヨタレンタリース福島 福島駅前店",
+   "tel": "024-524-0100"
+  },
   "6aeb3a785f833d49": {
    "car": "ルーミー 八戸500わ8233",
    "condition": "禁煙 AT 4WD 冬タイヤ ETC車載器 バックモニター Bluetooth ドライブレコーダー",
@@ -1169,6 +1184,21 @@
    "start_place": "大阪府 大阪市",
    "start_shop": "トヨタレンタリース大阪 心斎橋船場店",
    "tel": "06-6264-0100"
+  },
+  "876f4bfeec872d43": {
+   "car": "ルーミー 車両番号3865",
+   "condition": "禁煙 5人乗り スタッドレスタイヤ",
+   "ended": false,
+   "first_seen": "2026-11-26T10:00+09:00",
+   "notified": false,
+   "period": "2026年11月26日 ～ 11月28日",
+   "reserve_shop": "新大阪店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース名古屋",
+   "start_area": "近畿",
+   "start_place": "大阪府 大阪市",
+   "start_shop": "トヨタレンタリース大阪 新大阪店",
+   "tel": "06-6301-0100"
   },
   "89d952ed21c12989": {
    "car": "ルーミー 白河500わ0517",
