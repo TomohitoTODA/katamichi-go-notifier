@@ -348,7 +348,7 @@
   "26c95ac341031aed": {
    "car": "ライズ 車両番号8500",
    "condition": "禁煙5人乗り ｽﾀｯﾄﾞﾚｽ付",
-   "ended": true,
+   "ended": false,
    "first_seen": "2026-11-26T13:35+09:00",
    "notified": false,
    "period": "2026年11月26日 ～ 11月28日",
@@ -524,21 +524,6 @@
    "start_place": "東京都 港区",
    "start_shop": "トヨタモビリティサービス 品川高輪口店",
    "tel": "03-3473-5021"
-  },
-  "3b5e7df112528c78": {
-   "car": "シエンタHEV 車両番号1511",
-   "condition": "禁煙車 7人乗り",
-   "ended": true,
-   "first_seen": "2026-11-26T13:35+09:00",
-   "notified": false,
-   "period": "2026年11月26日 ～ 11月28日",
-   "reserve_shop": "福生駅前店",
-   "return_area": "中部",
-   "return_shop": "トヨタレンタリース愛知",
-   "start_area": "関東",
-   "start_place": "東京都 福生市",
-   "start_shop": "トヨタS＆Dレンタシェア西東京 福生駅前店",
-   "tel": "042-551-0100"
   },
   "41645d6298f723e0": {
    "car": "アルファードHV 車両番号1966",
@@ -1728,7 +1713,7 @@
   "d3d0034eba10fa89": {
    "car": "アルファードHEV 車両番号 5635",
    "condition": "禁煙車 8人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-26T16:00+09:00",
    "notified": false,
    "period": "2026年11月26日 ～ 11月28日",
