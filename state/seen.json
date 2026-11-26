@@ -2175,6 +2175,21 @@
    "start_shop": "トヨタモビリティサービス 東京駅日本橋口店",
    "tel": "03-5220-2220"
   },
+  "eab7364a36e27fca": {
+   "car": "カローラツーリング 登録番号5391",
+   "condition": "禁煙5人乗り スタッドレス",
+   "ended": false,
+   "first_seen": "2026-11-26T13:25+09:00",
+   "notified": false,
+   "period": "2026年11月26日 ～ 11月28日",
+   "reserve_shop": "心斎橋船場店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース愛知",
+   "start_area": "近畿",
+   "start_place": "大阪府 大阪市",
+   "start_shop": "トヨタレンタリース大阪 心斎橋船場店",
+   "tel": "06-6264-0100"
+  },
   "eacc6b7f919e1d1b": {
    "car": "カローラ 庄内300わ0505",
    "condition": "A/T 2WD 禁煙車 ナビ付 ETC付 スタッドレス",
