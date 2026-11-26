@@ -1425,21 +1425,6 @@
    "start_shop": "トヨタS＆Dレンタシェア西東京 武蔵境店",
    "tel": "0422-55-0100"
   },
-  "a3f88409cfa6d61e": {
-   "car": "ヤリス 車両番号 6863",
-   "condition": "禁煙車 5人乗",
-   "ended": false,
-   "first_seen": "2026-11-25T14:20+09:00",
-   "notified": false,
-   "period": "2026年11月25日 ～ 11月27日",
-   "reserve_shop": "鹿児島中央駅店",
-   "return_area": "九州",
-   "return_shop": "トヨタレンタリース福岡",
-   "start_area": "九州",
-   "start_place": "鹿児島県 鹿児島市",
-   "start_shop": "トヨタレンタリース鹿児島 鹿児島中央駅店",
-   "tel": "099-250-0100"
-  },
   "a5c2ecb1d18a461a": {
    "car": "カローラクロスHEV 弘前300わ115",
    "condition": "5人乗・禁煙車 スタッドレス",
@@ -1769,6 +1754,21 @@
    "start_place": "大阪府 大東市",
    "start_shop": "トヨタレンタリース大阪 大東店",
    "tel": "072-870-0100"
+  },
+  "c52ffabd5479a8f0": {
+   "car": "ヤリス 車両番号 6863",
+   "condition": "禁煙車 5人乗",
+   "ended": false,
+   "first_seen": "2026-11-26T09:15+09:00",
+   "notified": false,
+   "period": "2026年11月26日 ～ 11月28日",
+   "reserve_shop": "鹿児島中央駅店",
+   "return_area": "九州",
+   "return_shop": "トヨタレンタリース福岡",
+   "start_area": "九州",
+   "start_place": "鹿児島県 鹿児島市",
+   "start_shop": "トヨタレンタリース鹿児島 鹿児島中央駅店",
+   "tel": "099-250-0100"
   },
   "c6fc6f1dbca098e5": {
    "car": "ヤリス 車両番号1817",
