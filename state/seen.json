@@ -1083,7 +1083,7 @@
   "5fd1df2c6ba2733a": {
    "car": "カローラツーリングHV 宮城300わ6391",
    "condition": "禁煙 スタッドレス 4WD AT ナビ・ETC付き 5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-26T13:35+09:00",
    "notified": false,
    "period": "2026年11月26日 ～ 11月28日",
