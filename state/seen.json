@@ -2415,21 +2415,6 @@
    "start_shop": "トヨタレンタリース山形 新庄駅前店",
    "tel": "0233-23-0100"
   },
-  "ecc34540beb79452": {
-   "car": "ヤリス 車両番号 4661",
-   "condition": "禁煙車 5人乗り",
-   "ended": false,
-   "first_seen": "2026-11-27T09:50+09:00",
-   "notified": false,
-   "period": "2026年11月27日 ～ 11月29日",
-   "reserve_shop": "鹿児島空港店",
-   "return_area": "九州",
-   "return_shop": "トヨタレンタリース福岡",
-   "start_area": "九州",
-   "start_place": "鹿児島県 霧島市",
-   "start_shop": "トヨタレンタリース鹿児島 鹿児島空港店",
-   "tel": "0995-58-2306"
-  },
   "ef028fd62cee8dfa": {
    "car": "ハイエースバン 八戸400わ2763",
    "condition": "6人乗・禁煙車 スタッドレス",
