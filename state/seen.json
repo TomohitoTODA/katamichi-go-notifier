@@ -210,6 +210,21 @@
    "start_shop": "トヨタレンタリース愛知 ささしまライブ東口店",
    "tel": "0120-001-319"
   },
+  "1c14d401bd908685": {
+   "car": "ヤリス 車両番号3947",
+   "condition": "ｽﾀｯﾄﾞﾚｽ/2WD/禁煙/5人乗/ﾅﾋﾞ・ETC",
+   "ended": false,
+   "first_seen": "2026-11-27T09:45+09:00",
+   "notified": false,
+   "period": "2026年11月27日 ～ 11月29日",
+   "reserve_shop": "仙台新幹線口店",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース岩手",
+   "start_area": "東北",
+   "start_place": "宮城県 仙台市",
+   "start_shop": "トヨタレンタリース仙台 仙台新幹線口店",
+   "tel": "022-291-0100"
+  },
   "1fa214be39025bcc": {
    "car": "シエンタ 車両番号7815",
    "condition": "禁煙・7人乗り スタッド",
