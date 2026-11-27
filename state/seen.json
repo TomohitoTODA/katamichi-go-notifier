@@ -525,21 +525,6 @@
    "start_shop": "トヨタレンタリース大阪 なんばターミナル店",
    "tel": "06-6647-0100"
   },
-  "4cba5e99a9c36af2": {
-   "car": "ハリアー 車輛番号 3311",
-   "condition": "禁煙 5人乗り",
-   "ended": true,
-   "first_seen": "2026-11-27T01:55+09:00",
-   "notified": false,
-   "period": "2026年11月24日 ～ 11月26日",
-   "reserve_shop": "中野坂上店",
-   "return_area": "近畿",
-   "return_shop": "トヨタレンタリース京都",
-   "start_area": "関東",
-   "start_place": "東京都 中野区",
-   "start_shop": "トヨタモビリティサービス 中野坂上店",
-   "tel": "03-3379-7100"
-  },
   "4d32b00b5d5253d4": {
    "car": "カローラツーリングHV 宮城300わ7978",
    "condition": "禁煙 AT スタッドレス 4WD ナビ・ETC付き 5人乗り",
