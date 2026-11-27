@@ -1440,6 +1440,21 @@
    "start_shop": "トヨタレンタリース静岡 焼津店",
    "tel": "0120-926-373"
   },
+  "b6721510298ec084": {
+   "car": "ヴォクシーHV 仙台300わ8005",
+   "condition": "禁煙 スタッドレス 2WD AT ナビ・ETC付き 8人乗り",
+   "ended": false,
+   "first_seen": "2026-11-27T13:10+09:00",
+   "notified": false,
+   "period": "2026年11月27日 ～ 11月30日",
+   "reserve_shop": "本社 レンタル課（営業時間 9:00-18:00）",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース宮城",
+   "start_area": "東北",
+   "start_place": "岩手県 盛岡市",
+   "start_shop": "トヨタレンタリース岩手 盛岡駅南口店",
+   "tel": "019-606-3076"
+  },
   "b972caab496fbf0e": {
    "car": "カローラツーリング 宮城300わ6732",
    "condition": "禁煙 スタッドレス 2WD AT ナビ・ETC付き 5人乗り",
@@ -1604,6 +1619,21 @@
    "start_place": "東京都 大田区",
    "start_shop": "トヨタモビリティサービス 羽田空港（国内線）店",
    "tel": "03-3744-0100"
+  },
+  "cd40037823c18814": {
+   "car": "アルファードHV 車両番号9268",
+   "condition": "禁煙 8人乗り",
+   "ended": true,
+   "first_seen": "2026-11-27T13:10+09:00",
+   "notified": false,
+   "period": "2026年11月27日 ～ 11月29日",
+   "reserve_shop": "浅草橋店",
+   "return_area": "近畿",
+   "return_shop": "トヨタレンタリース京都",
+   "start_area": "関東",
+   "start_place": "東京都 台東区",
+   "start_shop": "トヨタモビリティサービス 浅草橋店",
+   "tel": "03-5821-6324"
   },
   "d14672dd86dc5ce7": {
    "car": "シエンタ 車両番号4589",
