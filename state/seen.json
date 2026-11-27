@@ -195,6 +195,21 @@
    "start_shop": "トヨタレンタリース新福島 福島駅新幹線口店",
    "tel": "024-531-0100"
   },
+  "1b15278789f778ec": {
+   "car": "ノア 車両番号 6125",
+   "condition": "禁煙・8人乗り",
+   "ended": false,
+   "first_seen": "2026-11-27T14:00+09:00",
+   "notified": false,
+   "period": "2026年11月28日 ～ 11月30日",
+   "reserve_shop": "総合予約室",
+   "return_area": "近畿",
+   "return_shop": "トヨタレンタリース大阪",
+   "start_area": "中部",
+   "start_place": "愛知県 刈谷市",
+   "start_shop": "トヨタレンタリース愛知 刈谷店",
+   "tel": "0120-001-319"
+  },
   "1c14d401bd908685": {
    "car": "ヤリス 車両番号3947",
    "condition": "ｽﾀｯﾄﾞﾚｽ/2WD/禁煙/5人乗/ﾅﾋﾞ・ETC",
@@ -314,6 +329,21 @@
    "start_place": "福島県 郡山市",
    "start_shop": "トヨタレンタリース福島 郡山駅新幹線口店",
    "tel": "024-939-0100"
+  },
+  "26bd9f2bae42f09b": {
+   "car": "ランドクルーザー250 車両番号3125",
+   "condition": "禁煙7人乗り",
+   "ended": false,
+   "first_seen": "2026-11-27T14:00+09:00",
+   "notified": false,
+   "period": "2026年11月27日 ～ 11月29日",
+   "reserve_shop": "三島新幹線口店",
+   "return_area": "関東",
+   "return_shop": "トヨタモビリティサービス",
+   "start_area": "中部",
+   "start_place": "静岡県 三島市",
+   "start_shop": "トヨタレンタリース静岡 三島新幹線口店",
+   "tel": "0120-926-327"
   },
   "27292b08b867a82b": {
    "car": "アクア 車両番号456",
@@ -689,6 +719,21 @@
    "start_place": "大分県 大分市",
    "start_shop": "トヨタレンタリース大分 大分店",
    "tel": "097-537-0100"
+  },
+  "523b4f4abeb81acc": {
+   "car": "カローラツーリング 車両番号7931",
+   "condition": "禁煙5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-27T14:00+09:00",
+   "notified": false,
+   "period": "2026年11月27日 ～ 11月29日",
+   "reserve_shop": "りんくうタウン駅前店",
+   "return_area": "関東",
+   "return_shop": "トヨタモビリティサービス",
+   "start_area": "近畿",
+   "start_place": "大阪府 泉佐野市",
+   "start_shop": "トヨタレンタリース新大阪 りんくうタウン駅前店",
+   "tel": "072-463-0100"
   },
   "529d4e559a8fdc0b": {
    "car": "アルファードHEV 車両番号 8085",
