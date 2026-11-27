@@ -63,7 +63,7 @@
   "06ea572b3dadd0f7": {
    "car": "ヤリスHEV 車両番号3854",
    "condition": "禁煙 5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-28T01:25+09:00",
    "notified": false,
    "period": "2026年11月28日 ～ 11月30日",
