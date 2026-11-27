@@ -453,7 +453,7 @@
   "264eab43e871dc50": {
    "car": "カローラツーリングHV 車両番号605",
    "condition": "ｽﾀｯﾄﾞﾚｽ/2WD/禁煙/5人乗り/ﾅﾋﾞ･ETC付",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-28T01:25+09:00",
    "notified": false,
    "period": "2026年11月28日 ～ 11月30日",
