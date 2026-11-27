@@ -1053,7 +1053,7 @@
   "699b19b6ee6ec02c": {
    "car": "ヤリス 山形501わ0946",
    "condition": "A/T 2WD 禁煙車 ナビ付 ETC付 スタッドレス",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-27T01:55+09:00",
    "notified": false,
    "period": "2026年11月26日 ～ 11月28日",
