@@ -213,7 +213,7 @@
   "1b15278789f778ec": {
    "car": "ノア 車両番号 6125",
    "condition": "禁煙・8人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-27T14:00+09:00",
    "notified": false,
    "period": "2026年11月28日 ～ 11月30日",
