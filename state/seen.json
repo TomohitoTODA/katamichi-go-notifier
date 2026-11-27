@@ -75,6 +75,21 @@
    "start_shop": "トヨタレンタリース静岡 熱海駅前店",
    "tel": "0120-926-325"
   },
+  "0a256e7f2fba87e6": {
+   "car": "プリウス 車両番号2436",
+   "condition": "ｽﾀｯﾄﾞﾚｽ/4WD/禁煙/5人乗り/ﾅﾋﾞ･ETC付",
+   "ended": false,
+   "first_seen": "2026-11-27T18:30+09:00",
+   "notified": false,
+   "period": "2026年11月28日 ～ 11月30日",
+   "reserve_shop": "郡山駅新幹線口店",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース岩手",
+   "start_area": "東北",
+   "start_place": "福島県 郡山市",
+   "start_shop": "トヨタレンタリース福島 郡山駅新幹線口店",
+   "tel": "024-939-0100"
+  },
   "0cc1cd70d23066e3": {
    "car": "ヤリスHV 宮城502わ9872",
    "condition": "禁煙 スタッドレス 2WD AT ナビ・ETC付き 5人乗り",
@@ -348,7 +363,7 @@
   "221c5b39d868fcc6": {
    "car": "ルーミー 庄内500わ2814",
    "condition": "A/T・4WD・禁煙・ナビ付・ETC付・ｽﾀｯﾄﾞﾚｽ",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-27T01:55+09:00",
    "notified": false,
    "period": "2026年11月25日 ～ 11月27日",
@@ -389,6 +404,21 @@
    "start_place": "福島県 郡山市",
    "start_shop": "トヨタレンタリース福島 郡山駅新幹線口店",
    "tel": "024-939-0100"
+  },
+  "264eab43e871dc50": {
+   "car": "カローラツーリングHV 車両番号605",
+   "condition": "ｽﾀｯﾄﾞﾚｽ/2WD/禁煙/5人乗り/ﾅﾋﾞ･ETC付",
+   "ended": false,
+   "first_seen": "2026-11-27T18:30+09:00",
+   "notified": false,
+   "period": "2026年11月28日 ～ 11月30日",
+   "reserve_shop": "仙台新幹線口店",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース岩手",
+   "start_area": "東北",
+   "start_place": "宮城県 仙台市",
+   "start_shop": "トヨタレンタリース仙台 仙台新幹線口店",
+   "tel": "022-291-0100"
   },
   "26bd9f2bae42f09b": {
    "car": "ランドクルーザー250 車両番号3125",
@@ -528,7 +558,7 @@
   "35b0eb88e3acb7ed": {
    "car": "カローラツーリングHV 山形300わ2625",
    "condition": "A/T・4WD・禁煙・ナビ付・ETC付・ｽﾀｯﾄﾞﾚｽ",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-27T01:55+09:00",
    "notified": false,
    "period": "2026年11月25日 ～ 11月27日",
