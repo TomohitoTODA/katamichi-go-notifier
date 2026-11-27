@@ -675,6 +675,21 @@
    "start_shop": "トヨタレンタリース神奈川 川崎店",
    "tel": "044-245-0100"
   },
+  "529e87e688031166": {
+   "car": "ヤリスクロスＨＥＶ 車両番号 2839",
+   "condition": "禁煙 5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-27T12:55+09:00",
+   "notified": false,
+   "period": "2026年11月27日 ～ 11月28日",
+   "reserve_shop": "武蔵小杉駅前店",
+   "return_area": "関東",
+   "return_shop": "トヨタS＆Dレンタシェア西東京",
+   "start_area": "関東",
+   "start_place": "神奈川県 川崎市中原区",
+   "start_shop": "トヨタレンタリース神奈川 武蔵小杉駅前店",
+   "tel": "044-411-0100"
+  },
   "53b3deebeac0f8f0": {
    "car": "ヴォクシーHEV 車両番号1072",
    "condition": "禁煙 7人乗り",
@@ -1053,7 +1068,7 @@
   "8e1d439808287b0f": {
    "car": "ｱﾙﾌｧｰﾄﾞ 登録番号7058",
    "condition": "禁煙 8人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-27T12:45+09:00",
    "notified": false,
    "period": "2026年11月27日 ～ 11月29日",
