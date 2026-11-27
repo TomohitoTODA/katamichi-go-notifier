@@ -60,6 +60,21 @@
    "start_shop": "トヨタレンタリース愛知 ささしまライブ東口店",
    "tel": "0120-001-319"
   },
+  "06ea572b3dadd0f7": {
+   "car": "ヤリスHEV 車両番号3854",
+   "condition": "禁煙 5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-27T20:35+09:00",
+   "notified": false,
+   "period": "2026年11月28日 ～ 11月30日",
+   "reserve_shop": "日暮里駅前店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース静岡",
+   "start_area": "関東",
+   "start_place": "東京都 荒川区",
+   "start_shop": "トヨタモビリティサービス 日暮里駅前店",
+   "tel": "03-5604-0100"
+  },
   "09b64999f333d260": {
    "car": "カローラツーリング 車両番号 5397",
    "condition": "禁煙 5人乗り ノーマルタイヤ",
@@ -899,6 +914,21 @@
    "start_place": "宮城県 仙台市",
    "start_shop": "トヨタレンタリース宮城 仙台駅東口店",
    "tel": "022-293-0100"
+  },
+  "5014650bfd83a335": {
+   "car": "アクア 車両番号5407",
+   "condition": "禁煙 5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-27T20:35+09:00",
+   "notified": false,
+   "period": "2026年11月28日 ～ 11月30日",
+   "reserve_shop": "羽田空港（国内線）店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース静岡",
+   "start_area": "関東",
+   "start_place": "東京都 大田区",
+   "start_shop": "トヨタモビリティサービス 羽田空港（国内線）店",
+   "tel": "03-3744-0100"
   },
   "51478fb303916119": {
    "car": "パッソ 車両番号787",
