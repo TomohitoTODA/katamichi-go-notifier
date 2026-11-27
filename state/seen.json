@@ -735,6 +735,21 @@
    "start_shop": "トヨタモビリティサービス 浅草橋店",
    "tel": "03-5821-6324"
   },
+  "56a09cf82d842bbf": {
+   "car": "カローラツーリング 車両番号 4966",
+   "condition": "５人乗り 禁煙車（ﾉｰﾏﾙﾀｲﾔ）",
+   "ended": false,
+   "first_seen": "2026-11-27T10:05+09:00",
+   "notified": false,
+   "period": "2026年11月27日 ～ 11月30日",
+   "reserve_shop": "新富士駅前店",
+   "return_area": "関東",
+   "return_shop": "トヨタレンタリース神奈川",
+   "start_area": "中部",
+   "start_place": "静岡県 富士市",
+   "start_shop": "トヨタレンタリース静岡 新富士駅前店",
+   "tel": "0545-63-0100"
+  },
   "5768bec7cedcde35": {
    "car": "ノア 車両番号2999",
    "condition": "禁煙・8人乗り",
