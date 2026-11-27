@@ -1053,7 +1053,7 @@
   "88810085725280b1": {
    "car": "カムリ 宮城300わ5935",
    "condition": "禁煙 スタッドレス 2WD AT ナビ・ETC付き 5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-27T13:15+09:00",
    "notified": false,
    "period": "2026年11月27日 ～ 11月30日",
