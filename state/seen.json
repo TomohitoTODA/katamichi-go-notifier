@@ -678,7 +678,7 @@
   "529e87e688031166": {
    "car": "ヤリスクロスＨＥＶ 車両番号 2839",
    "condition": "禁煙 5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-27T12:55+09:00",
    "notified": false,
    "period": "2026年11月27日 ～ 11月28日",
