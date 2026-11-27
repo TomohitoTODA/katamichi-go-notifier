@@ -1200,6 +1200,21 @@
    "start_shop": "トヨタレンタリース静岡 静岡新幹線口店",
    "tel": "0120-926-307"
   },
+  "6debc5ac72e9cb45": {
+   "car": "ヤリス 郡山500わ4757",
+   "condition": "禁煙 AT スタッドレス ETC車載器付 ナビ",
+   "ended": false,
+   "first_seen": "2026-11-27T18:20+09:00",
+   "notified": false,
+   "period": "2026年11月28日 ～ 11月29日",
+   "reserve_shop": "仙台新幹線口店",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース福島",
+   "start_area": "東北",
+   "start_place": "宮城県 仙台市",
+   "start_shop": "トヨタレンタリース仙台 仙台新幹線口店",
+   "tel": "022-291-0100"
+  },
   "6fa5ace01a7e4c6a": {
    "car": "ハリアー 車両番号3313",
    "condition": "禁煙 ５人乗り",
