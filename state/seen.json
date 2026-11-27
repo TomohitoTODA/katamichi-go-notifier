@@ -1608,7 +1608,7 @@
   "d787d9d56bd109a9": {
    "car": "ヤリス 車両番号4510",
    "condition": "禁煙 5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-27T10:25+09:00",
    "notified": false,
    "period": "2026年11月27日 ～ 11月29日",
@@ -1788,7 +1788,7 @@
   "e9f5f3ace9328b29": {
    "car": "ヤリス 車両番号3410",
    "condition": "禁煙 5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-27T10:20+09:00",
    "notified": false,
    "period": "2026年11月27日 ～ 11月29日",
