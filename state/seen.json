@@ -555,6 +555,21 @@
    "start_shop": "トヨタレンタリース新福島 泉駅前店",
    "tel": "0246-75-1550"
   },
+  "4e868022c9e160f9": {
+   "car": "プリウス 車両番号8003",
+   "condition": "禁煙5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-27T12:00+09:00",
+   "notified": false,
+   "period": "2026年11月27日 ～ 11月29日",
+   "reserve_shop": "ホテルアソシア静岡店",
+   "return_area": "関東",
+   "return_shop": "トヨタモビリティサービス",
+   "start_area": "中部",
+   "start_place": "静岡県 静岡市",
+   "start_shop": "トヨタレンタリース静岡 ホテルアソシア静岡店",
+   "tel": "0120-782-110"
+  },
   "4ea23d03ace1fd8f": {
    "car": "カローラHV 仙台300わ8934",
    "condition": "禁煙車 AT 4WD ナビ・ETC付き",
