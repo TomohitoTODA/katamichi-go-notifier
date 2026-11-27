@@ -828,7 +828,7 @@
   "539c342b05deed3f": {
    "car": "ノア 車両番号4254",
    "condition": "禁煙・8人乗り（スタッドレスタイヤ付き）",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-27T14:05+09:00",
    "notified": false,
    "period": "2026年11月27日 ～ 11月29日",
@@ -1593,7 +1593,7 @@
   "b2ec0ce2f3f8f23c": {
    "car": "アクア 車両番号 2997",
    "condition": "禁煙・5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-27T14:05+09:00",
    "notified": false,
    "period": "2026年11月28日 ～ 11月30日",
@@ -1844,6 +1844,21 @@
    "start_place": "東京都 台東区",
    "start_shop": "トヨタモビリティサービス 浅草橋店",
    "tel": "03-5821-6324"
+  },
+  "cd44e56367ddd909": {
+   "car": "ヤリス 宮城502わ6370",
+   "condition": "禁煙 スタッドレス 4WD AT ナビ・ETC付き 5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-27T14:15+09:00",
+   "notified": false,
+   "period": "2026年11月27日 ～ 11月30日",
+   "reserve_shop": "郡山駅新幹線口店",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース宮城",
+   "start_area": "東北",
+   "start_place": "福島県 郡山市",
+   "start_shop": "トヨタレンタリース福島 郡山駅新幹線口店",
+   "tel": "024-939-0100"
   },
   "d14672dd86dc5ce7": {
    "car": "シエンタ 車両番号4589",
