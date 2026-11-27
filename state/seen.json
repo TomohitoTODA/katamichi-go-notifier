@@ -423,7 +423,7 @@
   "274e2ea9a0638e4c": {
    "car": "ヤリス 青森501わ3116",
    "condition": "禁煙 AT 4WD 冬タイヤ ETC車載器 バックモニター Bluetooth ドライブレコーダー",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-27T16:55+09:00",
    "notified": false,
    "period": "2026年11月27日 ～ 12月4日",
@@ -1083,7 +1083,7 @@
   "63206c6b018fe120": {
    "car": "ルーミー 車両番号4000",
    "condition": "禁煙 5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-27T17:30+09:00",
    "notified": false,
    "period": "2026年11月27日 ～ 11月29日",
@@ -1998,7 +1998,7 @@
   "c88f14c262f79eeb": {
    "car": "カムリ 車両番号 874",
    "condition": "禁煙・5人乗り",
-   "ended": true,
+   "ended": false,
    "first_seen": "2026-11-27T01:55+09:00",
    "notified": false,
    "period": "2026年11月27日 ～ 11月29日",
