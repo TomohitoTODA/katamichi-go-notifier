@@ -1605,21 +1605,6 @@
    "start_shop": "トヨタレンタリース大阪 心斎橋船場店",
    "tel": "06-6264-0100"
   },
-  "de6db7115d0ab328": {
-   "car": "ヤリス 車両番号 6863",
-   "condition": "禁煙車 5人乗",
-   "ended": true,
-   "first_seen": "2026-11-27T07:25+09:00",
-   "notified": false,
-   "period": "2026年11月27日 ～ 11月29日",
-   "reserve_shop": "鹿児島中央駅店",
-   "return_area": "九州",
-   "return_shop": "トヨタレンタリース福岡",
-   "start_area": "九州",
-   "start_place": "鹿児島県 鹿児島市",
-   "start_shop": "トヨタレンタリース鹿児島 鹿児島中央駅店",
-   "tel": "099-250-0100"
-  },
   "de70468d5b5e5c13": {
    "car": "タウンエースバン 青森400わ3227",
    "condition": "5人乗・禁煙・スタッドレス装着",
@@ -1679,6 +1664,21 @@
    "start_place": "宮城県 仙台市",
    "start_shop": "トヨタレンタリース仙台 仙台新幹線口店",
    "tel": "022-291-0100"
+  },
+  "e559d64d4f2a17e7": {
+   "car": "カローラ 車両番号 1483",
+   "condition": "禁煙車 5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-27T09:50+09:00",
+   "notified": false,
+   "period": "2026年11月27日 ～ 11月29日",
+   "reserve_shop": "新幹線鹿児島中央駅西口店",
+   "return_area": "九州",
+   "return_shop": "トヨタレンタリース福岡",
+   "start_area": "九州",
+   "start_place": "鹿児島県 鹿児島市",
+   "start_shop": "トヨタレンタリース鹿児島 新幹線鹿児島中央駅西口店",
+   "tel": "099-285-0100"
   },
   "e5ce83f591459454": {
    "car": "ヤリス 車両番号4262",
@@ -1784,6 +1784,21 @@
    "start_place": "山形県 新庄市",
    "start_shop": "トヨタレンタリース山形 新庄駅前店",
    "tel": "0233-23-0100"
+  },
+  "ecc34540beb79452": {
+   "car": "ヤリス 車両番号 4661",
+   "condition": "禁煙車 5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-27T09:50+09:00",
+   "notified": false,
+   "period": "2026年11月27日 ～ 11月29日",
+   "reserve_shop": "鹿児島空港店",
+   "return_area": "九州",
+   "return_shop": "トヨタレンタリース福岡",
+   "start_area": "九州",
+   "start_place": "鹿児島県 霧島市",
+   "start_shop": "トヨタレンタリース鹿児島 鹿児島空港店",
+   "tel": "0995-58-2306"
   },
   "ef028fd62cee8dfa": {
    "car": "ハイエースバン 八戸400わ2763",
