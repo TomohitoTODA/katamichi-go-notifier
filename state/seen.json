@@ -150,21 +150,6 @@
    "start_shop": "トヨタレンタリース山形 天童駅前店",
    "tel": "023-653-0100"
   },
-  "16d4694781a2d232": {
-   "car": "ﾔﾘｽｸﾛｽ 登録番号9782",
-   "condition": "禁煙 5人乗り",
-   "ended": true,
-   "first_seen": "2026-11-27T12:25+09:00",
-   "notified": false,
-   "period": "2026年11月27日 ～ 11月29日",
-   "reserve_shop": "東京駅日本橋口店",
-   "return_area": "中部",
-   "return_shop": "トヨタレンタリース愛知",
-   "start_area": "関東",
-   "start_place": "東京都 千代田区",
-   "start_shop": "トヨタモビリティサービス 東京駅日本橋口店",
-   "tel": "03-5220-2220"
-  },
   "18c799cd0b31c1aa": {
    "car": "カローラHV 宮城300わ6563",
    "condition": "禁煙 スタッドレス 2WD AT ナビ・ETC付き 5人乗り",
@@ -359,6 +344,21 @@
    "start_place": "東京都 豊島区",
    "start_shop": "トヨタモビリティサービス 池袋東口店",
    "tel": "03-3987-2906"
+  },
+  "33439d3166d9590e": {
+   "car": "ﾔﾘｽ 登録番号9782",
+   "condition": "禁煙 5人乗り",
+   "ended": true,
+   "first_seen": "2026-11-27T12:30+09:00",
+   "notified": false,
+   "period": "2026年11月27日 ～ 11月29日",
+   "reserve_shop": "東京駅日本橋口店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース愛知",
+   "start_area": "関東",
+   "start_place": "東京都 千代田区",
+   "start_shop": "トヨタモビリティサービス 東京駅日本橋口店",
+   "tel": "03-5220-2220"
   },
   "33f093771ba938a1": {
    "car": "ヤリス 車両番号9320",
@@ -1559,6 +1559,21 @@
    "start_place": "愛知県 名古屋市",
    "start_shop": "トヨタレンタリース名古屋 名駅笹島店",
    "tel": "0120-921-758"
+  },
+  "cb6c723137b71597": {
+   "car": "ｱﾙﾌｧｰﾄﾞ 登録番号8192",
+   "condition": "禁煙 8人乗り ｽﾀｯﾄﾞﾚｽ",
+   "ended": true,
+   "first_seen": "2026-11-27T12:30+09:00",
+   "notified": false,
+   "period": "2026年11月27日 ～ 11月29日",
+   "reserve_shop": "羽田空港（国内線）店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース愛知",
+   "start_area": "関東",
+   "start_place": "東京都 大田区",
+   "start_shop": "トヨタモビリティサービス 羽田空港（国内線）店",
+   "tel": "03-3744-0100"
   },
   "d14672dd86dc5ce7": {
    "car": "シエンタ 車両番号4589",
