@@ -150,6 +150,21 @@
    "start_shop": "トヨタレンタリース大阪 なんばターミナル店",
    "tel": "06-6647-0100"
   },
+  "1452bf6c8583a6cd": {
+   "car": "ヤリス 青森501わ3860",
+   "condition": "禁煙 AT 4WD 冬タイヤ ETC車載器 バックモニター Bluetooth ドライブレコーダー",
+   "ended": false,
+   "first_seen": "2026-11-27T16:55+09:00",
+   "notified": false,
+   "period": "2026年11月27日 ～ 12月4日",
+   "reserve_shop": "郡山駅新幹線口店",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース青森",
+   "start_area": "東北",
+   "start_place": "福島県 郡山市",
+   "start_shop": "トヨタレンタリース福島 郡山駅新幹線口店",
+   "tel": "024-939-0100"
+  },
   "1648408fd864cf56": {
    "car": "プリウス 八戸300わ1840",
    "condition": "5人乗・禁煙車 スタッドレス",
@@ -164,6 +179,21 @@
    "start_place": "山形県 天童市",
    "start_shop": "トヨタレンタリース山形 天童駅前店",
    "tel": "023-653-0100"
+  },
+  "173a2987cf77c135": {
+   "car": "ヤリス 八戸500わ8592",
+   "condition": "禁煙 AT 4WD 冬タイヤ ETC車載器 バックモニター Bluetooth ドライブレコーダー",
+   "ended": false,
+   "first_seen": "2026-11-27T16:55+09:00",
+   "notified": false,
+   "period": "2026年11月27日 ～ 12月4日",
+   "reserve_shop": "新庄駅前店",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース青森",
+   "start_area": "東北",
+   "start_place": "山形県 新庄市",
+   "start_shop": "トヨタレンタリース山形 新庄駅前店",
+   "tel": "0233-23-0100"
   },
   "17b63808ff8b1836": {
    "car": "プロボックスＨＶ 青森400わ2693",
@@ -389,6 +419,21 @@
    "start_place": "宮城県 仙台市",
    "start_shop": "トヨタレンタリース仙台 仙台新幹線口店",
    "tel": "022-291-0100"
+  },
+  "274e2ea9a0638e4c": {
+   "car": "ヤリス 青森501わ3116",
+   "condition": "禁煙 AT 4WD 冬タイヤ ETC車載器 バックモニター Bluetooth ドライブレコーダー",
+   "ended": false,
+   "first_seen": "2026-11-27T16:55+09:00",
+   "notified": false,
+   "period": "2026年11月27日 ～ 12月4日",
+   "reserve_shop": "本社 レンタル課（営業時間 9:00-18:00）",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース青森",
+   "start_area": "東北",
+   "start_place": "岩手県 一関市",
+   "start_shop": "トヨタレンタリース岩手 一関店",
+   "tel": "019-606-3076"
   },
   "2a9be2167fe8849a": {
    "car": "ヤリス5907",
@@ -1125,6 +1170,21 @@
    "start_shop": "トヨタモビリティサービス 石神井公園店",
    "tel": "03-3997-7900"
   },
+  "73fd304ed5e3dbd0": {
+   "car": "ヴォクシー 八戸300わ1734",
+   "condition": "禁煙 AT 4WD 冬タイヤ ETC車載器 バックモニター Bluetooth ドライブレコーダー",
+   "ended": false,
+   "first_seen": "2026-11-27T16:55+09:00",
+   "notified": false,
+   "period": "2026年11月27日 ～ 12月4日",
+   "reserve_shop": "成田空港店",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース青森",
+   "start_area": "関東",
+   "start_place": "千葉県 成田市",
+   "start_shop": "トヨタモビリティサービス 成田空港店",
+   "tel": "0476-32-1020"
+  },
   "777f3c8be8a705a6": {
    "car": "ヤリス 青森501わ3045",
    "condition": "5人乗・禁煙・スタッドレス装着",
@@ -1409,6 +1469,21 @@
    "start_place": "愛知県 名古屋市",
    "start_shop": "トヨタレンタリース愛知 ささしまライブ東口店",
    "tel": "0120-001-319"
+  },
+  "9d978197e48fddf7": {
+   "car": "カローラクロス 青森300わ2752",
+   "condition": "禁煙 AT 4WD 冬タイヤ ETC車載器 バックモニター Bluetooth ドライブレコーダー",
+   "ended": false,
+   "first_seen": "2026-11-27T16:55+09:00",
+   "notified": false,
+   "period": "2026年11月27日 ～ 12月4日",
+   "reserve_shop": "本社 レンタル課（営業時間 9:00-18:00）",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース青森",
+   "start_area": "東北",
+   "start_place": "岩手県 二戸市",
+   "start_shop": "トヨタレンタリース岩手 二戸駅新幹線口店",
+   "tel": "019-606-3076"
   },
   "9e90b7afc5362d2d": {
    "car": "ヤリスHV 仙台502わ1827",
