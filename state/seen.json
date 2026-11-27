@@ -855,6 +855,21 @@
    "start_shop": "トヨタS＆Dレンタシェア西東京 武蔵境店",
    "tel": "0422-55-0100"
   },
+  "67f4f2d2fdaa4ce9": {
+   "car": "ヤリスHV 車両番号4417",
+   "condition": "禁煙 5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-27T10:40+09:00",
+   "notified": false,
+   "period": "2026年11月27日 ～ 11月29日",
+   "reserve_shop": "総合予約室",
+   "return_area": "近畿",
+   "return_shop": "トヨタレンタリース京都",
+   "start_area": "中部",
+   "start_place": "愛知県 名古屋市",
+   "start_shop": "トヨタレンタリース愛知 ささしまライブ東口店",
+   "tel": "0120-001-319"
+  },
   "699b19b6ee6ec02c": {
    "car": "ヤリス 山形501わ0946",
    "condition": "A/T 2WD 禁煙車 ナビ付 ETC付 スタッドレス",
@@ -1964,6 +1979,21 @@
    "start_place": "京都府 京都市",
    "start_shop": "トヨタレンタリース京都 山科店",
    "tel": "075-502-0100"
+  },
+  "fb7431476aca1179": {
+   "car": "カローラHV 車両番号755",
+   "condition": "禁煙 5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-27T10:40+09:00",
+   "notified": false,
+   "period": "2026年11月27日 ～ 11月29日",
+   "reserve_shop": "総合予約室",
+   "return_area": "近畿",
+   "return_shop": "トヨタレンタリース京都",
+   "start_area": "中部",
+   "start_place": "愛知県 名古屋市",
+   "start_shop": "トヨタレンタリース愛知 ささしまライブ東口店",
+   "tel": "0120-001-319"
   },
   "ffae17e9207cdded": {
    "car": "カローラツーリング 車両番号0853",
