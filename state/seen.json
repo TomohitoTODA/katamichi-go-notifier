@@ -585,6 +585,21 @@
    "start_shop": "トヨタレンタリース新福島 福島駅新幹線口店",
    "tel": "024-531-0100"
   },
+  "391ee3c690a001a6": {
+   "car": "フィールダー 弘前500わ418",
+   "condition": "禁煙 AT 4WD 冬タイヤ ETC車載器 バックモニター Bluetooth ドライブレコーダー",
+   "ended": false,
+   "first_seen": "2026-11-27T17:10+09:00",
+   "notified": false,
+   "period": "2026年11月27日 ～ 12月4日",
+   "reserve_shop": "本社 レンタル課（営業時間 9:00-18:00）",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース青森",
+   "start_area": "東北",
+   "start_place": "岩手県 北上市",
+   "start_shop": "トヨタレンタリース岩手 北上駅新幹線東口店",
+   "tel": "019-606-3076"
+  },
   "3f0ec1aebc3b24b6": {
    "car": "ノア 車両番号4030",
    "condition": "禁煙8人乗り",
