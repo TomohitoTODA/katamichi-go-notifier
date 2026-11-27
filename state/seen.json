@@ -1353,7 +1353,7 @@
   "8b38ea7469fc2fba": {
    "car": "ノア 車両番号3137",
    "condition": "禁煙・8人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-27T16:35+09:00",
    "notified": false,
    "period": "2026年11月27日 ～ 11月29日",
@@ -1473,7 +1473,7 @@
   "9a0222bb8f17bb18": {
    "car": "ノア 車両番号4631",
    "condition": "禁煙・8人乗り（スタッドレスタイヤ付き）",
-   "ended": true,
+   "ended": false,
    "first_seen": "2026-11-27T01:55+09:00",
    "notified": false,
    "period": "2026年11月25日 ～ 11月27日",
