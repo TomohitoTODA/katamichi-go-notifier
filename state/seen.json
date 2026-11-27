@@ -828,7 +828,7 @@
   "67f4f2d2fdaa4ce9": {
    "car": "ヤリスHV 車両番号4417",
    "condition": "禁煙 5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-27T10:40+09:00",
    "notified": false,
    "period": "2026年11月27日 ～ 11月29日",
