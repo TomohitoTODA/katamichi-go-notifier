@@ -1623,7 +1623,7 @@
   "ca5ab0041da7775e": {
    "car": "ヤリス 青森501わ3044",
    "condition": "5人乗・禁煙車 スタッドレス",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-27T01:55+09:00",
    "notified": false,
    "period": "2026年11月26日 ～ 12月3日",
