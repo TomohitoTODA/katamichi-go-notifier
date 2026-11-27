@@ -195,21 +195,6 @@
    "start_shop": "トヨタレンタリース新福島 福島駅新幹線口店",
    "tel": "024-531-0100"
   },
-  "19f5b11b49520315": {
-   "car": "アクア 車輛番号 7057",
-   "condition": "禁煙 5人乗り",
-   "ended": true,
-   "first_seen": "2026-11-27T01:55+09:00",
-   "notified": false,
-   "period": "2026年11月24日 ～ 11月26日",
-   "reserve_shop": "総合予約室",
-   "return_area": "近畿",
-   "return_shop": "トヨタレンタリース京都",
-   "start_area": "中部",
-   "start_place": "愛知県 名古屋市",
-   "start_shop": "トヨタレンタリース愛知 ささしまライブ東口店",
-   "tel": "0120-001-319"
-  },
   "1c14d401bd908685": {
    "car": "ヤリス 車両番号3947",
    "condition": "ｽﾀｯﾄﾞﾚｽ/2WD/禁煙/5人乗/ﾅﾋﾞ・ETC",
@@ -228,7 +213,7 @@
   "1ec9bd9c53804814": {
    "car": "ヤリス 車両番号3522",
    "condition": "禁煙 5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-27T10:20+09:00",
    "notified": false,
    "period": "2026年11月27日 ～ 11月29日",
@@ -1680,21 +1665,6 @@
    "start_shop": "トヨタレンタリース仙台 仙台新幹線口店",
    "tel": "022-291-0100"
   },
-  "df8fa81218be048a": {
-   "car": "ｱﾙﾌｧｰﾄﾞ 登録番号2704",
-   "condition": "禁煙 8人乗り",
-   "ended": true,
-   "first_seen": "2026-11-27T01:55+09:00",
-   "notified": false,
-   "period": "2026年11月27日 ～ 11月29日",
-   "reserve_shop": "吾妻橋店",
-   "return_area": "中部",
-   "return_shop": "トヨタレンタリース愛知",
-   "start_area": "関東",
-   "start_place": "東京都 墨田区",
-   "start_shop": "トヨタモビリティサービス 吾妻橋店",
-   "tel": "03-3626-5300"
-  },
   "e03b6352f1a08f7a": {
    "car": "ヤリス 車両番号1852",
    "condition": "禁煙 5人乗り",
@@ -1754,21 +1724,6 @@
    "start_place": "神奈川県 藤沢市",
    "start_shop": "トヨタレンタリース神奈川 辻堂駅前店",
    "tel": "0466-31-2711"
-  },
-  "e7cb4b8cd3db5fd4": {
-   "car": "ハリアーHV 車両番号7955",
-   "condition": "禁煙5人乗り ｽﾀｯﾄﾞﾚｽ付",
-   "ended": true,
-   "first_seen": "2026-11-27T01:55+09:00",
-   "notified": false,
-   "period": "2026年11月26日 ～ 11月28日",
-   "reserve_shop": "新大阪新幹線口店",
-   "return_area": "中部",
-   "return_shop": "トヨタレンタリース愛知",
-   "start_area": "近畿",
-   "start_place": "大阪府 大阪市",
-   "start_shop": "トヨタレンタリース大阪 新大阪新幹線口店",
-   "tel": "06-6393-0100"
   },
   "e9b999e773c40bf3": {
    "car": "ノア 車両番号1360",
