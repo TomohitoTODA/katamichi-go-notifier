@@ -210,6 +210,21 @@
    "start_shop": "トヨタレンタリース仙台 仙台新幹線口店",
    "tel": "022-291-0100"
   },
+  "1d4c3e2298784c05": {
+   "car": "ハイエースバン 登録番号8929",
+   "condition": "喫煙車 3/6人乗",
+   "ended": false,
+   "first_seen": "2026-11-27T13:45+09:00",
+   "notified": false,
+   "period": "2026年11月28日 ～ 11月30日",
+   "reserve_shop": "伏見竹田店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース愛知",
+   "start_area": "近畿",
+   "start_place": "京都府 京都市",
+   "start_shop": "トヨタレンタリース京都 伏見竹田店",
+   "tel": "075-645-0100"
+  },
   "1ec9bd9c53804814": {
    "car": "ヤリス 車両番号3522",
    "condition": "禁煙 5人乗り",
@@ -1095,21 +1110,6 @@
    "start_shop": "トヨタレンタリース新福島 福島駅新幹線口店",
    "tel": "024-531-0100"
   },
-  "8e1d439808287b0f": {
-   "car": "ｱﾙﾌｧｰﾄﾞ 登録番号7058",
-   "condition": "禁煙 8人乗り",
-   "ended": true,
-   "first_seen": "2026-11-27T12:45+09:00",
-   "notified": false,
-   "period": "2026年11月27日 ～ 11月29日",
-   "reserve_shop": "成田空港店",
-   "return_area": "中部",
-   "return_shop": "トヨタレンタリース愛知",
-   "start_area": "関東",
-   "start_place": "千葉県 成田市",
-   "start_shop": "トヨタモビリティサービス 成田空港店",
-   "tel": "0476-32-1020"
-  },
   "925f3e7fc2966787": {
    "car": "ヤリス 車両番号 503",
    "condition": "禁煙・5人乗り",
@@ -1650,21 +1650,6 @@
    "start_shop": "トヨタレンタリース名古屋 名駅笹島店",
    "tel": "0120-921-758"
   },
-  "cb6c723137b71597": {
-   "car": "ｱﾙﾌｧｰﾄﾞ 登録番号8192",
-   "condition": "禁煙 8人乗り ｽﾀｯﾄﾞﾚｽ",
-   "ended": true,
-   "first_seen": "2026-11-27T12:30+09:00",
-   "notified": false,
-   "period": "2026年11月27日 ～ 11月29日",
-   "reserve_shop": "羽田空港（国内線）店",
-   "return_area": "中部",
-   "return_shop": "トヨタレンタリース愛知",
-   "start_area": "関東",
-   "start_place": "東京都 大田区",
-   "start_shop": "トヨタモビリティサービス 羽田空港（国内線）店",
-   "tel": "03-3744-0100"
-  },
   "cd40037823c18814": {
    "car": "アルファードHV 車両番号9268",
    "condition": "禁煙 8人乗り",
@@ -1709,21 +1694,6 @@
    "start_place": "大阪府 大阪市",
    "start_shop": "トヨタレンタリース大阪 谷町店",
    "tel": "06-6763-0100"
-  },
-  "d3d0034eba10fa89": {
-   "car": "アルファードHEV 車両番号 5635",
-   "condition": "禁煙車 8人乗り",
-   "ended": true,
-   "first_seen": "2026-11-27T01:55+09:00",
-   "notified": false,
-   "period": "2026年11月26日 ～ 11月28日",
-   "reserve_shop": "なんばターミナル店",
-   "return_area": "関東",
-   "return_shop": "トヨタモビリティサービス",
-   "start_area": "近畿",
-   "start_place": "大阪府 大阪市",
-   "start_shop": "トヨタレンタリース大阪 なんばターミナル店",
-   "tel": "06-6647-0100"
   },
   "d493a9eb7f804ab1": {
    "car": "カローラツーリングHEV 車両番号1361",
