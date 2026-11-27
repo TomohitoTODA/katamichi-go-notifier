@@ -1035,6 +1035,21 @@
    "start_shop": "トヨタレンタリース大阪 新大阪店",
    "tel": "06-6301-0100"
   },
+  "88810085725280b1": {
+   "car": "カムリ 宮城300わ5935",
+   "condition": "禁煙 スタッドレス 2WD AT ナビ・ETC付き 5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-27T13:15+09:00",
+   "notified": false,
+   "period": "2026年11月27日 ～ 11月30日",
+   "reserve_shop": "東京駅日本橋口店",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース宮城",
+   "start_area": "関東",
+   "start_place": "東京都 千代田区",
+   "start_shop": "トヨタモビリティサービス 東京駅日本橋口店",
+   "tel": "03-5220-2220"
+  },
   "89d952ed21c12989": {
    "car": "ルーミー 白河500わ0517",
    "condition": "ＡＴ 禁煙 ナビ ＥＴＣ スタッドレスタイヤ",
@@ -1455,6 +1470,21 @@
    "start_shop": "トヨタレンタリース岩手 盛岡駅南口店",
    "tel": "019-606-3076"
   },
+  "b7ac853a6fd6ad37": {
+   "car": "プリウス 宮城300わ5587",
+   "condition": "禁煙 スタッドレス 4WD AT ナビ・ETC付き 5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-27T13:15+09:00",
+   "notified": false,
+   "period": "2026年11月27日 ～ 11月30日",
+   "reserve_shop": "本社 レンタル課（営業時間 9:00-18:00）",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース宮城",
+   "start_area": "東北",
+   "start_place": "岩手県 花巻市",
+   "start_shop": "トヨタレンタリース岩手 新花巻駅西口店",
+   "tel": "019-606-3076"
+  },
   "b972caab496fbf0e": {
    "car": "カローラツーリング 宮城300わ6732",
    "condition": "禁煙 スタッドレス 2WD AT ナビ・ETC付き 5人乗り",
@@ -1770,6 +1800,21 @@
    "start_shop": "トヨタモビリティサービス 東京駅日本橋口店",
    "tel": "03-5220-2220"
   },
+  "e0ff5286fb15d4e6": {
+   "car": "アルファードHEV 車輛番号 2087",
+   "condition": "禁煙 8人乗り",
+   "ended": true,
+   "first_seen": "2026-11-27T13:15+09:00",
+   "notified": false,
+   "period": "2026年11月27日 ～ 11月29日",
+   "reserve_shop": "東京駅日本橋口店",
+   "return_area": "近畿",
+   "return_shop": "トヨタレンタリース京都",
+   "start_area": "関東",
+   "start_place": "東京都 千代田区",
+   "start_shop": "トヨタモビリティサービス 東京駅日本橋口店",
+   "tel": "03-5220-2220"
+  },
   "e530c90523c8b26b": {
    "car": "プリウス 青森300わ2343",
    "condition": "5人乗・禁煙・スタッドレス装着",
@@ -1829,21 +1874,6 @@
    "start_place": "大阪府 泉佐野市",
    "start_shop": "トヨタレンタリース新大阪 りんくうタウン駅前店",
    "tel": "072-463-0100"
-  },
-  "e9c84b495e6be8dd": {
-   "car": "アルファードHEV 車輛番号 2087",
-   "condition": "禁煙 8人乗り",
-   "ended": true,
-   "first_seen": "2026-11-27T01:55+09:00",
-   "notified": false,
-   "period": "2026年11月24日 ～ 11月26日",
-   "reserve_shop": "東京駅日本橋口店",
-   "return_area": "近畿",
-   "return_shop": "トヨタレンタリース京都",
-   "start_area": "関東",
-   "start_place": "東京都 千代田区",
-   "start_shop": "トヨタモビリティサービス 東京駅日本橋口店",
-   "tel": "03-5220-2220"
   },
   "e9f5f3ace9328b29": {
    "car": "ヤリス 車両番号3410",
