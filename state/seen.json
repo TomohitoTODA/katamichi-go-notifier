@@ -1818,9 +1818,9 @@
   "e0ff5286fb15d4e6": {
    "car": "アルファードHEV 車輛番号 2087",
    "condition": "禁煙 8人乗り",
-   "ended": true,
+   "ended": false,
    "first_seen": "2026-11-27T13:15+09:00",
-   "notified": false,
+   "notified": true,
    "period": "2026年11月27日 ～ 11月29日",
    "reserve_shop": "東京駅日本橋口店",
    "return_area": "近畿",
