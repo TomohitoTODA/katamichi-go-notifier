@@ -348,7 +348,7 @@
   "26bd9f2bae42f09b": {
    "car": "ランドクルーザー250 車両番号3125",
    "condition": "禁煙7人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-27T14:00+09:00",
    "notified": false,
    "period": "2026年11月27日 ～ 11月29日",
@@ -495,6 +495,36 @@
    "start_shop": "トヨタモビリティサービス 日暮里駅前店",
    "tel": "03-5604-0100"
   },
+  "37d56d4beb08f076": {
+   "car": "ヤリスHV 宮城502わ9971",
+   "condition": "禁煙 スタッドレス 4WD AT ナビ・ETC付き 5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-27T14:05+09:00",
+   "notified": false,
+   "period": "2026年11月27日 ～ 11月30日",
+   "reserve_shop": "福島駅新幹線口店",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース宮城",
+   "start_area": "東北",
+   "start_place": "福島県 福島市",
+   "start_shop": "トヨタレンタリース新福島 福島駅新幹線口店",
+   "tel": "024-531-0100"
+  },
+  "3f0ec1aebc3b24b6": {
+   "car": "ノア 車両番号4030",
+   "condition": "禁煙8人乗り",
+   "ended": false,
+   "first_seen": "2026-11-27T14:05+09:00",
+   "notified": false,
+   "period": "2026年11月27日 ～ 11月29日",
+   "reserve_shop": "予約センター",
+   "return_area": "関東",
+   "return_shop": "トヨタモビリティサービス",
+   "start_area": "中部",
+   "start_place": "愛知県 名古屋市",
+   "start_shop": "トヨタレンタリース名古屋 金山駅前店",
+   "tel": "0120-921-758"
+  },
   "41645d6298f723e0": {
    "car": "アルファードHV 車両番号1966",
    "condition": "禁煙・8人乗り スタッド",
@@ -554,6 +584,21 @@
    "start_place": "宮城県 仙台市",
    "start_shop": "トヨタレンタリース仙台 仙台新幹線口店",
    "tel": "022-291-0100"
+  },
+  "456e9913a067fe7a": {
+   "car": "ルーミー 仙台502わ1868",
+   "condition": "禁煙 スタッドレス 2WD AT ナビ・ETC付き 5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-27T14:05+09:00",
+   "notified": false,
+   "period": "2026年11月27日 ～ 11月30日",
+   "reserve_shop": "郡山駅新幹線口店",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース宮城",
+   "start_area": "東北",
+   "start_place": "福島県 郡山市",
+   "start_shop": "トヨタレンタリース福島 郡山駅新幹線口店",
+   "tel": "024-939-0100"
   },
   "4606f26168839df2": {
    "car": "ノア 車両番号1323",
@@ -779,6 +824,21 @@
    "start_place": "神奈川県 川崎市中原区",
    "start_shop": "トヨタレンタリース神奈川 武蔵小杉駅前店",
    "tel": "044-411-0100"
+  },
+  "539c342b05deed3f": {
+   "car": "ノア 車両番号4254",
+   "condition": "禁煙・8人乗り（スタッドレスタイヤ付き）",
+   "ended": false,
+   "first_seen": "2026-11-27T14:05+09:00",
+   "notified": false,
+   "period": "2026年11月27日 ～ 11月29日",
+   "reserve_shop": "りんくうタウン駅前店",
+   "return_area": "関東",
+   "return_shop": "トヨタモビリティサービス",
+   "start_area": "近畿",
+   "start_place": "大阪府 泉佐野市",
+   "start_shop": "トヨタレンタリース新大阪 りんくうタウン駅前店",
+   "tel": "072-463-0100"
   },
   "53b3deebeac0f8f0": {
    "car": "ヴォクシーHEV 車両番号1072",
@@ -1484,6 +1544,21 @@
    "start_place": "東京都 江戸川区",
    "start_shop": "トヨタモビリティサービス 船堀駅前店",
    "tel": "03-3804-4100"
+  },
+  "b2ec0ce2f3f8f23c": {
+   "car": "アクア 車両番号 2997",
+   "condition": "禁煙・5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-27T14:05+09:00",
+   "notified": false,
+   "period": "2026年11月28日 ～ 11月30日",
+   "reserve_shop": "総合予約室",
+   "return_area": "近畿",
+   "return_shop": "トヨタレンタリース大阪",
+   "start_area": "中部",
+   "start_place": "愛知県 名古屋市",
+   "start_shop": "トヨタレンタリース愛知 ささしまライブ東口店",
+   "tel": "0120-001-319"
   },
   "b2fb5fcb16b655a0": {
    "car": "ヤリスHV 車両番号2192",
