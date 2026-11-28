@@ -1308,7 +1308,7 @@
   "699b19b6ee6ec02c": {
    "car": "ヤリス 山形501わ0946",
    "condition": "A/T 2WD 禁煙車 ナビ付 ETC付 スタッドレス",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-28T01:25+09:00",
    "notified": false,
    "period": "2026年11月26日 ～ 11月28日",
@@ -2024,21 +2024,6 @@
    "start_place": "福島県 福島市",
    "start_shop": "トヨタレンタリース新福島 福島駅新幹線口店",
    "tel": "024-531-0100"
-  },
-  "bc8110facfeec415": {
-   "car": "アルファード 車両番号4113",
-   "condition": "禁煙8人乗り",
-   "ended": true,
-   "first_seen": "2026-11-28T01:25+09:00",
-   "notified": false,
-   "period": "2026年11月25日 ～ 11月27日",
-   "reserve_shop": "なんばターミナル店",
-   "return_area": "関東",
-   "return_shop": "トヨタモビリティサービス",
-   "start_area": "近畿",
-   "start_place": "大阪府 大阪市",
-   "start_shop": "トヨタレンタリース大阪 なんばターミナル店",
-   "tel": "06-6647-0100"
   },
   "bd4e357e27fd13bb": {
    "car": "カローラツーリング 登録番号2291",
