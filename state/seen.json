@@ -1323,9 +1323,9 @@
   "689eef7e0fae8184": {
    "car": "ライズ 車両番号9510",
    "condition": "禁煙 5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-28T09:35+09:00",
-   "notified": true,
+   "notified": false,
    "period": "2026年11月28日 ～ 11月30日",
    "reserve_shop": "新富士駅前店",
    "return_area": "近畿",
