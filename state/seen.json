@@ -495,6 +495,21 @@
    "start_shop": "トヨタモビリティサービス 新宿三丁目駅前店",
    "tel": "03-3341-2603"
   },
+  "251fb11257c9c987": {
+   "car": "カローラツーリングHV 登録番号9028",
+   "condition": "禁煙車 5人乗 スタッドレス付",
+   "ended": false,
+   "first_seen": "2026-11-28T12:55+09:00",
+   "notified": false,
+   "period": "2026年11月28日 ～ 11月30日",
+   "reserve_shop": "浅草橋店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース愛知",
+   "start_area": "関東",
+   "start_place": "東京都 台東区",
+   "start_shop": "トヨタモビリティサービス 浅草橋店",
+   "tel": "03-5821-6324"
+  },
   "264eab43e871dc50": {
    "car": "カローラツーリングHV 車両番号605",
    "condition": "ｽﾀｯﾄﾞﾚｽ/2WD/禁煙/5人乗り/ﾅﾋﾞ･ETC付",
@@ -614,6 +629,21 @@
    "start_place": "東京都 港区",
    "start_shop": "トヨタモビリティサービス 品川高輪口店",
    "tel": "03-3473-5021"
+  },
+  "3605e8d214a915dc": {
+   "car": "カローラツーリングHV 登録番号2439",
+   "condition": "禁煙車 5人乗",
+   "ended": false,
+   "first_seen": "2026-11-28T12:55+09:00",
+   "notified": false,
+   "period": "2026年11月28日 ～ 11月30日",
+   "reserve_shop": "中目黒山手通り店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース愛知",
+   "start_area": "関東",
+   "start_place": "東京都 目黒区",
+   "start_shop": "トヨタモビリティサービス 中目黒山手通り店",
+   "tel": "03-5725-3210"
   },
   "3607d292362b1845": {
    "car": "カローラＨＶ 車両番号1752",
@@ -974,6 +1004,21 @@
    "start_place": "東京都 大田区",
    "start_shop": "トヨタモビリティサービス 羽田空港（国内線）店",
    "tel": "03-3744-0100"
+  },
+  "5107adeb0470246a": {
+   "car": "RAV4 登録番号4380",
+   "condition": "禁煙車 5人乗",
+   "ended": false,
+   "first_seen": "2026-11-28T12:55+09:00",
+   "notified": false,
+   "period": "2026年11月28日 ～ 11月30日",
+   "reserve_shop": "新大阪新幹線口店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース愛知",
+   "start_area": "近畿",
+   "start_place": "大阪府 大阪市",
+   "start_shop": "トヨタレンタリース大阪 新大阪新幹線口店",
+   "tel": "06-6393-0100"
   },
   "51478fb303916119": {
    "car": "パッソ 車両番号787",
@@ -1815,6 +1860,21 @@
    "start_shop": "トヨタレンタリース福島 郡山駅新幹線口店",
    "tel": "024-939-0100"
   },
+  "9efdc70bef1c93fc": {
+   "car": "ヤリス 登録番号0204",
+   "condition": "禁煙車 5人乗",
+   "ended": false,
+   "first_seen": "2026-11-28T12:55+09:00",
+   "notified": false,
+   "period": "2026年11月28日 ～ 11月30日",
+   "reserve_shop": "新大阪新幹線口店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース愛知 白川店",
+   "start_area": "近畿",
+   "start_place": "大阪府 大阪市",
+   "start_shop": "トヨタレンタリース大阪 新大阪新幹線口店",
+   "tel": "06-6393-0100"
+  },
   "a2b2bfd2432e7c27": {
    "car": "カローラ 車両番号 8095",
    "condition": "禁煙・5人乗り",
@@ -2295,6 +2355,21 @@
    "start_shop": "トヨタレンタリース大阪 谷町店",
    "tel": "06-6763-0100"
   },
+  "d1eee6c5d4772173": {
+   "car": "ヤリス 登録番号6390",
+   "condition": "禁煙車 5人乗",
+   "ended": false,
+   "first_seen": "2026-11-28T12:55+09:00",
+   "notified": false,
+   "period": "2026年11月28日 ～ 11月30日",
+   "reserve_shop": "新大阪新幹線口店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース愛知",
+   "start_area": "近畿",
+   "start_place": "大阪府 大阪市",
+   "start_shop": "トヨタレンタリース大阪 新大阪新幹線口店",
+   "tel": "06-6393-0100"
+  },
   "d493a9eb7f804ab1": {
    "car": "カローラツーリングHEV 車両番号1361",
    "condition": "禁煙 5人乗り",
@@ -2354,6 +2429,21 @@
    "start_place": "岩手県 花巻市",
    "start_shop": "トヨタレンタリース岩手 新花巻駅西口店",
    "tel": "019-606-3076"
+  },
+  "db87092a0d3180e1": {
+   "car": "ハリアーＨＶ 車両番号8218",
+   "condition": "禁煙車 5人乗",
+   "ended": false,
+   "first_seen": "2026-11-28T12:55+09:00",
+   "notified": false,
+   "period": "2026年11月28日 ～ 11月30日",
+   "reserve_shop": "三条京阪北店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース愛知",
+   "start_area": "近畿",
+   "start_place": "京都府 京都市",
+   "start_shop": "トヨタレンタリース京都 三条京阪北店",
+   "tel": "075-762-0115"
   },
   "dd085fc9e7628195": {
    "car": "ヤリス 車両番号9698",
