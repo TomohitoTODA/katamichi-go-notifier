@@ -1623,7 +1623,7 @@
   "8cc88c40af5a17b6": {
    "car": "ヤリス 車両番号3716",
    "condition": "ｽﾀｯﾄﾞﾚｽ/2WD/禁煙/5人乗り/ﾅﾋﾞ･ETC付",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-28T01:25+09:00",
    "notified": false,
    "period": "2026年11月26日 ～ 11月28日",
