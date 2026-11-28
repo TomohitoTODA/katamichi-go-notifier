@@ -2475,6 +2475,21 @@
    "start_shop": "トヨタレンタリース岩手 新花巻駅西口店",
    "tel": "019-606-3076"
   },
+  "d84bcb53464a1b35": {
+   "car": "GRヤリス",
+   "condition": "禁煙・4人乗り",
+   "ended": true,
+   "first_seen": "2026-11-28T14:05+09:00",
+   "notified": false,
+   "period": "2026年11月28日 ～ 11月30日",
+   "reserve_shop": "総合予約室",
+   "return_area": "近畿",
+   "return_shop": "トヨタレンタリース大阪",
+   "start_area": "中部",
+   "start_place": "愛知県 名古屋市",
+   "start_shop": "トヨタレンタリース愛知 ささしまライブ東口店",
+   "tel": "0120-001-319"
+  },
   "dc2ec0c69434a6bc": {
    "car": "カローラツーリング 車両番号2165",
    "condition": "禁煙 5人乗り",
