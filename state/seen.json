@@ -1800,6 +1800,21 @@
    "start_shop": "トヨタレンタリース大阪 新大阪新幹線口店",
    "tel": "06-6393-0100"
   },
+  "9ff8aba24c967238": {
+   "car": "ルーミー 青森501わ2087",
+   "condition": "禁煙 AT 4WD 冬タイヤ ETC車載器 バックモニター Bluetooth ドライブレコーダー",
+   "ended": false,
+   "first_seen": "2026-11-28T17:25+09:00",
+   "notified": false,
+   "period": "2026年11月28日 ～ 12月5日",
+   "reserve_shop": "本社 レンタル課（営業時間 9:00-18:00）",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース青森",
+   "start_area": "東北",
+   "start_place": "岩手県 盛岡市",
+   "start_shop": "トヨタレンタリース岩手 盛岡駅南口店",
+   "tel": "019-606-3076"
+  },
   "a2b2bfd2432e7c27": {
    "car": "カローラ 車両番号 8095",
    "condition": "禁煙・5人乗り",
