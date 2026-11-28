@@ -555,21 +555,6 @@
    "start_shop": "トヨタレンタリース愛知 中部国際空港店",
    "tel": "0120-001-319"
   },
-  "349ef86088cce375": {
-   "car": "カローラツーリングHV 車両番号2828",
-   "condition": "禁煙 5人乗り スタッドレスタイヤ",
-   "ended": true,
-   "first_seen": "2026-11-28T01:25+09:00",
-   "notified": false,
-   "period": "2026年11月26日 ～ 11月28日",
-   "reserve_shop": "心斎橋船場店",
-   "return_area": "中部",
-   "return_shop": "トヨタレンタリース名古屋",
-   "start_area": "近畿",
-   "start_place": "大阪府 大阪市",
-   "start_shop": "トヨタレンタリース大阪 心斎橋船場店",
-   "tel": "06-6264-0100"
-  },
   "35b0eb88e3acb7ed": {
    "car": "カローラツーリングHV 山形300わ2625",
    "condition": "A/T・4WD・禁煙・ナビ付・ETC付・ｽﾀｯﾄﾞﾚｽ",
@@ -1514,21 +1499,6 @@
    "start_place": "宮城県 仙台市",
    "start_shop": "トヨタレンタリース宮城 卸町店",
    "tel": "022-237-0100"
-  },
-  "876f4bfeec872d43": {
-   "car": "ルーミー 車両番号3865",
-   "condition": "禁煙 5人乗り スタッドレスタイヤ",
-   "ended": true,
-   "first_seen": "2026-11-28T01:25+09:00",
-   "notified": false,
-   "period": "2026年11月26日 ～ 11月28日",
-   "reserve_shop": "新大阪店",
-   "return_area": "中部",
-   "return_shop": "トヨタレンタリース名古屋",
-   "start_area": "近畿",
-   "start_place": "大阪府 大阪市",
-   "start_shop": "トヨタレンタリース大阪 新大阪店",
-   "tel": "06-6301-0100"
   },
   "88810085725280b1": {
    "car": "カムリ 宮城300わ5935",
