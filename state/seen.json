@@ -378,7 +378,7 @@
   "1d73411f46e48700": {
    "car": "ヤリス 車両番号 7919",
    "condition": "禁煙車 5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-28T11:00+09:00",
    "notified": false,
    "period": "2026年11月28日 ～ 12月1日",
@@ -1578,7 +1578,7 @@
   "88c237ba59495730": {
    "car": "アクア 福島501わ4279",
    "condition": "禁煙・5人乗り・ナビ・ＥＴＣ・スタッドレス",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-28T01:25+09:00",
    "notified": false,
    "period": "2026年11月28日 ～ 11月29日",
