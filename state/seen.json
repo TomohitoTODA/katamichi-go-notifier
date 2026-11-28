@@ -753,9 +753,9 @@
   "428acf27df085b77": {
    "car": "カローラツーリング 車両番号1395",
    "condition": "禁煙 ５人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-28T14:30+09:00",
-   "notified": true,
+   "notified": false,
    "period": "2026年11月28日 ～ 11月30日",
    "reserve_shop": "中野坂上店",
    "return_area": "近畿",
