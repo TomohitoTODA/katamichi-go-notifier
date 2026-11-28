@@ -645,6 +645,21 @@
    "start_shop": "トヨタレンタリース岩手 北上駅新幹線東口店",
    "tel": "019-606-3076"
   },
+  "3ea3c698b4629e98": {
+   "car": "ルーミー 車両番号694",
+   "condition": "禁煙 5人乗り",
+   "ended": true,
+   "first_seen": "2026-11-28T09:00+09:00",
+   "notified": false,
+   "period": "2026年11月28日 ～ 11月28日",
+   "reserve_shop": "海老名駅前店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース静岡 静岡新幹線口店",
+   "start_area": "関東",
+   "start_place": "神奈川県 海老名市",
+   "start_shop": "トヨタレンタリース神奈川 海老名駅前店",
+   "tel": "046-235-5131"
+  },
   "3f0ec1aebc3b24b6": {
    "car": "ノア 車両番号4030",
    "condition": "禁煙8人乗り",
@@ -1859,21 +1874,6 @@
    "start_place": "神奈川県 横浜市西区",
    "start_shop": "トヨタレンタリース神奈川 横浜みなとみらい店",
    "tel": "045-228-0100"
-  },
-  "a7ff59395582c104": {
-   "car": "ルーミー 車両番号694",
-   "condition": "禁煙 5人乗り",
-   "ended": false,
-   "first_seen": "2026-11-28T01:25+09:00",
-   "notified": false,
-   "period": "2026年11月28日 ～ 11月30日",
-   "reserve_shop": "海老名駅前店",
-   "return_area": "中部",
-   "return_shop": "トヨタレンタリース静岡",
-   "start_area": "関東",
-   "start_place": "神奈川県 海老名市",
-   "start_shop": "トヨタレンタリース神奈川 海老名駅前店",
-   "tel": "046-235-5131"
   },
   "a9f0dd446007328f": {
    "car": "ヤリス 車両番号3222",
