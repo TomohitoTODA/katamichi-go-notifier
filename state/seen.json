@@ -123,7 +123,7 @@
   "0b5553a53c0baf6f": {
    "car": "アクア 山形501わ506",
    "condition": "A/T 2WD 禁煙車 ナビ付 ETC付 スタッドレス",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-28T09:55+09:00",
    "notified": false,
    "period": "2026年11月28日 ～ 11月30日",
@@ -734,21 +734,6 @@
    "start_place": "東京都 八王子市",
    "start_shop": "トヨタS＆Dレンタシェア西東京 八王子駅前店",
    "tel": "042-648-0100"
-  },
-  "428acf27df085b77": {
-   "car": "カローラツーリング 車両番号1395",
-   "condition": "禁煙 ５人乗り",
-   "ended": true,
-   "first_seen": "2026-11-28T14:30+09:00",
-   "notified": false,
-   "period": "2026年11月28日 ～ 11月30日",
-   "reserve_shop": "中野坂上店",
-   "return_area": "近畿",
-   "return_shop": "トヨタレンタリース京都",
-   "start_area": "関東",
-   "start_place": "東京都 中野区",
-   "start_shop": "トヨタモビリティサービス 中野坂上店",
-   "tel": "03-3379-7100"
   },
   "43e1ca1750db95a0": {
    "car": "シエンタ 車両番号7293",
