@@ -1260,6 +1260,21 @@
    "start_shop": "トヨタレンタリース愛知 ささしまライブ東口店",
    "tel": "0120-001-319"
   },
+  "689eef7e0fae8184": {
+   "car": "ライズ 車両番号9510",
+   "condition": "禁煙 5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-28T09:35+09:00",
+   "notified": true,
+   "period": "2026年11月28日 ～ 11月30日",
+   "reserve_shop": "新富士駅前店",
+   "return_area": "近畿",
+   "return_shop": "トヨタレンタリース京都",
+   "start_area": "中部",
+   "start_place": "静岡県 富士市",
+   "start_shop": "トヨタレンタリース静岡 新富士駅前店",
+   "tel": "0545-63-0100"
+  },
   "699b19b6ee6ec02c": {
    "car": "ヤリス 山形501わ0946",
    "condition": "A/T 2WD 禁煙車 ナビ付 ETC付 スタッドレス",
