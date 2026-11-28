@@ -75,6 +75,21 @@
    "start_shop": "トヨタモビリティサービス 日暮里駅前店",
    "tel": "03-5604-0100"
   },
+  "091ebc537f201640": {
+   "car": "ヤリス 車両番号 707",
+   "condition": "禁煙車 ５人乗 ガソリン車 ノーマルタイヤ",
+   "ended": true,
+   "first_seen": "2026-11-28T13:05+09:00",
+   "notified": false,
+   "period": "2026年11月28日 ～ 11月30日",
+   "reserve_shop": "横浜みなとみらい店",
+   "return_area": "関東",
+   "return_shop": "トヨタS＆Dレンタシェア西東京",
+   "start_area": "関東",
+   "start_place": "神奈川県 横浜市西区",
+   "start_shop": "トヨタレンタリース神奈川 横浜みなとみらい店",
+   "tel": "045-228-0100"
+  },
   "09b64999f333d260": {
    "car": "カローラツーリング 車両番号 5397",
    "condition": "禁煙 5人乗り ノーマルタイヤ",
@@ -498,7 +513,7 @@
   "251fb11257c9c987": {
    "car": "カローラツーリングHV 登録番号9028",
    "condition": "禁煙車 5人乗 スタッドレス付",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-28T12:55+09:00",
    "notified": false,
    "period": "2026年11月28日 ～ 11月30日",
@@ -899,6 +914,21 @@
    "start_place": "山形県 鶴岡市",
    "start_shop": "トヨタレンタリース山形 鶴岡駅前店",
    "tel": "0235-28-0100"
+  },
+  "4ce597e1eacfc382": {
+   "car": "シエンタHEV 登録番号1506",
+   "condition": "禁煙車 7人乗",
+   "ended": true,
+   "first_seen": "2026-11-28T13:05+09:00",
+   "notified": false,
+   "period": "2026年11月28日 ～ 11月30日",
+   "reserve_shop": "八丁堀店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース愛知",
+   "start_area": "関東",
+   "start_place": "東京都 中央区",
+   "start_shop": "トヨタモビリティサービス 八丁堀店",
+   "tel": "03-3555-8100"
   },
   "4d32b00b5d5253d4": {
    "car": "カローラツーリングHV 宮城300わ7978",
@@ -2433,7 +2463,7 @@
   "db87092a0d3180e1": {
    "car": "ハリアーＨＶ 車両番号8218",
    "condition": "禁煙車 5人乗",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-28T12:55+09:00",
    "notified": false,
    "period": "2026年11月28日 ～ 11月30日",
