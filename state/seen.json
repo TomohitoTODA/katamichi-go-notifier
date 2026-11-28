@@ -1020,6 +1020,21 @@
    "start_shop": "トヨタレンタリース大分 大分店",
    "tel": "097-537-0100"
   },
+  "52347871369c0c83": {
+   "car": "ヤリス 青森501わ3145",
+   "condition": "禁煙 AT 4WD 冬タイヤ ETC車載器 バックモニター Bluetooth ドライブレコーダー",
+   "ended": false,
+   "first_seen": "2026-11-28T17:30+09:00",
+   "notified": false,
+   "period": "2026年11月28日 ～ 12月5日",
+   "reserve_shop": "本社 レンタル課（営業時間 9:00-18:00）",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース青森",
+   "start_area": "東北",
+   "start_place": "岩手県 盛岡市",
+   "start_shop": "トヨタレンタリース岩手 盛岡駅南口店",
+   "tel": "019-606-3076"
+  },
   "523b4f4abeb81acc": {
    "car": "カローラツーリング 車両番号7931",
    "condition": "禁煙5人乗り",
@@ -1289,6 +1304,21 @@
    "start_place": "岩手県 花巻市",
    "start_shop": "トヨタレンタリース岩手 新花巻駅西口店",
    "tel": "019-606-3076"
+  },
+  "67888715b621295b": {
+   "car": "タウンエースバン 青森400わ3227",
+   "condition": "5人乗・禁煙・スタッドレス装着",
+   "ended": false,
+   "first_seen": "2026-11-28T17:30+09:00",
+   "notified": false,
+   "period": "2026年11月22日 ～ 11月29日",
+   "reserve_shop": "仙台新幹線口店",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース青森",
+   "start_area": "東北",
+   "start_place": "宮城県 仙台市",
+   "start_shop": "トヨタレンタリース仙台 仙台新幹線口店",
+   "tel": "022-291-0100"
   },
   "67d92a47a0b5ce46": {
    "car": "ヴォクシーHEV 福島300わ3922",
@@ -1638,7 +1668,7 @@
   "8eb1eee5a0b4f55f": {
    "car": "ヤリス 車両番号 5129",
    "condition": "禁煙・5人乗り・ナビ・ＥＴＣ・スタッドレス",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-28T01:25+09:00",
    "notified": false,
    "period": "2026年11月28日 ～ 11月29日",
@@ -2384,21 +2414,6 @@
    "start_place": "大阪府 大阪市",
    "start_shop": "トヨタレンタリース大阪 心斎橋船場店",
    "tel": "06-6264-0100"
-  },
-  "de70468d5b5e5c13": {
-   "car": "タウンエースバン 青森400わ3227",
-   "condition": "5人乗・禁煙・スタッドレス装着",
-   "ended": false,
-   "first_seen": "2026-11-28T01:25+09:00",
-   "notified": false,
-   "period": "2026年11月22日 ～ 11月28日",
-   "reserve_shop": "仙台新幹線口店",
-   "return_area": "東北",
-   "return_shop": "トヨタレンタリース青森",
-   "start_area": "東北",
-   "start_place": "宮城県 仙台市",
-   "start_shop": "トヨタレンタリース仙台 仙台新幹線口店",
-   "tel": "022-291-0100"
   },
   "e03b6352f1a08f7a": {
    "car": "ヤリス 車両番号1852",
