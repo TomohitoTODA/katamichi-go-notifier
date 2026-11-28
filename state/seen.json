@@ -2115,21 +2115,6 @@
    "start_shop": "トヨタレンタリース静岡 熱海駅前店",
    "tel": "0120-926-325"
   },
-  "c577d2b4eb2c4a82": {
-   "car": "ルーミー 登録番号3641",
-   "condition": "禁煙 5人乗り",
-   "ended": true,
-   "first_seen": "2026-11-28T09:50+09:00",
-   "notified": false,
-   "period": "2026年11月28日 ～ 11月30日",
-   "reserve_shop": "新大阪新幹線口店",
-   "return_area": "中部",
-   "return_shop": "トヨタレンタリース名古屋",
-   "start_area": "近畿",
-   "start_place": "大阪府 大阪市",
-   "start_shop": "トヨタレンタリース大阪 新大阪新幹線口店",
-   "tel": "06-6393-0100"
-  },
   "c6fc6f1dbca098e5": {
    "car": "ヤリス 車両番号1817",
    "condition": "禁煙 5人乗り",
@@ -2339,21 +2324,6 @@
    "start_place": "静岡県 三島市",
    "start_shop": "トヨタレンタリース静岡 三島新幹線口店",
    "tel": "0120-926-327"
-  },
-  "dd085fc9e7628195": {
-   "car": "ヤリス 車両番号9698",
-   "condition": "禁煙 5人乗り",
-   "ended": true,
-   "first_seen": "2026-11-28T09:50+09:00",
-   "notified": false,
-   "period": "2026年11月28日 ～ 11月30日",
-   "reserve_shop": "新大阪新幹線口店",
-   "return_area": "中部",
-   "return_shop": "トヨタレンタリース名古屋",
-   "start_area": "近畿",
-   "start_place": "大阪府 大阪市",
-   "start_shop": "トヨタレンタリース大阪 新大阪新幹線口店",
-   "tel": "06-6393-0100"
   },
   "dd26d69b0d722b1a": {
    "car": "カローラツーリング 車両番号 5672",
