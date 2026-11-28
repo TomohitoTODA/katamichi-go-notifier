@@ -2343,7 +2343,7 @@
   "dd085fc9e7628195": {
    "car": "ヤリス 車両番号9698",
    "condition": "禁煙 5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-28T09:50+09:00",
    "notified": false,
    "period": "2026年11月28日 ～ 11月30日",
