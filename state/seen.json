@@ -1413,7 +1413,7 @@
   "73fd304ed5e3dbd0": {
    "car": "ヴォクシー 八戸300わ1734",
    "condition": "禁煙 AT 4WD 冬タイヤ ETC車載器 バックモニター Bluetooth ドライブレコーダー",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-28T01:25+09:00",
    "notified": false,
    "period": "2026年11月27日 ～ 12月4日",
@@ -2178,7 +2178,7 @@
   "c736ebd47952eefc": {
    "car": "カローラクロスHEV 車両番号山形300わ2154",
    "condition": "A/T 4WD 禁煙車 ナビ付 ETC付 スタッドレス",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-28T10:05+09:00",
    "notified": false,
    "period": "2026年11月28日 ～ 11月30日",
