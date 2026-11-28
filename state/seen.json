@@ -360,21 +360,6 @@
    "start_shop": "トヨタレンタリース仙台 仙台新幹線口店",
    "tel": "022-291-0100"
   },
-  "1d4c3e2298784c05": {
-   "car": "ハイエースバン 登録番号8929",
-   "condition": "喫煙車 3/6人乗",
-   "ended": true,
-   "first_seen": "2026-11-28T01:25+09:00",
-   "notified": false,
-   "period": "2026年11月28日 ～ 11月30日",
-   "reserve_shop": "伏見竹田店",
-   "return_area": "中部",
-   "return_shop": "トヨタレンタリース愛知",
-   "start_area": "近畿",
-   "start_place": "京都府 京都市",
-   "start_shop": "トヨタレンタリース京都 伏見竹田店",
-   "tel": "075-645-0100"
-  },
   "1d73411f46e48700": {
    "car": "ヤリス 車両番号 7919",
    "condition": "禁煙車 5人乗り",
@@ -1815,21 +1800,6 @@
    "start_shop": "トヨタレンタリース福島 郡山駅新幹線口店",
    "tel": "024-939-0100"
   },
-  "9efdc70bef1c93fc": {
-   "car": "ヤリス 登録番号0204",
-   "condition": "禁煙車 5人乗",
-   "ended": true,
-   "first_seen": "2026-11-28T12:55+09:00",
-   "notified": false,
-   "period": "2026年11月28日 ～ 11月30日",
-   "reserve_shop": "新大阪新幹線口店",
-   "return_area": "中部",
-   "return_shop": "トヨタレンタリース愛知 白川店",
-   "start_area": "近畿",
-   "start_place": "大阪府 大阪市",
-   "start_shop": "トヨタレンタリース大阪 新大阪新幹線口店",
-   "tel": "06-6393-0100"
-  },
   "9ff8aba24c967238": {
    "car": "ルーミー 青森501わ2087",
    "condition": "禁煙 AT 4WD 冬タイヤ ETC車載器 バックモニター Bluetooth ドライブレコーダー",
@@ -2115,21 +2085,6 @@
    "start_shop": "トヨタレンタリース新福島 福島駅新幹線口店",
    "tel": "024-531-0100"
   },
-  "bd4e357e27fd13bb": {
-   "car": "カローラツーリング 登録番号2291",
-   "condition": "禁煙5人乗り",
-   "ended": true,
-   "first_seen": "2026-11-28T13:25+09:00",
-   "notified": false,
-   "period": "2026年11月29日 ～ 12月1日",
-   "reserve_shop": "三条京阪北店",
-   "return_area": "中部",
-   "return_shop": "トヨタレンタリース愛知",
-   "start_area": "近畿",
-   "start_place": "京都府 京都市",
-   "start_shop": "トヨタレンタリース京都 三条京阪北店",
-   "tel": "075-762-0115"
-  },
   "c370dc49de04e27d": {
    "car": "アルファード 車両番号4680",
    "condition": "禁煙・8人乗り（スタッドレスタイヤ付き）",
@@ -2279,21 +2234,6 @@
    "start_place": "大阪府 大阪市",
    "start_shop": "トヨタレンタリース大阪 谷町店",
    "tel": "06-6763-0100"
-  },
-  "d1eee6c5d4772173": {
-   "car": "ヤリス 登録番号6390",
-   "condition": "禁煙車 5人乗",
-   "ended": true,
-   "first_seen": "2026-11-28T12:55+09:00",
-   "notified": false,
-   "period": "2026年11月28日 ～ 11月30日",
-   "reserve_shop": "新大阪新幹線口店",
-   "return_area": "中部",
-   "return_shop": "トヨタレンタリース愛知",
-   "start_area": "近畿",
-   "start_place": "大阪府 大阪市",
-   "start_shop": "トヨタレンタリース大阪 新大阪新幹線口店",
-   "tel": "06-6393-0100"
   },
   "d493a9eb7f804ab1": {
    "car": "カローラツーリングHEV 車両番号1361",
