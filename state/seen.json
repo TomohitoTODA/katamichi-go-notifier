@@ -1140,6 +1140,21 @@
    "start_shop": "トヨタレンタリース大阪 泉佐野店",
    "tel": "072-464-6623"
   },
+  "56019a4bbb635924": {
+   "car": "アクア 車両番号4790",
+   "condition": "ｽﾀｯﾄﾞﾚｽ/4WD/禁煙/5人乗り/ﾅﾋﾞ･ETC付",
+   "ended": false,
+   "first_seen": "2026-11-28T18:45+09:00",
+   "notified": false,
+   "period": "2026年11月29日 ～ 12月1日",
+   "reserve_shop": "卸町店",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース岩手",
+   "start_area": "東北",
+   "start_place": "宮城県 仙台市",
+   "start_shop": "トヨタレンタリース宮城 卸町店",
+   "tel": "022-237-0100"
+  },
   "56a09cf82d842bbf": {
    "car": "カローラツーリング 車両番号 4966",
    "condition": "５人乗り 禁煙車（ﾉｰﾏﾙﾀｲﾔ）",
