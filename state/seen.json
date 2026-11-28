@@ -375,6 +375,21 @@
    "start_shop": "トヨタレンタリース京都 伏見竹田店",
    "tel": "075-645-0100"
   },
+  "1d73411f46e48700": {
+   "car": "ヤリス 車両番号 7919",
+   "condition": "禁煙車 5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-28T11:00+09:00",
+   "notified": false,
+   "period": "2026年11月28日 ～ 12月1日",
+   "reserve_shop": "高尾店",
+   "return_area": "関東",
+   "return_shop": "トヨタレンタリース神奈川",
+   "start_area": "関東",
+   "start_place": "東京都 八王子市",
+   "start_shop": "トヨタS＆Dレンタシェア西東京 高尾店",
+   "tel": "042-667-0100"
+  },
   "1ec9bd9c53804814": {
    "car": "ヤリス 車両番号3522",
    "condition": "禁煙 5人乗り",
