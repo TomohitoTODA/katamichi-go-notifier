@@ -2493,7 +2493,7 @@
   "f2eae57e7981bd31": {
    "car": "シエンタ 車両番号3660",
    "condition": "禁煙・7人乗り（スタッドレスタイヤ）",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-28T13:39+09:00",
    "notified": false,
    "period": "2026年11月28日 ～ 11月30日",
