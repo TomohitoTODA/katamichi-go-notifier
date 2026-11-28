@@ -1818,7 +1818,7 @@
   "9e90b7afc5362d2d": {
    "car": "ヤリスHV 仙台502わ1827",
    "condition": "禁煙 スタッドレス 2WD AT ナビ・ETC付き 5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-28T01:25+09:00",
    "notified": false,
    "period": "2026年11月26日 ～ 11月29日",
@@ -2598,7 +2598,7 @@
   "fc22b23e2d2573c5": {
    "car": "ヤリスＨＶ 登録番号6508",
    "condition": "禁煙5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-28T13:30+09:00",
    "notified": false,
    "period": "2026年11月29日 ～ 12月1日",
