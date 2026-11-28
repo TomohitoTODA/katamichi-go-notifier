@@ -1965,6 +1965,21 @@
    "start_shop": "トヨタレンタリース愛知 ささしまライブ東口店",
    "tel": "0120-001-319"
   },
+  "b421dabc8a22cb06": {
+   "car": "タウンエースV 青森400わ3133",
+   "condition": "禁煙 AT 4WD 冬タイヤ ETC車載器 バックモニター Bluetooth ドライブレコーダー",
+   "ended": false,
+   "first_seen": "2026-11-28T17:15+09:00",
+   "notified": false,
+   "period": "2026年11月28日 ～ 12月5日",
+   "reserve_shop": "本社 レンタル課（営業時間 9:00-18:00）",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース青森",
+   "start_area": "東北",
+   "start_place": "岩手県 盛岡市",
+   "start_shop": "トヨタレンタリース岩手 盛岡駅南口店",
+   "tel": "019-606-3076"
+  },
   "b5046bebdf7b4bbf": {
    "car": "ヤリス 青森501わ4383",
    "condition": "5人乗・禁煙・スタッドレス装着",
@@ -2384,6 +2399,21 @@
    "start_place": "東京都 千代田区",
    "start_shop": "トヨタモビリティサービス 東京駅日本橋口店",
    "tel": "03-5220-2220"
+  },
+  "e4e265e42e52e66c": {
+   "car": "ノアHV 青森300わ3439",
+   "condition": "禁煙 AT 4WD 冬タイヤ ETC車載器 バックモニター Bluetooth ドライブレコーダー",
+   "ended": false,
+   "first_seen": "2026-11-28T17:15+09:00",
+   "notified": false,
+   "period": "2026年11月28日 ～ 12月5日",
+   "reserve_shop": "本社 レンタル課（営業時間 9:00-18:00）",
+   "return_area": "東北",
+   "return_shop": "トヨタレンタリース青森",
+   "start_area": "東北",
+   "start_place": "岩手県 北上市",
+   "start_shop": "トヨタレンタリース岩手 北上駅新幹線東口店",
+   "tel": "019-606-3076"
   },
   "e530c90523c8b26b": {
    "car": "プリウス 青森300わ2343",
