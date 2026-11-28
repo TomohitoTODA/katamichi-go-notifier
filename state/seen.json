@@ -2535,21 +2535,6 @@
    "start_shop": "トヨタレンタリース福島 いわき平店",
    "tel": "0246-23-0100"
   },
-  "ef6a20f007fe6507": {
-   "car": "シエンタ 車輛番号 1709",
-   "condition": "禁煙 7人乗り",
-   "ended": true,
-   "first_seen": "2026-11-28T01:25+09:00",
-   "notified": false,
-   "period": "2026年11月24日 ～ 11月26日",
-   "reserve_shop": "吾妻橋店",
-   "return_area": "近畿",
-   "return_shop": "トヨタレンタリース京都",
-   "start_area": "関東",
-   "start_place": "東京都 墨田区",
-   "start_shop": "トヨタモビリティサービス 吾妻橋店",
-   "tel": "03-3626-5300"
-  },
   "f17a7baa7482122d": {
    "car": "ヤリス 白河500わ543",
    "condition": "禁煙 AT ナビ・ETC付き 5人乗り",
@@ -2639,21 +2624,6 @@
    "start_place": "京都府 京都市",
    "start_shop": "トヨタレンタリース京都 山科店",
    "tel": "075-502-0100"
-  },
-  "fb7431476aca1179": {
-   "car": "カローラHV 車両番号755",
-   "condition": "禁煙 5人乗り",
-   "ended": true,
-   "first_seen": "2026-11-28T01:25+09:00",
-   "notified": false,
-   "period": "2026年11月27日 ～ 11月29日",
-   "reserve_shop": "総合予約室",
-   "return_area": "近畿",
-   "return_shop": "トヨタレンタリース京都",
-   "start_area": "中部",
-   "start_place": "愛知県 名古屋市",
-   "start_shop": "トヨタレンタリース愛知 ささしまライブ東口店",
-   "tel": "0120-001-319"
   },
   "fc65c6f688656de0": {
    "car": "ルーミー 車両番号 5402",
