@@ -2298,7 +2298,7 @@
   "dc2ec0c69434a6bc": {
    "car": "カローラツーリング 車両番号2165",
    "condition": "禁煙 5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-28T14:00+09:00",
    "notified": false,
    "period": "2026年11月28日 ～ 12月1日",
