@@ -2298,9 +2298,9 @@
   "cd40037823c18814": {
    "car": "アルファードHV 車両番号9268",
    "condition": "禁煙 8人乗り",
-   "ended": true,
+   "ended": false,
    "first_seen": "2026-11-28T01:25+09:00",
-   "notified": false,
+   "notified": true,
    "period": "2026年11月27日 ～ 11月29日",
    "reserve_shop": "浅草橋店",
    "return_area": "近畿",
@@ -2594,6 +2594,21 @@
    "start_place": "宮城県 仙台市",
    "start_shop": "トヨタレンタリース仙台 仙台新幹線口店",
    "tel": "022-291-0100"
+  },
+  "f2eae57e7981bd31": {
+   "car": "シエンタ 車両番号3660",
+   "condition": "禁煙・7人乗り（スタッドレスタイヤ）",
+   "ended": false,
+   "first_seen": "2026-11-28T13:39+09:00",
+   "notified": false,
+   "period": "2026年11月28日 ～ 11月30日",
+   "reserve_shop": "なんばターミナル店",
+   "return_area": "関東",
+   "return_shop": "トヨタモビリティサービス",
+   "start_area": "近畿",
+   "start_place": "大阪府 大阪市",
+   "start_shop": "トヨタレンタリース大阪 なんばターミナル店",
+   "tel": "06-6647-0100"
   },
   "f32948c24e731966": {
    "car": "カローラツーリング 車両番号3902",
