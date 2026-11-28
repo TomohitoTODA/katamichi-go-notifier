@@ -2208,7 +2208,7 @@
   "d1eee6c5d4772173": {
    "car": "ヤリス 登録番号6390",
    "condition": "禁煙車 5人乗",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-28T12:55+09:00",
    "notified": false,
    "period": "2026年11月28日 ～ 11月30日",
