@@ -2670,6 +2670,21 @@
    "start_shop": "トヨタレンタリース京都 山科店",
    "tel": "075-502-0100"
   },
+  "fc22b23e2d2573c5": {
+   "car": "ヤリスＨＶ 登録番号6508",
+   "condition": "禁煙5人乗り",
+   "ended": false,
+   "first_seen": "2026-11-28T13:30+09:00",
+   "notified": false,
+   "period": "2026年11月29日 ～ 12月1日",
+   "reserve_shop": "堀川店",
+   "return_area": "中部",
+   "return_shop": "トヨタレンタリース愛知",
+   "start_area": "近畿",
+   "start_place": "京都府 京都市",
+   "start_shop": "トヨタレンタリース京都 堀川店",
+   "tel": "075-813-8200"
+  },
   "fc65c6f688656de0": {
    "car": "ルーミー 車両番号 5402",
    "condition": "禁煙・5人乗り",
