@@ -1083,7 +1083,7 @@
   "559ed47c498cf9d8": {
    "car": "ノア 車両番号1281",
    "condition": "禁煙・8人乗り（スタッドレスタイヤ付き）",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-28T01:25+09:00",
    "notified": false,
    "period": "2026年11月27日 ～ 11月29日",
