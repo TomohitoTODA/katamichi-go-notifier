@@ -75,6 +75,21 @@
    "start_shop": "トヨタモビリティサービス 日暮里駅前店",
    "tel": "03-5604-0100"
   },
+  "08b43aea7f3282a7": {
+   "car": "カローラ 車両番号 1438",
+   "condition": "禁煙車 5人乗り",
+   "ended": true,
+   "first_seen": "2026-11-28T10:15+09:00",
+   "notified": false,
+   "period": "2026年11月27日 ～ 11月29日",
+   "reserve_shop": "新幹線鹿児島中央駅西口店",
+   "return_area": "九州",
+   "return_shop": "トヨタレンタリース福岡",
+   "start_area": "九州",
+   "start_place": "鹿児島県 鹿児島市",
+   "start_shop": "トヨタレンタリース鹿児島 新幹線鹿児島中央駅西口店",
+   "tel": "099-285-0100"
+  },
   "09b64999f333d260": {
    "car": "カローラツーリング 車両番号 5397",
    "condition": "禁煙 5人乗り ノーマルタイヤ",
@@ -2043,7 +2058,7 @@
   "b78ab590dd98bdbe": {
    "car": "ヤリス 車両番号1048",
    "condition": "禁煙 5人乗り",
-   "ended": false,
+   "ended": true,
    "first_seen": "2026-11-28T09:50+09:00",
    "notified": false,
    "period": "2026年11月28日 ～ 11月30日",
@@ -2429,21 +2444,6 @@
    "start_place": "宮城県 仙台市",
    "start_shop": "トヨタレンタリース仙台 仙台新幹線口店",
    "tel": "022-291-0100"
-  },
-  "e559d64d4f2a17e7": {
-   "car": "カローラ 車両番号 1483",
-   "condition": "禁煙車 5人乗り",
-   "ended": false,
-   "first_seen": "2026-11-28T01:25+09:00",
-   "notified": false,
-   "period": "2026年11月27日 ～ 11月29日",
-   "reserve_shop": "新幹線鹿児島中央駅西口店",
-   "return_area": "九州",
-   "return_shop": "トヨタレンタリース福岡",
-   "start_area": "九州",
-   "start_place": "鹿児島県 鹿児島市",
-   "start_shop": "トヨタレンタリース鹿児島 新幹線鹿児島中央駅西口店",
-   "tel": "099-285-0100"
   },
   "e5ce83f591459454": {
    "car": "ヤリス 車両番号4262",
